@@ -1,0 +1,748 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Institutional Logics Coder</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<style>
+  :root {
+    --paper: #f6f3ea;
+    --surface: #ffffff;
+    --surface-2: #efece1;
+    --ink: #262319;
+    --ink-muted: #6f6a5c;
+    --ink-faint: #a5a091;
+    --line: #ddd5bf;
+    --line-strong: #c7bd9f;
+    --accent: #7a5c26;
+    --accent-ink: #ffffff;
+    --focus: #2f6f8f;
+
+    --logic-ps: #4f7a52;
+    --logic-ds: #386f96;
+    --logic-ppg: #8a5a95;
+    --logic-sc: #b0522f;
+
+    --good: #3f7d4f;
+    --good-bg: #e6f0e6;
+    --warn: #96721f;
+    --warn-bg: #f5ecd6;
+    --bad: #a1402f;
+    --bad-bg: #f7e6e1;
+    --idle-bg: #eeebe0;
+
+    --shadow: 0 1px 2px rgba(38,35,25,.06), 0 6px 20px rgba(38,35,25,.06);
+    color-scheme: light dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #14151a; --surface: #1b1d24; --surface-2: #22252d;
+      --ink: #e8e5d9; --ink-muted: #a19c8a; --ink-faint: #6b6858;
+      --line: #33353f; --line-strong: #454859;
+      --accent: #d3ac5e; --accent-ink: #1b1502; --focus: #6cb6d9;
+      --logic-ps: #7fae7d; --logic-ds: #74a8d6; --logic-ppg: #bd8fc7; --logic-sc: #dd8862;
+      --good: #7fbf8b; --good-bg: #1c2b1e;
+      --warn: #d9b25e; --warn-bg: #2c2513;
+      --bad: #e08b78; --bad-bg: #2e1e1a;
+      --idle-bg: #23252c;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #14151a; --surface: #1b1d24; --surface-2: #22252d;
+    --ink: #e8e5d9; --ink-muted: #a19c8a; --ink-faint: #6b6858;
+    --line: #33353f; --line-strong: #454859;
+    --accent: #d3ac5e; --accent-ink: #1b1502; --focus: #6cb6d9;
+    --logic-ps: #7fae7d; --logic-ds: #74a8d6; --logic-ppg: #bd8fc7; --logic-sc: #dd8862;
+    --good: #7fbf8b; --good-bg: #1c2b1e;
+    --warn: #d9b25e; --warn-bg: #2c2513;
+    --bad: #e08b78; --bad-bg: #2e1e1a;
+    --idle-bg: #23252c;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.5;
+    padding-inline: max(16px, calc((100vw - 880px) / 2));
+    padding-block: 26px 70px;
+  }
+  h1, h2, h3, h4 { font-family: "IBM Plex Serif", Georgia, serif; text-wrap: balance; margin: 0; }
+  .mono { font-family: "IBM Plex Mono", "SF Mono", monospace; }
+
+  .topbar { display: flex; flex-direction: column; gap: 3px; margin-bottom: 18px; }
+  .topbar .eyebrow { font-size: 11.5px; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); font-weight: 600; }
+  .topbar h1 { font-size: 25px; font-weight: 600; }
+  .topbar p.sub { color: var(--ink-muted); font-size: 14px; max-width: 66ch; margin-top: 2px; }
+
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); padding: 16px 18px; margin-bottom: 18px; display: flex; flex-direction: column; gap: 14px; }
+  .panel-row { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; }
+  .field { display: flex; flex-direction: column; gap: 4px; }
+  .field label { font-size: 12px; color: var(--ink-muted); font-weight: 600; }
+  input[type="text"] { font: inherit; font-size: 14px; padding: 7px 10px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--paper); color: var(--ink); min-width: 170px; }
+  input[type="text"]:focus, textarea:focus, select:focus, button:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+  .btn { font: inherit; font-size: 13px; font-weight: 600; padding: 8px 14px; border-radius: 7px; border: 1px solid var(--line-strong); background: var(--surface-2); color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+  .btn:hover { border-color: var(--ink-faint); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .btn.primary:hover { filter: brightness(1.06); }
+  .btn:disabled { opacity: .45; cursor: not-allowed; }
+  .btn svg { width: 14px; height: 14px; flex: none; }
+  input[type="file"] { display: none; }
+
+  .stat-row { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: flex-end; }
+  .stat { display: flex; flex-direction: column; gap: 2px; }
+  .stat .n { font-family: "IBM Plex Mono"; font-size: 19px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .stat .l { font-size: 11px; color: var(--ink-muted); text-transform: uppercase; letter-spacing: .06em; }
+  .progress-track { height: 7px; border-radius: 5px; background: var(--idle-bg); overflow: hidden; flex: 1 1 200px; min-width: 140px; }
+  .progress-fill { height: 100%; background: var(--good); border-radius: 5px 0 0 5px; transition: width .25s ease; }
+
+  .banner { border-radius: 8px; padding: 9px 13px; font-size: 13px; font-weight: 500; display: flex; align-items: flex-start; gap: 8px; }
+  .banner.info { background: var(--warn-bg); color: var(--warn); border: 1px solid var(--line); }
+  .banner.error { background: var(--bad-bg); color: var(--bad); border: 1px solid var(--line); }
+  .banner svg { flex: none; margin-top: 1px; }
+
+  .filter-panel { border: 1px dashed var(--line-strong); border-radius: 8px; padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; }
+  .filter-panel .ftitle { font-size: 12px; font-weight: 600; color: var(--ink-muted); text-transform: uppercase; letter-spacing: .05em; }
+  .filter-rows { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+  .filter-item { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+  .filter-item .colname { font-family: "IBM Plex Mono"; font-size: 12.5px; color: var(--ink); }
+  .filter-item select { font: inherit; font-size: 12.5px; padding: 4px 6px; border-radius: 5px; border: 1px solid var(--line-strong); background: var(--paper); color: var(--ink); }
+
+  .chunk-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 10px; box-shadow: var(--shadow); overflow: hidden; }
+  .chunk-head { display: flex; align-items: center; gap: 12px; padding: 12px 15px; cursor: pointer; user-select: none; }
+  .chunk-head:hover { background: var(--surface-2); }
+  .chunk-idx { font-family: "IBM Plex Mono"; font-size: 12px; color: var(--ink-muted); background: var(--surface-2); border: 1px solid var(--line); border-radius: 5px; padding: 3px 7px; flex: none; }
+  .chunk-snippet { flex: 1; font-size: 13.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .badge { font-size: 10.5px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 8px; border-radius: 100px; flex: none; border: 1px solid transparent; }
+  .badge.complete { background: var(--good-bg); color: var(--good); }
+  .badge.progress { background: var(--warn-bg); color: var(--warn); }
+  .badge.notstarted { background: var(--idle-bg); color: var(--ink-muted); border-color: var(--line); }
+  .badge.skipped { background: var(--bad-bg); color: var(--bad); }
+  .chunk-chevron { color: var(--ink-faint); transition: transform .15s ease; flex: none; }
+  .chunk-card.open .chunk-chevron { transform: rotate(90deg); }
+  .chunk-body { border-top: 1px solid var(--line); padding: 16px 17px 18px; display: none; }
+  .chunk-card.open .chunk-body { display: block; }
+
+  .text-block { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; font-size: 14.5px; }
+  .ctx-text { color: var(--ink-faint); font-size: 13px; }
+  .main-text { margin: 6px 0; }
+
+  .element-row { border: 1px solid var(--line-strong); border-radius: 10px; margin-bottom: 10px; overflow: hidden; background: var(--surface); }
+  .element-row-head { display: flex; align-items: center; gap: 10px; padding: 12px 14px; background: var(--surface); }
+  .element-row-head .element-title { flex: 1; display: flex; flex-direction: column; gap: 1px; }
+  .element-row-head .element-eyebrow { font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); }
+  .element-row-head h4 { font-size: 18px; font-weight: 600; letter-spacing: -.01em; }
+  .info-btn { border: 1px solid var(--line-strong); background: var(--surface-2); color: var(--ink-muted); width: 19px; height: 19px; border-radius: 50%; font-size: 11.5px; font-weight: 700; line-height: 1; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; flex: none; font-family: Georgia, serif; }
+  .info-btn:hover { color: var(--focus); border-color: var(--focus); }
+  .info-btn.small { width: 16px; height: 16px; font-size: 10px; }
+
+  .yes-toggle { font: inherit; font-size: 12px; font-weight: 600; padding: 5px 13px; cursor: pointer; border-radius: 7px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-muted); flex: none; display: inline-flex; align-items: center; gap: 5px; }
+  .yes-toggle:hover { border-color: var(--good); color: var(--good); }
+  .yes-toggle.active { background: var(--good-bg); color: var(--good); border-color: var(--good); }
+  .yes-toggle.small { font-size: 11px; padding: 4px 9px; font-weight: 600; }
+  .skip-toggle { font: inherit; font-size: 12px; font-weight: 600; padding: 6px 13px; cursor: pointer; border-radius: 7px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-muted); }
+  .skip-toggle:hover { border-color: var(--bad); color: var(--bad); }
+  .skip-toggle.active { background: var(--bad-bg); color: var(--bad); border-color: var(--bad); }
+  .skip-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+  .skip-row .rank-hint { margin: 0; }
+
+  .element-row > .explain-wrap { padding: 0 14px 12px; }
+
+  .logic-section { margin: 0 14px 14px; padding: 11px 13px 13px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 9px; }
+  .logic-section .logics-eyebrow { font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 6px; }
+  .logic-row { border-top: 1px solid var(--line); padding: 8px 0; }
+  .logic-row:first-of-type { border-top: none; padding-top: 0; }
+  .logic-row-top { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; justify-content: space-between; }
+  .logic-chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 500; color: var(--ink-muted); }
+  .logic-chip .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--c); flex: none; }
+  .logic-chip .code { font-family: "IBM Plex Mono"; color: var(--ink); font-weight: 600; font-size: 11.5px; letter-spacing: .02em; }
+  .explain-wrap { margin-top: 8px; }
+  .explain-wrap label { font-size: 11.5px; font-weight: 600; color: var(--ink-muted); display: block; margin-bottom: 4px; }
+  .explain-wrap .req { color: var(--logic-sc); font-weight: 700; }
+  textarea.explain-input { width: 100%; min-height: 50px; resize: vertical; font: inherit; font-size: 13px; padding: 7px 9px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--paper); color: var(--ink); }
+  .logic-row textarea.explain-input { background: var(--surface); }
+
+  .rank-row { margin-top: 11px; padding-top: 11px; border-top: 1px dashed var(--line); display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: flex-end; }
+  .rank-row .field select { font: inherit; font-size: 13px; padding: 6px 8px; border-radius: 6px; border: 1px solid var(--line-strong); background: var(--paper); color: var(--ink); min-width: 200px; }
+  .rank-hint { font-size: 12px; color: var(--ink-faint); margin: 0; }
+
+  .empty-state { border: 1px dashed var(--line-strong); border-radius: 10px; padding: 36px 22px; text-align: center; color: var(--ink-muted); font-size: 14px; }
+
+  .modal-overlay { position: fixed; inset: 0; background: rgba(20,18,12,.45); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 50; }
+  .modal-overlay[hidden] { display: none; }
+  .modal-box { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); padding: 18px 20px; max-width: 480px; width: 100%; max-height: 80vh; overflow: auto; }
+  .modal-box h4 { font-size: 15px; margin-bottom: 8px; }
+  .modal-box p { font-size: 13.5px; color: var(--ink-muted); margin: 0; }
+  .modal-close { float: right; background: none; border: none; color: var(--ink-faint); font-size: 18px; cursor: pointer; line-height: 1; }
+
+  footer.hint { margin-top: 22px; font-size: 12px; color: var(--ink-faint); text-align: center; }
+
+  @media (max-width: 560px) {
+    .panel-row { flex-direction: column; align-items: stretch; }
+    input[type="text"] { min-width: 0; }
+    .rank-row .field select { min-width: 0; width: 100%; }
+    .chunk-snippet { white-space: normal; }
+  }
+</style>
+
+<div class="topbar">
+  <div class="eyebrow">Institutional logics · human coding</div>
+  <h1>Community foundation coder</h1>
+  <p class="sub">Upload a CSV of text chunks, mark which elements and logics apply, and rank each element's top logics.</p>
+  <p class="sub mono" id="fileNameSub" hidden></p>
+</div>
+
+<div class="panel">
+  <div class="panel-row">
+    <button class="btn primary" id="uploadBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 16V4M12 4l-5 5M12 4l5 5"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
+      Upload CSV
+    </button>
+    <input type="file" id="fileInput" accept=".csv,text/csv">
+    <div class="field">
+      <label for="coderId">Coder ID</label>
+      <input type="text" id="coderId" placeholder="e.g. LM">
+    </div>
+    <button class="btn" id="expandAllBtn">Expand all</button>
+    <button class="btn" id="collapseAllBtn">Collapse all</button>
+    <button class="btn" id="nextUncodedBtn">Next uncoded</button>
+    <span style="flex:1"></span>
+    <button class="btn" id="copyBtn">Copy CSV</button>
+    <button class="btn primary" id="downloadBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v12M12 16l-5-5M12 16l5-5"/><path d="M4 20h16"/></svg>
+      Download CSV
+    </button>
+  </div>
+  <div id="statusBanner"></div>
+  <div class="filter-panel" id="filterPanel" hidden>
+    <div class="ftitle">Filter which rows to code</div>
+    <div class="filter-rows" id="filterRows"></div>
+  </div>
+  <div class="panel-row stat-row" id="statRow">
+    <div class="stat"><span class="n" id="statTotal">0</span><span class="l">rows</span></div>
+    <div class="stat"><span class="n" id="statVisible">0</span><span class="l">to code</span></div>
+    <div class="stat"><span class="n" id="statDone">0</span><span class="l">complete</span></div>
+    <div class="stat"><span class="n" id="statSkipped">0</span><span class="l">skipped</span></div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    <div class="stat"><span class="n" id="statPct">0%</span><span class="l">progress</span></div>
+  </div>
+</div>
+
+<div id="chunkList"></div>
+<div class="empty-state" id="emptyState">Upload a CSV with a "text" column to begin coding.</div>
+
+<footer class="hint">Click ⓘ next to any element or logic for its full coding definition.</footer>
+
+<div class="modal-overlay" id="infoModal" hidden>
+  <div class="modal-box">
+    <button class="modal-close" id="modalCloseBtn" aria-label="Close">×</button>
+    <h4 id="modalTitle"></h4>
+    <p id="modalBody"></p>
+  </div>
+</div>
+
+<script>
+const QUESTIONS = [{"id": "element_community", "text": "Does this chunk describe a community, a group of people, a 'we', or the ideal of how people build and maintain community?", "logics": [{"id": "element_community_logic_PS", "code": "PS", "text": "Does this chunk align with the logic of: Community, the group of people, or 'we' currently live, used to live, or have family connections to the same place and share the same values, traditions, and heritage?"}, {"id": "element_community_logic_DS", "code": "DS", "text": "Does this chunk align well with the logic of: Community, the group of people, or the 'we' express shared interests, values, and/or identity but may not live in the same place?"}, {"id": "element_community_logic_PPG", "code": "PPG", "text": "Does this chunk align with the logic of: Community, the group of people, or the 'we' currently live in the same place and depend on one another to address long-term local problems?"}, {"id": "element_community_logic_SC", "code": "SC", "text": "Does this chunk align with the logic of: Community, the group of people, or the 'we' currently live in the same place and share a commitment and moral duty to come together even though they have diverse values, traditions, identities, cultures, languages, and perspectives on local problems?"}]}, {"id": "element_donor", "text": "Does this chunk describe the ideal of philanthropy, the importance of charitable giving, making donations to community foundation funds, or supporting causes through the community foundation?", "logics": [{"id": "element_donor_logic_PS", "code": "PS", "text": "Does this chunk align with the logic of: Philanthropy, charitable giving, and donations should be 'unrestricted' and support the values, traditions, and heritage of the place where people currently live, used to live, or have family connections so that the place can be resilient when there is an unexpected need, crisis or disaster?"}, {"id": "element_donor_logic_DS", "code": "DS", "text": "Does this chunk align with the logic of: Philanthropy, charitable giving, and donations should support causes and funds that express an individual's interests, values, and identities?"}, {"id": "element_donor_logic_PPG", "code": "PPG", "text": "Does this chunk align with the logic of: Philanthropy, charitable giving, and donations should support cross-sector initiatives that bring together business, government, and foundation leaders to assess needs, evaluate solutions, and strategically address long-term problems that effect everyone such as economic development, disabilty access, and public services?"}, {"id": "element_donor_logic_SC", "code": "SC", "text": "Does this chunk align with the logic of: Philanthropy, charitable giving, and donations are a moral duty and should support causes such as justice, diversity, and issues affecting marginalized groups?"}]}, {"id": "element_activity", "text": "Does this chunk describe activities of the community foundation, the value it provides, or the way it works with other organizations?", "logics": [{"id": "element_activity_logic_PS", "code": "PS", "text": "Does this chunk align with the logic of: Community foundations are charitable banks that protect and grow endowments so that people can leave a 'community legacy' by making donations that support the values, traditions, and heritage of the place where they currently live, used to live, or have family connections; they make grants to local nonprofits and provide support when there is an unexpected need, crisis or disaster?"}, {"id": "element_activity_logic_DS", "code": "DS", "text": "Does this chunk align with the logic of: Community foundations are philanthropic advisors that provide customer and fund management services and advise donors on charitable goals so that they can leave a 'personal legacy' by supporting causes that express their individual interests, values, and identities?"}, {"id": "element_activity_logic_PPG", "code": "PPG", "text": "Does this chunk align with the logic of: Community foundations are community leaders that convene, coordinate, and support cross-sector initiatives; they work with businesses, governments, other foundations, and leaders to assess needs, evaluate solutions, and strategically address long-term local problems such as economic development, disabilty access, and public services?"}, {"id": "element_activity_logic_SC", "code": "SC", "text": "Does this chunk align with the logic of: Community foundations are activists and advocates that help people with diverse values, traditions, identities, cultures, languages, and perspectives on local problems come together to do what is morally right. They support causes such as justice, diversity, and issues affecting marginalized groups?"}]}, {"id": "element_board", "text": "Does this chunk describe the community foundation board members or committee members?", "logics": [{"id": "element_board_logic_PS", "code": "PS", "text": "Does this chunk align with the logic of: Community foundation board members and committee members have high social, political and economic status; they ensure that the foundation gets good investment returns and effectively manages community endowments used to make grants to local nonprofits, and provide support when there is an unexpected need, crisis or disaster?"}, {"id": "element_board_logic_DS", "code": "DS", "text": "Does this chunk align with the logic of: Community foundation board members and committee members are wealthy individuals; they ensure that the foundation effectively manages donor-advised funds used to support that express the interests, values, and identities of different donors?"}, {"id": "element_board_logic_PPG", "code": "PPG", "text": "Does this chunk align with the logic of: Community foundation board members and committee members are business, government, and philanthropic leaders that often have professional credentials (MD, MBA, MPA, JD, Esq); they ensure that the foundation works with businesses, governments, other foundations, and leaders to do needs assessments, program evaluations, and strategically addresses long-term local problems such as economic development, disabilty access, and public services?"}, {"id": "element_board_logic_SC", "code": "SC", "text": "Does this chunk align with the logic of: Community foundation board and committee members represent diverse values, traditions, identities, cultures, languages, and perspectives on local problems; they ensure the foundation is an activist and advocate that brings diverse people together to do what is morally right, and support causes such as justice, diversity, and issues affecting marginalized groups?"}]}, {"id": "element_grantee", "text": "Does this chunk describe causes, organizations, and grantees that receive funding or grants from the community foundation?", "logics": [{"id": "element_grantee_logic_PS", "code": "PS", "text": "Does this chunk align with the logic of: The community foundation provides funding and grants to the same organizations every year for causes such as 'community betterment',  'community needs', and emergency or disaster support?"}, {"id": "element_grantee_logic_DS", "code": "DS", "text": "Does this chunk align with the logic of: The community foundation provides funding and grants to causes and organizations chosen by donors and uses donor-advised funds to support eligible charities and individuals who apply for scholarships?"}, {"id": "element_grantee_logic_PPG", "code": "PPG", "text": "Does this chunk align with the logic of: The community foundation provides funding and grants for 'long-term solutions' and 'impact investment' based on needs assessments, program evaluation, and strategic planning?"}, {"id": "element_grantee_logic_SC", "code": "SC", "text": "Does this chunk align with the logic of: The community foundation simplifies grant application and reporting so that it can provide funding and grants to under-resourced organizations and individuals, and support causes such as justice, diversity, and issues affecting marginalized groups?"}]}];
+
+const ELEMENT_LABELS = {
+  element_community: "Community",
+  element_donor: "Ideal of Philanthropy",
+  element_activity: "Foundation Activities",
+  element_board: "Board & Committee",
+  element_grantee: "Grantees & Funding"
+};
+const LOGIC_NAMES = { PS: "Philanthropic Stewardship", DS: "Donor Services", PPG: "Public–Private Governance", SC: "Social Change" };
+const LOGIC_ORDER = ["PS", "DS", "PPG", "SC"];
+const RESERVED_COLS = new Set(["text", "context_before", "context_after"]);
+
+let rows = [];          // full dataset, mutated in place with human_* fields
+let headers = [];       // original CSV header order
+let colText = null, colBefore = null, colAfter = null;
+let filterCandidates = []; // column names eligible for filtering
+let filterSettings = {};   // colname -> "all" | "yes" | "no"
+let openSet = new Set();
+let uploadedFileName = "";
+
+function v(rec, key) {
+  const val = rec[key];
+  return (val === undefined || val === null || val === "") ? null : val;
+}
+
+function cleanStatement(text) { return text; }
+
+function elId(el) { return el.id; }
+function hElAnswerKey(elid) { return `human_${elid}_answer`; }
+function hElExplainKey(elid) { return `human_${elid}_explanation`; }
+function hAnswerKey(elid, code) { return `human_${elid}_logic_${code}_answer`; }
+function hExplainKey(elid, code) { return `human_${elid}_logic_${code}_explanation`; }
+function hTop1Key(elid) { return `human_${elid}_top1_logic`; }
+function hTop2Key(elid) { return `human_${elid}_top2_logic`; }
+const SKIP_KEY = "human_skip";
+
+function humanColumnList() {
+  const cols = [];
+  QUESTIONS.forEach(el => {
+    const elid = elId(el);
+    cols.push(hElAnswerKey(elid), hElExplainKey(elid));
+    LOGIC_ORDER.forEach(code => { cols.push(hAnswerKey(elid, code)); cols.push(hExplainKey(elid, code)); });
+    cols.push(hTop1Key(elid)); cols.push(hTop2Key(elid));
+  });
+  cols.push(SKIP_KEY, "human_coder_id", "human_export_timestamp");
+  return cols;
+}
+
+function getYesCodes(rec, elid) { return LOGIC_ORDER.filter(code => v(rec, hAnswerKey(elid, code)) === "yes"); }
+
+function elementComplete(rec, elid) {
+  const elAns = v(rec, hElAnswerKey(elid));
+  if (elAns !== "yes") return true; // not marked applicable -- nothing further required
+  if (!v(rec, hElExplainKey(elid))) return false; // explanation required once marked yes
+  const yesCodes = getYesCodes(rec, elid);
+  if (yesCodes.some(code => !v(rec, hExplainKey(elid, code)))) return false; // each yes logic needs its explanation
+  const t1 = v(rec, hTop1Key(elid)), t2 = v(rec, hTop2Key(elid));
+  if (yesCodes.length === 0) return true;
+  if (yesCodes.length === 1) return t1 === yesCodes[0];
+  return !!t1 && !!t2 && t1 !== t2 && yesCodes.includes(t1) && yesCodes.includes(t2);
+}
+
+function chunkStatus(rec) {
+  if (v(rec, SKIP_KEY) === "yes") return "skipped";
+  const allComplete = QUESTIONS.every(el => elementComplete(rec, elId(el)));
+  const anyTouched = QUESTIONS.some(el => v(rec, hElAnswerKey(elId(el))) === "yes");
+  if (allComplete) return anyTouched ? "complete" : "notstarted";
+  return "progress";
+}
+
+function snippet(text, n) {
+  text = (text || "").trim().replace(/\s+/g, " ");
+  return text.length > n ? text.slice(0, n) + "…" : text;
+}
+function escapeHtml(s) { return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+/* ---------- status banner ---------- */
+function showBanner(kind, msg) {
+  const el = document.getElementById("statusBanner");
+  const icon = kind === "error"
+    ? '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v5M12 16h.01"/></svg>'
+    : '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v5M12 16h.01"/></svg>';
+  el.innerHTML = `<div class="banner ${kind}">${icon}<span>${escapeHtml(msg)}</span></div>`;
+}
+function clearBanner() { document.getElementById("statusBanner").innerHTML = ""; }
+
+/* ---------- info modal ---------- */
+const infoModal = document.getElementById("infoModal");
+function showInfo(title, body) {
+  document.getElementById("modalTitle").textContent = title;
+  document.getElementById("modalBody").textContent = body;
+  infoModal.hidden = false;
+}
+function hideInfo() { infoModal.hidden = true; }
+document.getElementById("modalCloseBtn").addEventListener("click", hideInfo);
+infoModal.addEventListener("click", (e) => { if (e.target === infoModal) hideInfo(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !infoModal.hidden) hideInfo(); });
+
+/* ---------- CSV loading ---------- */
+function detectColumn(name) { return headers.find(h => h.trim().toLowerCase() === name) || null; }
+
+function detectFilterCandidates() {
+  return headers.filter(h => {
+    const lh = h.trim().toLowerCase();
+    if (RESERVED_COLS.has(lh)) return false;
+    if (h.toLowerCase().startsWith("human_")) return false;
+    let sawValue = false;
+    for (const r of rows) {
+      const raw = (r[h] ?? "").toString().trim().toLowerCase();
+      if (raw === "") continue;
+      sawValue = true;
+      if (raw !== "yes" && raw !== "no") return false;
+    }
+    return sawValue;
+  });
+}
+
+function loadFromCsvText(text, label) {
+  const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
+  if (parsed.errors && parsed.errors.length) {
+    const fatal = parsed.errors.find(e => e.type !== "FieldMismatch");
+    if (fatal) { showBanner("error", "Could not parse that CSV: " + fatal.message); return false; }
+  }
+  const fields = parsed.meta.fields || [];
+  const textCol = fields.find(h => h.trim().toLowerCase() === "text");
+  if (!textCol) { showBanner("error", "This CSV needs a column named \"text\" containing the chunks to code."); return false; }
+
+  headers = fields;
+  rows = parsed.data;
+  colText = textCol;
+  colBefore = detectColumn("context_before");
+  colAfter = detectColumn("context_after");
+  filterCandidates = detectFilterCandidates();
+  filterSettings = {};
+  filterCandidates.forEach(c => { filterSettings[c] = "all"; });
+  openSet = new Set();
+  clearBanner();
+  buildFilterPanel();
+  renderAll();
+  return true;
+}
+
+function setFileNameSub(name) {
+  const el = document.getElementById("fileNameSub");
+  if (name) { el.textContent = `Currently coding file "${name}"`; el.hidden = false; }
+  else { el.hidden = true; el.textContent = ""; }
+}
+
+document.getElementById("uploadBtn").addEventListener("click", () => document.getElementById("fileInput").click());
+document.getElementById("fileInput").addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    if (loadFromCsvText(reader.result, file.name)) {
+      uploadedFileName = file.name;
+      setFileNameSub(file.name);
+    }
+  };
+  reader.onerror = () => showBanner("error", "Could not read that file.");
+  reader.readAsText(file);
+  e.target.value = "";
+});
+
+/* ---------- filter panel ---------- */
+function buildFilterPanel() {
+  const panel = document.getElementById("filterPanel");
+  const rowsEl = document.getElementById("filterRows");
+  if (filterCandidates.length === 0) { panel.hidden = true; rowsEl.innerHTML = ""; return; }
+  panel.hidden = false;
+  rowsEl.innerHTML = filterCandidates.map(col => `
+    <div class="filter-item">
+      <span class="colname">${escapeHtml(col)}</span>
+      <select data-filter-col="${escapeHtml(col)}">
+        <option value="all">show all</option>
+        <option value="yes">keep "yes" only</option>
+        <option value="no">keep "no" only</option>
+      </select>
+    </div>
+  `).join("");
+  rowsEl.querySelectorAll("select").forEach(sel => {
+    sel.value = filterSettings[sel.dataset.filterCol] || "all";
+    sel.addEventListener("change", () => {
+      filterSettings[sel.dataset.filterCol] = sel.value;
+      openSet = new Set();
+      renderAll();
+    });
+  });
+}
+
+function isVisible(rec) {
+  return filterCandidates.every(col => {
+    const mode = filterSettings[col];
+    if (mode === "all") return true;
+    const raw = (rec[col] ?? "").toString().trim().toLowerCase();
+    return raw === mode;
+  });
+}
+
+/* ---------- render ---------- */
+const chunkListEl = document.getElementById("chunkList");
+const emptyStateEl = document.getElementById("emptyState");
+
+function renderAll() {
+  chunkListEl.innerHTML = "";
+  const visibleIdx = [];
+  rows.forEach((rec, idx) => { if (isVisible(rec)) visibleIdx.push(idx); });
+  emptyStateEl.hidden = visibleIdx.length > 0;
+  emptyStateEl.textContent = rows.length === 0
+    ? 'Upload a CSV with a "text" column to begin coding.'
+    : "No rows match the current filters.";
+  visibleIdx.forEach(idx => chunkListEl.appendChild(buildChunkCard(rows[idx], idx)));
+  updateStats(visibleIdx);
+}
+
+function updateStats(visibleIdx) {
+  visibleIdx = visibleIdx || rows.map((_, i) => i).filter(i => isVisible(rows[i]));
+  const total = rows.length, visible = visibleIdx.length;
+  const statuses = visibleIdx.map(i => chunkStatus(rows[i]));
+  const done = statuses.filter(s => s === "complete").length;
+  const skipped = statuses.filter(s => s === "skipped").length;
+  document.getElementById("statTotal").textContent = total;
+  document.getElementById("statVisible").textContent = visible;
+  document.getElementById("statDone").textContent = done;
+  document.getElementById("statSkipped").textContent = skipped;
+  const pct = visible ? Math.round(((done + skipped) / visible) * 100) : 0;
+  document.getElementById("statPct").textContent = pct + "%";
+  document.getElementById("progressFill").style.width = pct + "%";
+}
+
+function badgeFor(state) {
+  const map = { complete: ["complete", "Complete"], progress: ["progress", "In progress"], notstarted: ["notstarted", "Not started"], skipped: ["skipped", "Skipped"] };
+  const [cls, label] = map[state];
+  return `<span class="badge ${cls}">${label}</span>`;
+}
+
+function buildChunkCard(rec, idx) {
+  const card = document.createElement("div");
+  card.className = "chunk-card"; card.dataset.idx = idx;
+  if (openSet.has(idx)) card.classList.add("open");
+
+  const head = document.createElement("div");
+  head.className = "chunk-head";
+  head.innerHTML = `
+    <span class="chunk-idx">#${idx + 1}</span>
+    <span class="chunk-snippet">${escapeHtml(snippet(rec[colText], 130))}</span>
+    <span class="badge-slot">${badgeFor(chunkStatus(rec))}</span>
+    <svg class="chunk-chevron" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 6l6 6-6 6"/></svg>
+  `;
+  const body = document.createElement("div");
+  body.className = "chunk-body";
+
+  head.addEventListener("click", () => {
+    card.classList.toggle("open");
+    if (card.classList.contains("open")) { openSet.add(idx); if (!body.dataset.built) buildBody(rec, idx, body); }
+    else openSet.delete(idx);
+  });
+
+  card.appendChild(head); card.appendChild(body);
+  if (openSet.has(idx)) buildBody(rec, idx, body);
+  return card;
+}
+
+function refreshHead(idx) {
+  const card = chunkListEl.querySelector(`.chunk-card[data-idx="${idx}"]`);
+  if (!card) return;
+  card.querySelector(".badge-slot").innerHTML = badgeFor(chunkStatus(rows[idx]));
+  updateStats();
+}
+
+function buildBody(rec, idx, body) {
+  body.dataset.built = "1";
+  const before = colBefore ? v(rec, colBefore) : null;
+  const after = colAfter ? v(rec, colAfter) : null;
+  const skipped = v(rec, SKIP_KEY) === "yes";
+
+  let html = `<div class="text-block">`;
+  if (before) html += `<div class="ctx-text">… ${escapeHtml(before)}</div>`;
+  html += `<div class="main-text">${escapeHtml(rec[colText] || "")}</div>`;
+  if (after) html += `<div class="ctx-text">${escapeHtml(after)} …</div>`;
+  html += `</div>`;
+
+  html += `<div class="skip-row">
+    <button type="button" class="skip-toggle ${skipped ? "active" : ""}" data-skip>${skipped ? "✓ Skipped" : "Skip this chunk"}</button>
+    <span class="rank-hint">${skipped ? "No coding needed for this chunk." : "No relevant content to code here? Skip it instead."}</span>
+  </div>`;
+
+  if (!skipped) {
+    QUESTIONS.forEach(el => {
+      const elid = elId(el);
+      const elAns = v(rec, hElAnswerKey(elid)) === "yes";
+      const elExpl = v(rec, hElExplainKey(elid)) || "";
+      html += `<div class="element-row" data-elid="${elid}">
+        <div class="element-row-head">
+          <div class="element-title">
+            <span class="element-eyebrow">Element</span>
+            <h4>${ELEMENT_LABELS[elid] || elid}</h4>
+          </div>
+          <button type="button" class="info-btn" data-info="el" data-elid="${elid}">i</button>
+          <button type="button" class="yes-toggle ${elAns ? "active" : ""}" data-elyn>${elAns ? "✓ Applies" : "Applies?"}</button>
+        </div>
+        <div class="explain-wrap" data-el-explain ${elAns ? "" : "hidden"}>
+          <label>Why does this element apply? <span class="req">required</span></label>
+          <textarea class="explain-input" data-el-explain-input rows="2">${escapeHtml(elExpl)}</textarea>
+        </div>
+        <div class="logic-section" data-logicsection ${elAns ? "" : "hidden"}>
+          <div class="logics-eyebrow">Logics within this element</div>
+          ${LOGIC_ORDER.map(code => {
+            const logic = el.logics.find(l => l.code === code);
+            const curAns = v(rec, hAnswerKey(elid, code)) === "yes";
+            const curExpl = v(rec, hExplainKey(elid, code)) || "";
+            return `<div class="logic-row" data-code="${code}">
+              <div class="logic-row-top">
+                <span class="logic-chip"><span class="dot" style="--c:var(--logic-${code.toLowerCase()})"></span><span class="code">${code}</span> ${LOGIC_NAMES[code]}
+                  <button type="button" class="info-btn small" data-info="logic" data-elid="${elid}" data-code="${code}">i</button>
+                </span>
+                <button type="button" class="yes-toggle small ${curAns ? "active" : ""}" data-codeyn>${curAns ? "✓ Applies" : "Applies?"}</button>
+              </div>
+              <div class="explain-wrap" ${curAns ? "" : "hidden"}>
+                <label>Why? <span class="req">required</span></label>
+                <textarea class="explain-input" rows="2">${escapeHtml(curExpl)}</textarea>
+              </div>
+            </div>`;
+          }).join("")}
+          <div class="rank-row" data-rankrow></div>
+        </div>
+      </div>`;
+    });
+  }
+
+  body.innerHTML = html;
+
+  const skipBtn = body.querySelector("[data-skip]");
+  if (skipBtn) skipBtn.addEventListener("click", () => {
+    rec[SKIP_KEY] = v(rec, SKIP_KEY) === "yes" ? null : "yes";
+    buildBody(rec, idx, body);
+    refreshHead(idx);
+  });
+
+  body.querySelectorAll('.info-btn[data-info="el"]').forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const el = QUESTIONS.find(el => elId(el) === btn.dataset.elid);
+      showInfo(ELEMENT_LABELS[el.id] || el.id, el.text);
+    });
+  });
+  body.querySelectorAll('.info-btn[data-info="logic"]').forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const el = QUESTIONS.find(el => elId(el) === btn.dataset.elid);
+      const logic = el.logics.find(l => l.code === btn.dataset.code);
+      showInfo(`${btn.dataset.code} — ${LOGIC_NAMES[btn.dataset.code]}`, logic.text);
+    });
+  });
+
+  if (!skipped) {
+    QUESTIONS.forEach(el => {
+      const elid = elId(el);
+      const block = body.querySelector(`.element-row[data-elid="${elid}"]`);
+      wireElementRow(rec, idx, elid, block);
+      renderRankRow(rec, elid, block);
+    });
+  } else {
+    updateStats();
+  }
+}
+
+function wireElementRow(rec, idx, elid, block) {
+  const logicSection = block.querySelector("[data-logicsection]");
+  const elExplainWrap = block.querySelector("[data-el-explain]");
+  const elExplainInput = block.querySelector("[data-el-explain-input]");
+  const elBtn = block.querySelector("[data-elyn]");
+
+  elBtn.addEventListener("click", () => {
+    const next = v(rec, hElAnswerKey(elid)) === "yes" ? null : "yes";
+    rec[hElAnswerKey(elid)] = next;
+    elBtn.classList.toggle("active", next === "yes");
+    elBtn.textContent = next === "yes" ? "✓ Applies" : "Applies?";
+    elExplainWrap.hidden = next !== "yes";
+    logicSection.hidden = next !== "yes";
+    if (next !== "yes") rec[hElExplainKey(elid)] = null;
+    refreshHead(idx);
+  });
+  if (elExplainInput) elExplainInput.addEventListener("input", () => { rec[hElExplainKey(elid)] = elExplainInput.value; });
+
+  block.querySelectorAll(".logic-row").forEach(row => {
+    const code = row.dataset.code;
+    const explainWrap = row.querySelector(".explain-wrap");
+    const textarea = row.querySelector("textarea.explain-input");
+    const codeBtn = row.querySelector("[data-codeyn]");
+    codeBtn.addEventListener("click", () => {
+      const next = v(rec, hAnswerKey(elid, code)) === "yes" ? null : "yes";
+      rec[hAnswerKey(elid, code)] = next;
+      codeBtn.classList.toggle("active", next === "yes");
+      codeBtn.textContent = next === "yes" ? "✓ Applies" : "Applies?";
+      explainWrap.hidden = next !== "yes";
+      if (next !== "yes") {
+        rec[hExplainKey(elid, code)] = null;
+        if (v(rec, hTop1Key(elid)) === code) rec[hTop1Key(elid)] = null;
+        if (v(rec, hTop2Key(elid)) === code) rec[hTop2Key(elid)] = null;
+      }
+      renderRankRow(rec, elid, block);
+      refreshHead(idx);
+    });
+    if (textarea) textarea.addEventListener("input", () => { rec[hExplainKey(elid, code)] = textarea.value; });
+  });
+}
+
+function renderRankRow(rec, elid, block) {
+  const rankRow = block.querySelector("[data-rankrow]");
+  const yesCodes = getYesCodes(rec, elid);
+  if (yesCodes.length === 0) { rankRow.innerHTML = `<p class="rank-hint">Mark a logic as applying above to rank it.</p>`; return; }
+
+  function optionsHtml(selected, exclude) {
+    let opts = `<option value="">— choose —</option>`;
+    yesCodes.forEach(code => { if (code === exclude) return; opts += `<option value="${code}" ${selected === code ? "selected" : ""}>${code} — ${LOGIC_NAMES[code]}</option>`; });
+    return opts;
+  }
+  const t1 = v(rec, hTop1Key(elid)) || "", t2 = v(rec, hTop2Key(elid)) || "";
+  let html = `<div class="field"><label>Top 1</label><select data-rank="1">${optionsHtml(t1, t2)}</select></div>`;
+  if (yesCodes.length >= 2) html += `<div class="field"><label>Top 2</label><select data-rank="2">${optionsHtml(t2, t1)}</select></div>`;
+  else html += `<p class="rank-hint">Mark a second logic as applying to rank a Top 2.</p>`;
+  rankRow.innerHTML = html;
+
+  const idx = Number(block.closest(".chunk-card").dataset.idx);
+  const sel1 = rankRow.querySelector('[data-rank="1"]'), sel2 = rankRow.querySelector('[data-rank="2"]');
+  if (sel1) sel1.addEventListener("change", () => { rec[hTop1Key(elid)] = sel1.value || null; renderRankRow(rec, elid, block); refreshHead(idx); });
+  if (sel2) sel2.addEventListener("change", () => { rec[hTop2Key(elid)] = sel2.value || null; renderRankRow(rec, elid, block); refreshHead(idx); });
+}
+
+/* ---------- toolbar actions ---------- */
+document.getElementById("expandAllBtn").addEventListener("click", () => {
+  rows.forEach((_, i) => { if (isVisible(rows[i])) openSet.add(i); });
+  renderAll();
+});
+document.getElementById("collapseAllBtn").addEventListener("click", () => { openSet = new Set(); renderAll(); });
+document.getElementById("nextUncodedBtn").addEventListener("click", () => {
+  const idx = rows.findIndex((rec, i) => isVisible(rec) && !["complete", "skipped"].includes(chunkStatus(rec)));
+  if (idx === -1) { showBanner("info", "Every visible row is complete or skipped."); return; }
+  openSet.add(idx);
+  renderAll();
+  const card = chunkListEl.querySelector(`.chunk-card[data-idx="${idx}"]`);
+  card?.classList.add("open");
+  card?.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+/* ---------- export ---------- */
+function buildExportRows() {
+  const coderId = document.getElementById("coderId").value.trim();
+  const stamp = new Date().toISOString();
+  return rows.map((rec, idx) => {
+    const copy = Object.assign({}, rec);
+    copy.file_id = uploadedFileName || "";
+    copy.chunk_id = idx + 1;
+    if (coderId) copy.human_coder_id = coderId;
+    copy.human_export_timestamp = stamp;
+    return copy;
+  });
+}
+function exportColumns() {
+  const extra = humanColumnList().filter(c => !headers.includes(c));
+  const baseHeaders = headers.filter(h => h !== "file_id" && h !== "chunk_id");
+  return ["file_id", "chunk_id"].concat(baseHeaders).concat(extra);
+}
+function exportFilename() { return `institutional_logics_coded_${new Date().toISOString().slice(0, 10)}.csv`; }
+function buildCsvText() { return Papa.unparse({ fields: exportColumns(), data: buildExportRows() }); }
+
+document.getElementById("copyBtn").addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText(buildCsvText()); showBanner("info", "CSV copied to clipboard."); }
+  catch (e) { showBanner("error", "Could not copy automatically — use Download CSV instead."); }
+});
+
+document.getElementById("downloadBtn").addEventListener("click", async () => {
+  const csv = buildCsvText();
+  const filename = exportFilename();
+  try {
+    const downloads = await claude.use("downloads");
+    if (downloads) {
+      const res = await downloads.save({ filename, data: csv });
+      showBanner("info", res.status === "saved" ? "Saved." : "Sent.");
+      return;
+    }
+  } catch (err) {
+    if (err && err.code === "declined") return;
+  }
+  try {
+    const blob = new Blob([csv], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = filename;
+    document.body.appendChild(a); a.click(); a.remove();
+    URL.revokeObjectURL(url);
+  } catch (e) {
+    showBanner("error", "Automatic download isn't available here — use Copy CSV instead.");
+  }
+});
+
+/* ---------- boot ---------- */
+renderAll();
+</script>
+
+</body></html>
