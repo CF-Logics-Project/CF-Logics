@@ -13,7 +13,9 @@ input always produces exactly the same output.
 
 WHAT IT DOES
 ------------
-For every .csv file in the input folder (default: "out/chunking"):
+For every "annual_report_chunks_*.csv" file in the input folder (default:
+"out/chunking"; the "_sentence_check.csv" debug files written there by
+report_chunking.py are skipped):
   1. read the file,
   2. look at the chunk text stored in the "text" column of each row,
   3. apply each screening rule to that text, writing "yes" or "no" into a new
@@ -578,8 +580,8 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Build the list of files to process: either the single file given with
-    # --input-file, or every .csv directly inside --input-dir (sub-folders such
-    # as "archive" are deliberately not searched).
+    # --input-file, or every chunk file directly inside --input-dir (sub-folders
+    # such as "archive" are deliberately not searched).
     if args.input_file:
         csv_path = Path(args.input_file)
         if not csv_path.is_file():
@@ -589,9 +591,9 @@ def main() -> None:
         input_dir = Path(args.input_dir)
         if not input_dir.is_dir():
             sys.exit(f"Input folder not found: {input_dir}")
-        csv_files = sorted(input_dir.glob("*.csv"))
+        csv_files = sorted(input_dir.glob("annual_report_chunks_*.csv"))
         if not csv_files:
-            sys.exit(f"No .csv files found in {input_dir}")
+            sys.exit(f"No annual_report_chunks_*.csv files found in {input_dir}")
 
     print(f"Screenings applied: {', '.join(SCREENINGS)}")
 
