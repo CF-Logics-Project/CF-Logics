@@ -41,11 +41,15 @@ Run the steps in order from anywhere: every script resolves its paths from the r
 | 2 · Entity tagging | `python tagging.py [--report <report_id>]` | Replaces the names of individual people and community foundations with standardized entity tags (Gemini API: set `GEMINI_API_KEY`). | `out/ocr/` | `out/tagging/tagging_out_<report_id>_AR.md` and a `.csv` log of substitutions |
 | 3 · Chunking | `python report_chunking.py` | Splits the text into sentences with an NLP sentence splitter and regroups similar adjacent sentences using a cosine similarity threshold. Prompts for the report identifier. | `out/tagging/` | `out/chunking/annual_report_chunks_<report_id>.csv`: one row per chunk |
 | 4 · Screening | `python screen_chunks_regex.py` | Flags irrelevant chunks for removal from the analysis (e.g., lists of names, or text in another language). | `out/chunking/` | `out/screening/screening_annual_report_chunks_<report_id>.csv`: four yes/no flags; `yes` excludes the chunk |
-| 5a · LLM coding | `python inference_revised.py [--provider anthropic\|google] [--report <report_id>]` | Runs the LLM coding of CF logics on the chunks that pass screening; shows how we translated the codebook into questions based on its elements (set `ANTHROPIC_API_KEY` or `GEMINI_API_KEY`). | `out/screening/` | `out/out_coding/ai/output_<report_id>.csv` and `.json` |
+| 5a · LLM coding | for direct inference (not what we did) `python inference_revised.py [--provider anthropic\|google] [--report <report_id>]`, the adopted use is script provision as agentic tool use for claude opus 5.5 | Runs the LLM coding of CF logics on the chunks that pass screening; shows how we translated the codebook into questions based on its elements (set `ANTHROPIC_API_KEY` or `GEMINI_API_KEY`). | `out/screening/` | `out/out_coding/ai/output_<report_id>.csv` and `.json` |
 | 5b · Human coding | `human_labeling_interface.html` | Interface the expert coders use to code the same chunks with the same codebook questions; open it in a browser and upload a screening file. | `out/screening/` | `out/out_coding/human/` (CSV export) |
-| 6 · Agreement | `bash repro_scripts/run_agreement.sh` | Scores the human and LLM codes and compares them (requirements in `repro_scripts/requirements.txt`). | `out/out_coding/` | `out/agreement/`: human–LLM agreement statistics per report and pooled, and a workbook with live formulas; method in `logic_scoring_evaluation.md` |
+| 6 · Agreement | `bash aggrement_scripts/run_agreement.sh` | Scores the human and LLM codes and compares them (requirements in `aggrement_scripts/requirements.txt`). | `out/out_coding/` | `out/agreement/`: human–LLM agreement statistics per report and pooled, and a workbook with live formulas |
 
-For the sample reports, steps 2 (entity tagging) and 5a (LLM coding) were executed by a code agent (Claude) that read the full report and followed, respectively, the tagging instructions below and the questions in `inference_revised.py`. `tagging.py` and `inference_revised.py` run the same instructions through an API.
+For the sample reports, steps 2 (entity tagging) and 5a (LLM coding) were executed by a code agent (Claude opus 5.5) that read the input (chunks and report) and followed, respectively, the tagging instructions below and the questions in `inference_revised.py`. `tagging.py` and `inference_revised.py` run the same instructions through an API, so non agentic one-shot inference is a less performant alternative.
+
+## A note on pipeline development
+
+This pipeline results from a human-AI iterative effort to build a computational companion for qualitative coding that started from an original expert human coding of CF annual reports `Sample Human Labeling/original labeling/`.&#32;
 
 <details>
 <summary>Tagging instructions given to the agent</summary>
@@ -54,9 +58,7 @@ For the sample reports, steps 2 (entity tagging) and 5a (LLM coding) were execut
 
 </details>
 
-## A note on pipeline development
 
-This pipeline results from a human-AI iterative effort to build a computational companion for qualitative coding that started from an original expert human coding of CF annual reports `Sample Human Labeling/original labeling/`.&#32;
 
 The iterative journey informed limitations that we addressed in the next attempt and resulted in our current pipeline. `Sample Human Labeling/Fisher_AI_Dressel.pptx`documents the intermediate attempts that informed the development of the current protocol (original human coding, unsupervised and supervised learning on text embeddings, TF-IDF narratives, and one-short classification both with one-shot inference and codebook graphRAG contextualized inference).
  
