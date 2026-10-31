@@ -1,338 +1,338 @@
-chunk_id_cd,text,human_n_applicable_elements,human_n_incomplete_rankings,ai_n_applicable_elements,ai_n_incomplete_rankings,coded_by_both,human_points_PS,ai_points_PS,human_points_DS,ai_points_DS,human_points_PPG,ai_points_PPG,human_points_SC,ai_points_SC,human_prop_PS,ai_prop_PS,human_prop_DS,ai_prop_DS,human_prop_PPG,ai_prop_PPG,human_prop_SC,ai_prop_SC
-3,2021 ANNUAL REPORT,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-4,I AM BECAUSE YOU ARE.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-5,"Friends of [community_foundation_tag],",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-6,I am celebrating my first anniversary at [community_foundation_tag].,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-7,The fullness of this experience is beyond what I anticipated.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-8,"I've called Evanston my home for some time now, but I've been amazed by the depth and breadth of meaningful work and generosity happening these past couple of years.",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-9,"This work [community_foundation_tag] do together exemplifies the true meaning of philanthropy, which is rooted in 'the love of humanity.' That's why I've been viewing [community_foundation_tag]'s work through the lens of 'Ubuntu'-a term used by the Bantu people of Southern Africa-which means 'I am because you are.'",1,0,2,0,True,0,1,0,0,0,1,2,4,0.0,0.16666666666666666,0.0,0.0,0.0,0.16666666666666666,1.0,0.6666666666666666
-10,I am strong because you are strong. I am weak when you are weak.,1,1,1,0,True,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-11,"If my neighbor is hungry, needs shelter or clothing, and cannot thrive, then I am not whole.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-12,The Ubuntu philosophy links and weaves all of us together inextricably.,2,0,1,0,True,0,0,0,0,0,1,4,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-13,"In this report, you will read about Evanstonians who partner with [community_foundation_tag] and who embody Ubuntu in their work and personal lives.",1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-14,These individuals are made stronger through their support of their neighbors.,1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-15,"Join me in creating that Evanston-now, forever, and for everyone!",0,0,2,0,False,0,2,0,0,0,0,0,4,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-16,"[individual_tag], President &amp; CEO, [community_foundation_tag]",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-17,LET'S UNLOCK THE POWER WITHIN ALL OF US.,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-19,"' I was born and raised here. I've been here 78 years, almost 79.",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-20,"We used to be on the lake but were pushed out. Either they moved our houses, or we had to move this way.",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-21,"I'm part of the West End Area Block Club, which has been around since the early '60s.",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-22,This is a very unique group-and a lovely neighborhood of people-that learned to take care of each other.,1,0,1,0,True,1,2,0,0,0,1,2,0,0.3333333333333333,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.6666666666666666,0.0
-23,"When there were floods, people made sure you were okay. If you didn't have food because your freezer was flooded, you would look up and someone had brought you food.",1,0,1,0,True,1,2,0,0,0,1,2,0,0.3333333333333333,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.6666666666666666,0.0
-24,Evanston has been a nonprofit haven to me.,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-25,"If there's something you want, there are some people here who will join you to try and make that happen.",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-26,"So, Evanston is unique in that.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-27,I think some people don't have empathy for others.,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-28,"How they got that way, I don't know.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-29,I don't understand not sharing.,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-30,"Have you thought about what you've done for others, other than your family?",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-31,"Our family is the family of man, no matter what color, no matter where you came from, or how old you are.'",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-32,[community_foundation_tag] DIVERSITY IS [community_foundation_tag] STRENGTH,1,0,1,0,True,0,0,0,1,0,0,2,2,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666
-33,'He vivido en Evanston por 21 años y por primera vez fui incluida en una consulta ciudadana en español para las familias vulnerables.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-34,Evanston es una comunidad diversa que necesita implementar la igualdad y la equidad para todos sus residentes utilizando sus recursos.',1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-35,"[individual_tag], Delegate/Team Builder",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-36,POWER-PAC IL/Community Organizing and Family Issues (COFI),0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-37,Bringing diverse voices to the table,1,0,0,0,False,0,0,0,0,1,0,2,0,0.0,,0.0,,0.3333333333333333,,0.6666666666666666,
-38,"The pandemic has brought opportunities to Evanston, along with challenges.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-39,Making decisions wisely means that it's important that the broadest and deepest set of community voices be heard.,1,0,1,0,True,0,0,0,0,1,1,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-40,The American Rescue Plan Act of 2021 (ARPA) allocated $43 million to be spent over five years in the City of Evanston.,1,0,0,0,False,0,0,0,0,2,0,0,0,0.0,,0.0,,1.0,,0.0,
-41,To determine the best and most impactful ways to deploy these funds meant bringing the community together.,1,0,1,0,True,0,0,0,0,2,2,0,1,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-42,[community_foundation_tag] was proud to play an integral role in convening these voices.,1,0,1,0,True,0,0,0,0,2,2,0,1,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-43,"During the summer of 2021, the City hosted three town halls, two in English and one in Spanish.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-44,[community_foundation_tag] with Evanston Latinos and the Evanston Early Childhood Council partnered to ensure that all community members had a voice in these discussions.,1,0,2,0,True,0,0,0,0,1,4,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.3333333333333333
-45,More than 300 community members participated in these discussions.,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-46,"[community_foundation_tag] led a coalition with Evanston Cradle to Career and Northwestern University to hold seven roundtables, each organized around a sector, as well as a youth town hall and a survey of ETHS students.",1,0,2,0,True,0,0,0,0,2,4,0,2,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-47,169 people representing 62 organizations participated in the roundtables.,1,1,1,0,True,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-48,It was vital to this process that one of the roundtables focused on the needs and assets of Evanston's immigrant and undocumented population and that one town hall was held in Spanish.,1,0,2,0,True,0,0,0,1,1,1,2,4,0.0,0.0,0.0,0.16666666666666666,0.3333333333333333,0.16666666666666666,0.6666666666666666,0.6666666666666666
-49,"Evanston's Latinx population has grown to more than 11% of the population, according to the 2020 Census, and 21% of students in District 65 identify as Hispanic.",1,0,1,0,True,0,0,0,1,1,0,2,2,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.6666666666666666,0.6666666666666666
-50,"One community leader, [individual_tag], said that she has lived in Evanston for 21 years, and for the first time, she was included in a citizen consultation for vulnerable families in Spanish.",2,0,2,0,True,2,0,0,0,1,2,2,4,0.4,0.0,0.0,0.0,0.2,0.3333333333333333,0.4,0.6666666666666666
-51,"As [individual_tag] told [community_foundation_tag], Evanston is a diverse community that needs to implement equality and fairness for all of its residents using its resources.",1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-52,'I am proud to serve as a founding member of the Reparations Stakeholders' Authority of Evanston (RSAE) as this work is important to redress the harm done to Black people here in Evanston.,1,0,2,0,True,0,0,0,1,0,1,2,4,0.0,0.0,0.0,0.16666666666666666,0.0,0.16666666666666666,1.0,0.6666666666666666
-53,I am inspired daily by the work of RSAE and countless other Evanston community leaders to advance the Evanston Reparations movement. A movement being witnessed nationally and internationally serving as a blueprint for fair and just reparations.',1,0,2,0,True,0,0,0,0,0,2,2,4,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-55,Founder of FirstRepair,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-56,• Former 5th Ward Alderman,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-57,Reparations in Evanston: reinvesting in the Black community,1,0,0,0,False,0,0,0,0,0,0,2,0,0.0,,0.0,,0.0,,1.0,
-58,Centering Black voices and reinvesting in the Black community are pillars of [community_foundation_tag] work as [community_foundation_tag]. [community_foundation_tag] is proud to be part of Evanston's historic efforts to repair harm.,1,0,2,0,True,0,0,0,1,0,1,2,4,0.0,0.0,0.0,0.16666666666666666,0.0,0.16666666666666666,1.0,0.6666666666666666
-59,"In June 2019, the City of Evanston took the landmark step to establish a reparations fund, allocating up to $10 million of tax revenue from the sales of recreational cannabis.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-60,This groundbreaking step was the culmination of work led by then Fifth Ward Alderman [individual_tag] and a group of community leaders and clergy.,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-61,"Their work is underpinned by the research of [individual_tag] (founder of Shorefront), which documents Black history in Evanston and the North Shore. This group founded the nonprofit Reparations Stakeholders Authority of Evanston (RSAE) to provide further support for repair in [community_foundation_tag] community.",0,0,2,0,False,0,1,0,0,0,1,0,4,,0.16666666666666666,,0.0,,0.16666666666666666,,0.6666666666666666
-62,"The RSAE worked with [community_foundation_tag] to establish the Evanston Reparations Community Fund, housed at [community_foundation_tag].",1,0,3,0,True,0,0,0,2,1,1,2,6,0.0,0.0,0.0,0.2222222222222222,0.3333333333333333,0.1111111111111111,0.6666666666666666,0.6666666666666666
-63,"The fund's purpose is to directly benefit Evanston's Black community, heal racism, and address the harm caused by discriminatory practices.",1,0,3,0,True,0,0,0,3,0,0,2,6,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666
-64,The Fund ensures that funding is available in perpetuity for reparations.,1,0,2,0,True,0,2,0,0,0,0,2,4,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-65,[community_foundation_tag] made an initial capacitybuilding grant to help launch RSAE and the Evanston Reparations Community Fund.,1,0,2,0,True,0,0,0,0,0,2,2,4,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-66,"In addition, [community_foundation_tag] Board Treasurer, [individual_tag] devoted his time to partnering with [individual_tag] to open doors to credit unions and national banks to support the Reparations Movement with dollars allocated to the Community Reinvestment Act.",1,0,2,0,True,0,0,0,0,1,2,2,4,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-67,"Because [community_foundation_tag] is committed to centering Black voices, spending decisions for the Reparations Community Fund will be made by the RSAE rather than the [community_foundation_tag] board.",1,0,2,0,True,0,0,0,2,0,0,2,4,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666
-68,[community_foundation_tag] does not charge any fees for holding the fund.,1,0,1,0,True,0,0,0,1,0,0,2,2,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666
-69,"[community_foundation_tag] are proud to help grow the fund, partner with the RSAE, and help grow the Reparations Movement in Evanston and beyond.",1,0,2,0,True,0,0,0,0,1,2,2,4,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-71,BOARD MEMBER · RETIRED BANKER · ADVOCATE,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-73,' I began working on reparations with [individual_tag] in my role as the treasurer of [community_foundation_tag].,1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-74,"I've had a long standing belief that there needed to be a greater level of support in healing our society in the context of our racial gap, which is both horrendous and unconscionable.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-75,"It's endemic to our culture: a schism based on race that's so pervasive, it's often impossible for people who look like me to see it until it is pointed out.",1,1,1,0,True,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-76,"I am a member of Beth Emet synagogue, which is very actively engaged.",1,0,1,0,True,0,0,0,2,0,0,2,1,0.0,0.0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333
-77,"I became the de facto leader of a working group to educate and build support for reparations, which has now expanded into an outreach effort to other faith-based communities.",1,0,1,0,True,0,0,0,1,0,0,2,2,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666
-78,"In Jewish teaching, there's a focus on mutual accountability and  responsibility to others.",1,0,1,0,True,0,0,0,1,0,0,2,2,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666
-79,"The core concept that has always impacted me is tikkun olam, which is 'repair the broken world.'",1,0,1,0,True,0,0,0,1,0,0,2,2,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666
-80,It is all of our responsibilities to do that.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-81,"There is also teshuva, which is reparations.",1,0,0,0,False,0,0,0,0,0,0,2,0,0.0,,0.0,,0.0,,1.0,
-82,"If you have done harm to a neighbor, either purposely or inadvertently, it is your responsibility to repair that harm.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-83,"We cannot live fully without actually seeing people as people-not objects, not stereotypesand appreciating them for who they are.'",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-85,"' Before my family came to Evanston, like many families in the Black community, they migrated here during the Great Migration.",1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-86,"It was segregated, but it was a better opportunity than the communities that they came from. It wasn't because we were intellectually inferior or had less work ethic that we lived in lesser conditions than the rest of Evanston.",1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-87,"I've launched and operated multiple businesses, including a bookstore that offered free after-school programming and a construction company that employed Black tradespeople developing affordable houses funded by the Illinois Neighborhood Stabilization Program.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-88,"In February 2019, I came to the revelation that equity is not enough to address the egregious harms to the Black community and that reparations at the local level were in order based on the conditions in Black Evanston.",1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-89,We're not a unique city.,1,0,0,0,False,0,0,0,0,0,0,2,0,0.0,,0.0,,0.0,,1.0,
-90,We reflect the racial disparity across the nation.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-91,"What makes us different is that we decided to take this first step-not perfect, not complete.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-92,"When I submitted my proposal to the city's Equity and Empowerment Commission, my ideas were instantly welcomed.",1,0,0,0,False,0,0,0,0,0,0,2,0,0.0,,0.0,,0.0,,1.0,
-93,I'm not surprised because it's Evanston.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-94,We're progressive. We're a liberal city.',1,0,1,0,True,0,2,0,0,0,0,2,1,0.0,0.6666666666666666,0.0,0.0,0.0,0.0,1.0,0.3333333333333333
-95,"DIRECTOR OF COMMUNITY ENGAGEMENT, EVANSTON CRADLE TO CAREER",0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-97,"' We started off wanting to build a community leadership team, where the community led, had a voice, and received leadership training. Then all of a sudden, different organizations said, 'We need community voices too.'",1,0,2,0,True,0,0,0,0,2,2,1,4,0.0,0.0,0.0,0.0,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.6666666666666666
-98,The Advocates for Action were a model group to come in and provide community voices to boards and different organizations.,1,0,1,0,True,0,0,0,0,1,1,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-99,"They are trusted people in the community, so they were able to get into spaces and places where others couldn't.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-100,"[community_foundation_tag] came to us with the opportunity for this team to lead a community-building grants initiative. There were a few places doing them already, and we eventually landed on a model where the community creates the guidelines for the grants.",2,0,2,0,True,0,0,0,0,2,2,4,4,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-101,The process is theirs-Advocates for Action. They own it.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-102,[community_foundation_tag] and I are just here to support.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-103,They've funded several projects including a celebration of textured hair for young girls; the vision of a young guy who wanted to see more minorities in the game of golf; and a grief support group for moms who have lost their children.,1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-104,We are now in our fifth round and have awarded thousands of dollars to individuals who want to make their communities better.',1,0,2,0,True,2,2,0,0,0,0,0,4,1.0,0.3333333333333333,0.0,0.0,0.0,0.0,0.0,0.6666666666666666
-105,Making grants more accessible to the community,1,0,0,0,False,0,0,0,0,0,0,2,0,0.0,,0.0,,0.0,,1.0,
-106,"Community Building Grants, led by EC2C's Advocates for Action and supported by [community_foundation_tag], give individuals the power and resources to make meaningful change in their community.",1,0,2,0,True,0,1,0,0,1,1,2,4,0.0,0.16666666666666666,0.0,0.0,0.3333333333333333,0.16666666666666666,0.6666666666666666,0.6666666666666666
-107,"Evanston Cradle to Career established the Advocates for Action in 2017, recruiting a group of neighborhood residents to be leaders in the efforts to make Evanston a place where all children and their families get the resources and support they need to succeed.",1,0,1,0,True,0,0,0,0,2,1,0,2,0.0,0.0,0.0,0.0,1.0,0.3333333333333333,0.0,0.6666666666666666
-108,"With the help of [individual_tag], Cradle's Director of Community Engagement, the Advocates threw themselves into talking with neighbors to hear their ideas for the community. The Advocates wanted to support these ideas.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-109,[community_foundation_tag] worked with the Advocates and [individual_tag] to create a grassroots grants program aimed at supporting individuals rather than organizations.,1,0,1,0,True,0,0,0,0,1,1,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-110,"Individuals could apply for grants for amounts less than $1,500 to support projects that bring people together to share skills and knowledge that make the community better.",1,0,2,0,True,2,2,0,0,0,0,0,4,1.0,0.3333333333333333,0.0,0.0,0.0,0.0,0.0,0.6666666666666666
-111,"Since the first round of Community Building Grants in 2018, thirtyeight grants have been awarded.",0,0,2,0,False,0,4,0,0,0,0,0,2,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-112,"Grants have supported a wide range of projects, including: a neighborhood share for tools and toys; a support group for mothers who have lost a child; and a program that utilizes storytelling to help people gain financial skills.",1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-113,The Advocates review all the applications and interview the applicants.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-114,"Once projects are selected, each recipient is paired with an Advocate for support.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-115,[community_foundation_tag] provides back-office support.,1,0,1,0,True,0,0,0,1,0,0,2,2,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666
-116,"In 2022, the Community Grants Program came back after a COVID hiatus.",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-117,"Once again, community members brought innovative ideas to the table.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-118,"As [individual_tag] says, 'The Community Grants Program works because we trust the community.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-119,We build relationships and meet the people where they are at.',1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-120,"'I've always appreciated [community_foundation_tag], but I don't think I had ever seen [community_foundation_tag] take such a powerful leadership role in the city: responding quickly; bringing nonprofit leaders together to strategize and to connect and share needs; and then changing their own grantmaking process around how people apply for funding.",1,0,1,0,True,0,0,0,0,2,2,0,1,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-121,It was incredibly responsive and fast.',1,0,0,0,False,2,0,0,0,0,0,0,0,1.0,,0.0,,0.0,,0.0,
-123,"Executive Director, Books &amp; Breakfast",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-124,The impact of grantmaking built on mutual trust,1,0,0,0,False,0,0,0,0,0,0,2,0,0.0,,0.0,,0.0,,1.0,
-125,"[community_foundation_tag] is committed to supporting creative, community-centered nonprofits and helping them to grow as strong, sustainable organizations. [community_foundation_tag] grantmaking evolves to support this mission.",1,0,2,0,True,0,0,0,0,0,4,2,2,0.0,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.3333333333333333
-126,"Books &amp; Breakfast has long been committed to advancing equity in District 65 by ensuring that students were physically, emotionally, and academically prepared each morning to enter their classrooms.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-127,They did this by providing a healthy breakfast alongside tutoring and support.,1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-128,"From the beginning, Books &amp; Breakfast has been supported by partnerships with [community_foundation_tag]. [community_foundation_tag] root2fruit program provided funds and training when the organization was established. Later, [community_foundation_tag] supported Books &amp; Breakfast's ability to raise major gifts through the Building the Future and Partners for the Future matching gift challenges.",1,0,3,0,True,0,5,0,0,2,4,0,0,0.0,0.5555555555555556,0.0,0.0,1.0,0.4444444444444444,0.0,0.0
-129,[community_foundation_tag] was also there when schools shut their doors in March 2020 and the Books &amp; Breakfast onsite model was turned upside down.,0,0,2,0,False,0,4,0,0,0,0,0,2,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-130,"'[community_foundation_tag] has given us the bandwidth to rebuild and expand,' says [individual_tag], Executive Director. 'This has been a hard year, but having [community_foundation_tag] there to walk through the crisis with us has made such a difference in rebuilding our work.'",1,0,2,0,True,2,4,0,0,0,2,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-131,Books &amp; Breakfast,0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-132,had to quickly shift to providing remote tutoring and support for eleven schools.,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-133,"They were able to do so with the help of a $50,000 grant from [community_foundation_tag] and a partnership with Y.O.U.",1,0,2,0,True,2,2,0,0,0,4,0,0,1.0,0.3333333333333333,0.0,0.0,0.0,0.6666666666666666,0.0,0.0
-134,"In 2020, [community_foundation_tag] also offered unrestricted operating grants to nonprofits for the first time, trusting its partners to use funds as they knew how to best.",1,0,2,0,True,0,2,0,0,0,0,2,4,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-135,Books &amp; Breakfast received one of these operating grants as well.,1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-136,[community_foundation_tag]'s grantmaking during 2020 and early 2021 led to creating a permanent grantmaking program to support Nonprofit Growth and Sustainability.,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-137,Part of the program provides unrestricted operating grants to provide flexible support for the vital work of nonprofits.,1,0,2,0,True,0,2,0,0,1,0,2,4,0.0,0.3333333333333333,0.0,0.0,0.3333333333333333,0.0,0.6666666666666666,0.6666666666666666
-138,"EXECUTIVE DIRECTOR, BOOKS AND BREAKFAST",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-140,"' The pandemic for us was a very destabilizing, very overwhelming moment that has turned into a lot of moments continued over time.",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-141,"Seeing schools, students, and families so disrupted was really difficult, and we had to adjust to figure out how to meet that moment and stay in support of students.",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-142,[community_foundation_tag] adjusting their own processes around grant funding was huge for us.,1,0,1,0,True,2,0,0,0,0,1,0,2,1.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.0,0.6666666666666666
-143,"With the number of challenges and the nature of things changing rapidly because of the pandemic, we needed to be able to respond quickly and creatively in trying to solve problems.",1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-144,"[community_foundation_tag] was able to say, 'Hey, we trust you.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-145,"We're going to come alongside you, and we're going to give you the ability to shift quickly, because we're going to let go of processes that aren't necessary at this moment to make sure that we're able to meet the needs of families and students.'",1,0,1,0,True,2,1,0,0,0,0,0,2,1.0,0.3333333333333333,0.0,0.0,0.0,0.0,0.0,0.6666666666666666
-146,"[community_foundation_tag] opened the door for us to think creatively and to build a partnership with the district that allowed us to double the amount of students, double the amount of schools, in the online space.'",1,0,2,0,True,0,0,0,0,2,4,0,2,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-148,"' Each morning the kids come in around eight o'clock, have breakfast.",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-149,"After they eat, I usually ask them if they have homework, and we get them some homework support. If they don't have homework, we have a book cart with tons of amazing books on there. I have an amazing group of students who love to read, so they run towards the book cart, and they grab a book. Every morning we're giving some nutrition, some reading time to work our brains, and then having a ton of fun.",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-150,I think the biggest part is making sure the students know that they're loved and supported.,0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-151,"I always remind them that seeing them is the best part of my day and starting my mornings with them is amazing- all their energy, all their sweetness is amazing to absorb every morning.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-152,"We have community volunteers-people who live in the neighborhood, retired teachers, parents in the communitywho want to be a part of Books and Breakfast.",1,0,2,0,True,2,4,0,0,0,2,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-153,"This wouldn't be possible without the community's support and everybody coming together. It is quite amazing to see how much support we get, but also how much we are able to give back to the community.'",1,0,2,0,True,2,4,0,0,0,2,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-154,"'Access to information is fundamental for a fair and just society and necessary for individuals, families, and communities to thrive.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-155,"We help people access the information they need by making clear, understandable, human-centered communication the norm in mission-driven work.'",0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-157,"Clear Language Lab Program Director, Literacy Works",0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-158,Collective and enduring initiatives: making the work more accessible,1,0,0,0,False,0,0,0,0,0,0,2,0,0.0,,0.0,,0.0,,1.0,
-159,[community_foundation_tag] helps to provide tools that break down barriers.,1,0,1,0,True,0,0,0,0,1,1,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-160,"[community_foundation_tag] partnership with the Clear Language Lab at Literacy Works makes [community_foundation_tag] communications more accessible, as well as those of other nonprofit organizations.",1,0,2,0,True,0,0,0,0,1,4,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.3333333333333333
-161,"Many nonprofit organizations and government agencies offer great resources, but all too often, the language used to provide information is a barrier that prevents people from accessing those resources.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-162,[community_foundation_tag] has been working with the Clear Language Lab at Literacy Works for the last two years to help take those barriers down.,1,0,2,0,True,0,0,0,0,1,4,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.3333333333333333
-163,"The Clear Language Lab provides training and consultation to nonprofits, government agencies, and other entities to serve their communities more effectively and equitably by using plain language.",1,0,1,0,True,0,0,0,0,1,2,2,1,0.0,0.0,0.0,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.3333333333333333
-164,"In 2021, [community_foundation_tag] partnered with the Clear Language Lab to provide training and coaching for nonprofit organizations to use clear and concise language, making their communications more accessible to community members.",1,0,2,0,True,0,0,0,0,1,4,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.3333333333333333
-165,"Many organizations were able to use these services, including providers of early childhood care and education, agencies serving youth, and [community_foundation_tag].",1,0,1,0,True,0,0,0,0,0,2,2,1,0.0,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.3333333333333333
-166,"For example, the Clear Language Lab at Literacy Works offered critical help in the development of language for new grantmaking processes at [community_foundation_tag].",1,0,2,0,True,0,0,0,0,0,3,2,3,0.0,0.0,0.0,0.0,0.0,0.5,1.0,0.5
-167,"This collective and enduring initiative grant also gave nonprofit organizations free access to attend Clear Language Lab deep listening trainings, where they developed skills to evaluate and revise their communications.",1,0,2,0,True,0,0,0,0,0,4,2,2,0.0,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.3333333333333333
-168,"This work is having a profound impact on [community_foundation_tag] community. 'We are grateful to [community_foundation_tag] and proud of the growth we are making together!' says [individual_tag], Executive Director of Literacy Works.",0,0,2,0,False,0,0,0,0,0,4,0,2,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-169,"CLEAR LANGUAGE LAB PROGRAM DIRECTOR, LITERACY WORKS",0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-171,' Our work at the Clear Language Lab is about making content and information accessible.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-172,"We noticed the lack of access was a huge, unnecessary barrier for a lot of our students who came through our literacy programs.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-173,We created the Clear Language Lab in this spirit of accessibility.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-174,[community_foundation_tag] has been a wonderful partner-seeing the vision for Clear Language Lab and Literacy Works and recognizing the potential there.,1,0,1,0,True,0,0,0,0,2,2,0,1,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-175,"I think there's a lot of talk about equity these days across foundations and nonprofits, but actually doing the work to make those transformations happen takes commitment, and it has been really incredible to see [community_foundation_tag] really living that in their actions and programs.",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-176,"We also worked with [community_foundation_tag] to look at their own grantmaking process to say, 'Wait a minute.",1,0,1,0,True,0,0,0,0,1,1,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-177,What are we doing to make sure our processes are accessible for organizations?',1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-178,"Not every organization has a giant Development department or has the resources to devote to the sometimes overwhelming grantmaking processes. Therefore, how do we make that process easier and more accessible so that the groups that are doing important work aren't inhibited by that process, and that money can get into the hands of those that need it to do critical work.'",1,0,2,0,True,0,0,0,0,0,2,2,4,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-179,"EXECUTIVE DIRECTOR, LITERACY WORKS",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-181,' Literacy Works has been around for over 25 years now.,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-182,We were originally founded to provide tutor training and professional development opportunities to volunteer-based adult literacy programs on the north side of Chicago.,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-183,Today we work with over 50 adult literacy programs across Illinois.,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-184,"For years, we were getting requests from organizations across many different sectors to help make their communications easier to understand.",0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-185,"As adult educators, we recognized this to be such an important need that in 2018 we decided to create the Clear Language Lab at Literacy Works.",0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-186,It is fantastic to see [community_foundation_tag] step up as a real leader in prioritizing clear and accessible communication. I am thrilled to have [community_foundation_tag]'s support and partnership as we work together to change societal systems and make easy-to-understand messaging the norm.,1,0,1,0,True,0,0,0,0,1,2,2,1,0.0,0.0,0.0,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.3333333333333333
-187,"It is my hope that [community_foundation_tag] will serve as a model for other foundations. We'd like to showcase the important progress being made here in Evanston to other funders and say, 'Look at the remarkable work being done in Evanston!",1,0,1,0,True,0,0,0,0,2,2,0,1,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-188,Let the Clear Language Lab work with you and your grantees to make sure that the valuable programs being funded are reaching those who need them most.'',1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-189,'I love this community.,0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-190,"It has given me a home, a place to raise my children with the values that I hold dear, deep friendships, and unwavering support.",1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-191,"I cannot imagine a better place to live, work and serve, nor an organization more deserving of support than [community_foundation_tag] [community_foundation_tag].'",1,1,2,0,True,0,4,0,1,0,1,0,0,,0.6666666666666666,,0.16666666666666666,,0.16666666666666666,,0.0
-193,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-194,Letter from [community_foundation_tag],0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-195,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-196,Thank you. From the bottom of [community_foundation_tag] hearts: thank you.,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-197,"Because of you, [community_foundation_tag] can strongly continue the work of healing [community_foundation_tag] community in the wake of the pandemic and the economic devastation that it caused.",1,0,2,0,True,2,4,0,0,0,0,0,2,1.0,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.3333333333333333
-198,"Because of you, more resources than ever before were contributed to the annual campaign: more vulnerable people received the help and support that they needed, more challenged nonprofits were able to keep operating, and the character of the city that [community_foundation_tag] hold dear was nurtured and strengthened.",1,0,2,0,True,1,3,0,0,0,0,2,3,0.3333333333333333,0.5,0.0,0.0,0.0,0.0,0.6666666666666666,0.5
-199,[community_foundation_tag] don't intend to rest!,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-200,"Fresh from working through a strategic planning exercise which centers racial justice, lifting community voices and developing the financial resources that [community_foundation_tag] need to address community harms, [community_foundation_tag] as a Board and organization are excited for the work ahead, ready to face the challenges to making [community_foundation_tag] vision come true.",2,0,2,0,True,0,0,0,0,0,2,4,4,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-201,"[community_foundation_tag] is truly 'here for good,' in all meanings of this phrase.",1,0,1,0,True,2,2,0,0,0,0,0,1,1.0,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.3333333333333333
-202,"[community_foundation_tag]'s reputation as the indispensable organization in [community_foundation_tag] community is a testament to the foresight of [community_foundation_tag] founders 35 years ago. These visionaries recognized that a community like Evanston needed an organization dedicated to forging partnerships across [community_foundation_tag] strong nonprofit community. Guided by committed Board and staff members, donors and supporters, and [community_foundation_tag] beloved Evanston community, [community_foundation_tag] serves as a catalyst to [community_foundation_tag] nonprofits and multiplier of their impact, while also identifying and addressing unmet needs.",1,0,4,0,True,2,7,0,0,1,5,0,0,0.6666666666666666,0.5833333333333334,0.0,0.0,0.3333333333333333,0.4166666666666667,0.0,0.0
-203,"I am so very proud of [community_foundation_tag] and excited for [community_foundation_tag] future. As [community_foundation_tag] embark upon this new era under [community_foundation_tag] President &amp; CEO [individual_tag], I invite you to join me in supporting the important work of [community_foundation_tag].",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-204,"Most cordially yours,",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-206,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-207,2021 in review,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-208,"The last two years have been a time of challenge, opportunity, and assessment.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-209,"In 2020, [community_foundation_tag] created the Evanston Community Rapid Response Fund (ECRRF) in response to COVID in [community_foundation_tag] community and to address the need for relief, recovery, and rebuilding. [community_foundation_tag] Rapid Response experience taught [community_foundation_tag] new ways to think about investing in [community_foundation_tag] community, and informed [community_foundation_tag] work in 2021.",1,0,2,0,True,2,4,0,0,0,2,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-210,"[community_foundation_tag] has deepened its commitment to  be an equitable, just, and vibrant community. [community_foundation_tag]'ve taken a hard look at [community_foundation_tag] work and impact, and [community_foundation_tag]'ve evolved [community_foundation_tag] processes to build deeper partnerships with established nonprofits and startups, businesses, and government, joining together to really hear community voice.",1,0,2,0,True,0,0,0,0,1,3,2,3,0.0,0.0,0.0,0.0,0.3333333333333333,0.5,0.6666666666666666,0.5
-211,"In 2021, [community_foundation_tag] wound down ECRRF grantmaking and created new grant programs focused on equitable innovation, nonprofit growth and sustainability, cohort learning, and collective and enduring initiatives. Here's how [community_foundation_tag] invested in Evanston in 2021:",1,0,1,0,True,0,0,0,0,2,2,1,1,0.0,0.0,0.0,0.0,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333
-213,Community-Centered grants,1,0,0,0,False,0,0,0,0,0,0,2,0,0.0,,0.0,,0.0,,1.0,
-214,"Recipients of Collective &amp; Enduring, E-Town Innovation, Immediate Needs, and Nonprofit Growth &amp; Sustainability Grants",1,0,1,0,True,1,0,0,0,2,2,0,1,0.3333333333333333,0.0,0.0,0.0,0.6666666666666666,0.6666666666666666,0.0,0.3333333333333333
-215,The Actors Gymnasium Alliance to End Homelessness in Suburban,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-216,Cook County,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-217,Art Encounter,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-218,Books &amp; Breakfast,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-219,Center for Neighborhood Technology,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-220,Chicago Methodist Senior Services,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-221,"Childcare Network of Evanston City of Evanston, Parks and Recreation City of Evanston, Public Art",1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-222,Community Organizing and Family Issues (COFI),0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-223,Connections for the Homeless,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-224,Curt's Café,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-225,C&amp;W Market and Ice Cream Parlor,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-226,Erie Family Health Centers Evanston,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-227,Cradle to Career,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-228,Evanston Latinos Evanston Public Library Evanston Rebuilding Warehouse Evanston Roundtable Media Evanston Scholars Housing Opportunity Development Corporation Infant Welfare Society of Evanston Institute for Therapy through the Arts Interfaith Action of Evanston,1,0,1,0,True,0,2,0,0,2,0,0,1,0.0,0.6666666666666666,0.0,0.0,1.0,0.0,0.0,0.3333333333333333
-229,James B. Moran Center for Youth Advocacy,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-230,Jennifer's Edibles,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-231,Feeding the Community Literacy Works,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-232,McGaw YMCA,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-233,Next Steps for Transformation,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-234,"PEER Services, Inc.",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-235,Reparations Stakeholder Authority of Evanston,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-236,STEM School Evanston YWCA Evanston/North Shore,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-237,Cohort-Based Learning and Grants Building the Future &amp; Partners for the Future,0,0,1,0,False,0,0,0,1,0,2,0,0,,0.0,,0.3333333333333333,,0.6666666666666666,,0.0
-238,"Books &amp; Breakfast Childcare Network of Evanston Family Promise Chicago North Shore Meals on Wheels Northeastern Illinois PEER Services, Inc.",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-240,Actors Gymnasium Evanston Wilmette Golf Course Association Puerta Abierta Preschool Reba Place Development Corporation Young Black &amp; Lit,1,0,1,0,True,0,2,0,0,0,0,2,1,0.0,0.6666666666666666,0.0,0.0,0.0,0.0,1.0,0.3333333333333333
-241,"Becoming Equitable Institutions, in partnership with the YWCA Evanston/North Shore",1,0,2,0,True,0,0,0,0,1,2,2,4,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-242,Covenant Nursery School Evanston Early Childhood Council Learning Bridge Reba Early Learning Center School for Little Children,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-243,2021 grants &amp; distributions,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-244,"$2.88 million total, including $1.26 million in Community-Centered and Cohort Learning Grants",0,0,2,0,False,0,4,0,0,0,2,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-245,"**Cohort Learning Grants include root2fruit , funded by the Mammel Foundation, and Partners for the Future and Building the Future programs. The latter programs are funded by Partners for the Future, a donor advised fund of [community_foundation_tag]; its grants are managed by [community_foundation_tag] program staff.",1,0,2,0,True,1,0,2,4,0,2,0,0,0.3333333333333333,0.0,0.6666666666666666,0.6666666666666666,0.0,0.3333333333333333,0.0,0.0
-246,"[community_foundation_tag]'s Communityworks fund provided 15% of the funding for Community-centered grants focused in the areas of early childhood, land use and protection, and workforce development.",0,0,2,0,False,0,2,0,3,0,1,0,0,,0.3333333333333333,,0.5,,0.16666666666666666,,0.0
-247,"[community_foundation_tag] was honored to partner on a community-centered process to distribute $248,500 in United Way of Metro Chicago funds as a partner in Evanston Cradle to Career.",2,1,2,0,True,0,0,0,0,1,4,2,2,0.0,0.0,0.0,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.3333333333333333
-248,Leadership of [community_foundation_tag],0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-249,Board of Directors,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-250,"[individual_tag], Past Chair",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-252,[individual_tag] (retired),0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-253,"[individual_tag], Treasurer",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-255,"[individual_tag], Secretary",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-257,"[individual_tag], Community",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-258,Investment Chair,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-264,"[individual_tag], Vice Chair",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-268,"[individual_tag], Chair",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-270,"[individual_tag], Governance Chair",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-271,"[individual_tag], Philanthropic",0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-272,Engagement Chair,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-274,Leadership Network,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-281,[community_foundation_tag] Committees,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-283,Celebrate! Evanston,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-284,Community Investment,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-285,Finance [individual_tag] [individual_tag] [individual_tag] [individual_tag] [individual_tag] [individual_tag] Governance &amp; Sustainability Investment Council E-town Innovation Grants Selection [individual_tag] [individual_tag] [individual_tag] [individual_tag] [individual_tag] [individual_tag] Nonprofit Growth &amp;,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-286,Sustainability Grants,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-288,Philanthropic Engagement,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-289,[individual_tag] [individual_tag] Hon. [individual_tag],1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-290,Investment Council,1,1,1,0,True,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-291,Members volunteer their time and expertise.,1,1,1,0,True,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-292,"The average tenure of current members is 12 years, and their cumulative professional investment experience is 357 years.",1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-293,"[individual_tag], Chair, Chief Investment Officer, Segall, Bryant &amp; Hamill",1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-294,Former [community_foundation_tag] Chair,1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-295,[individual_tag] Community Volunteer Former [community_foundation_tag] Chair,1,0,1,0,True,2,2,0,0,0,0,0,1,1.0,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.3333333333333333
-296,"[individual_tag] Financial Advisor, Private Wealth Management, UBS",1,0,1,0,True,0,2,0,1,2,0,0,0,0.0,0.6666666666666666,0.0,0.3333333333333333,1.0,0.0,0.0,0.0
-297,Former [community_foundation_tag] Treasurer,1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-299,"Partner, Jenner &amp; Block, LLP",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-300,Former [community_foundation_tag] Chair,1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-302,"Former President and CEO,",1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-303,Federal Home Loan Bank of Chicago,1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-305,"President, Chesley, Taft &amp; Associates, LLC",1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-307,"Former Global Head - Equity Trading, UBS Global Asset Management",1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-308,[individual_tag] Chief Investment Officer,1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-309,Centaur Capital Partners,1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-310,Former [community_foundation_tag] Treasurer,1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-312,"Partner, Braydon Partner",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-313,Former [community_foundation_tag] Treasurer,1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-315,"Wealth Advisor, William Blair",1,0,1,0,True,0,2,0,1,2,0,0,0,0.0,0.6666666666666666,0.0,0.3333333333333333,1.0,0.0,0.0,0.0
-317,Board Member,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-318,[individual_tag] Community Volunteer,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-322,"Former VP for Financial Operations and Treasurer, Northwestern University",1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-323,Former [community_foundation_tag] Board Member,1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-327,President &amp; CEO,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-329,(through June 2021),0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-330,Interim President &amp; CEO,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-332,Program Officer,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-334,VP for Community Investment,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-335,[individual_tag] (as of March 2022),0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-336,VP for Finance and Operations,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-338,Chief Financial Officer,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-339,[individual_tag] (as of Feb. 2022),0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-340,Administrative Associate,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-341,[individual_tag] (through Dec. 2021),0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-342,Communications Coordinator,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-344,(through May 2021),0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-345,Leadership &amp; Training Coordinator,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-347,Director of Leadership &amp; Training,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-348,[individual_tag] (through Feb. 2022),0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-349,Donor Relations Manager,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-351,VP for Philanthropy &amp; Communications,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-353,Community Investment Advisor,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-355,Accounting Manager,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-357,Program Associate,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-359,Office and Technology Manager,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-361,Database Manager and,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-362,Donor Services Associate '[community_foundation_tag] represents this type of support that stretches across the community.,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-363,My gift when pooled with other gifts at [community_foundation_tag] will make a difference.,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-364,I believe in the power of working together.',1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-366,Neighborhood leader • activist • [community_foundation_tag] supporter,0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-367,FINANCE &amp; INVESTMENTS,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-368,2021 investment results,1,0,0,0,False,2,0,0,0,0,0,0,0,1.0,,0.0,,0.0,,0.0,
-369,"In 2021, the good times continued to roll, at least in the financial markets.",1,0,0,0,False,2,0,0,0,0,0,0,0,1.0,,0.0,,0.0,,0.0,
-370,"This was especially true in the U.S., where the stock market rose 26.7% as measured by the Wilshire 5000 Index.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-371,"International equity returns were also up, though not quite as much at 12.6%.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-372,"Both markets were influenced by the persistence of the low interest rate regime that has prevailed globally since 2010, but the low absolute level of rates finally caught up the bond market.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-373,"The Barclay's Aggregate Bond Index (a broad index of domestic bonds, ranging from US Treasury bonds to 'junk bonds') generated a negative 1.5% return; the index had not generated a negative return since 1999.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-374,Meanwhile international bond returns declined an astounding 8.2%.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-375,"Within these strange times, [community_foundation_tag] produced a return of 15.0%, ahead of [community_foundation_tag]",1,0,1,0,True,2,2,0,1,0,0,0,0,1.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.0,0.0,0.0
-376,Blended Benchmark which is a weighted average of the market indices used to measure portfolio performance.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-377,"2021 results also exceeded [community_foundation_tag] endowment spending target of 5% plus the increase in the Consumer Price Index (which clocked in at 6.7%), and outperformed the 14.7% median rate of return for all community foundations participating in the annual Council on Foundations survey.",1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-378,"[community_foundation_tag] are pleased to report these relatively favorable results, but [community_foundation_tag] are firmly aware of the old adage, 'The year is over, what have you done for me lately?'",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-379,"Wilshire 5000 Index, 2021",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-380,2021 investment results continued,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-381,*[community_foundation_tag]'s Blended Benchmark Index is a weighted average of the market indices used to measure portfolio performance.,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-382,2021 investment results continued,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-383,131 funds participate in [community_foundation_tag]'s $36.9 million investment portfolio.,1,0,1,0,True,2,2,0,1,0,0,0,0,1.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.0,0.0,0.0
-384,2022 investment outlook,1,0,0,0,False,2,0,0,0,0,0,0,0,1.0,,0.0,,0.0,,0.0,
-385,"Gauging by the results of the financial markets in the first five months of the new year, 2022 is not likely to be a year for stellar returns.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-386,"Just as there are periods to make money, there are times in which the backdrop is not favorable and taking care to hunker down and ride out the storm is the most prudent course of action.",1,0,0,0,False,2,0,0,0,0,0,0,0,1.0,,0.0,,0.0,,0.0,
-387,"Normally, this would suggest a widely diversified portfolio, as one segment or another of the broad financial markets may perform well, even if most segments are not.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-388,"In this case, however, [community_foundation_tag] note that bonds are continuing to perform poorly as interest rates rise, and stocks are finally taking note of interest rate increases and inflation.",1,0,1,0,True,2,2,0,1,0,0,0,0,1.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.0,0.0,0.0
-389,It is fairly easy to envision success for any investment security or theme when interest rates are zero.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-390,It becomes quite another matter to justify dubious business plans or high risk companies as rates move up.,1,0,0,0,False,2,0,0,0,0,0,0,0,1.0,,0.0,,0.0,,0.0,
-391,"Right now, in the thick of summer, [community_foundation_tag]'s portfolio is widely diversified, as befits a portfolio built for the long term. In the areas where [community_foundation_tag] has actively managed holdings, [community_foundation_tag] are working with managers whose solid approaches to investing both align with [community_foundation_tag] values and [community_foundation_tag] investment sensibilities.",1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-392,"Riding out a storm is never pleasant, but the aftermath also brings clearing skies.",1,0,0,0,False,2,0,0,0,0,0,0,0,1.0,,0.0,,0.0,,0.0,
-393,2021 financial review,1,0,0,0,False,2,0,0,0,0,0,0,0,1.0,,0.0,,0.0,,0.0,
-394,"[community_foundation_tag]'s financial results for 2021 align with the transitional nature of the year for [community_foundation_tag] and all of [community_foundation_tag]. [community_foundation_tag] assessed and adapted, increasing [community_foundation_tag] efforts to address the inequities laid bare at the height of the pandemic.",1,0,1,0,True,1,1,0,0,0,0,2,2,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,0.6666666666666666,0.6666666666666666
-395,"[community_foundation_tag]'s 2021 revenues and expenses reflect the winding down of [community_foundation_tag] Rapid Response Fund and the evolution of [community_foundation_tag] grantmaking and programs. 2021 contributions and program expenses are significantly less than the exceptional 2020 levels, but also differ from prior years in significant ways.",1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-396,"[community_foundation_tag] community's continuing support for [community_foundation_tag]'s work was reflected in Now! Fund contributions that exceeded any previous year. And, buoyed by the final Rapid Response gifts, [community_foundation_tag] community-centered grantmaking exceeded $1.2 million, nearly 50% more than comparable grantmaking in 2019. In 2021, [community_foundation_tag] donor advised funds increased their grantmaking to [community_foundation_tag] and nonprofits in Evanston by 40%.",1,0,3,0,True,2,6,0,3,0,0,0,0,1.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.0,0.0,0.0
-397,"As noted in the report of the investment council, the funds invested in [community_foundation_tag]'s portfolio earned 15.0% in 2021, ahead of [community_foundation_tag] 2020 return of 12.4%.",1,0,1,0,True,2,2,0,1,0,0,0,0,1.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.0,0.0,0.0
-398,The investment results are reflected in both the increase in assets and liabilities.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-399,"The funds [community_foundation_tag] holds for other nonprofits are categorized as liabilities, in accordance with accounting standards.",1,0,1,0,True,2,1,0,2,0,0,0,0,1.0,0.3333333333333333,0.0,0.6666666666666666,0.0,0.0,0.0,0.0
-400,"Investment earnings on those funds in 2021 exceeded fund distributions by more than $500,000.",1,0,1,0,True,2,2,0,1,0,0,0,0,1.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.0,0.0,0.0
-401,"Summary of Financial Data as of December 31, 2021 and 2020, in thousands",1,0,0,0,False,2,0,0,0,0,0,0,0,1.0,,0.0,,0.0,,0.0,
-403,"*2021 audited financial statements will be available for review at [community_foundation_tag], and at [community_foundation_tag]'s office in August 2022.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
+chunk_id,text,human_n_applicable_elements,human_n_incomplete_rankings,ai_n_applicable_elements,ai_n_incomplete_rankings,coded_by_both,human_points_PS,ai_points_PS,human_points_DS,ai_points_DS,human_points_PPG,ai_points_PPG,human_points_SC,ai_points_SC
+3,2021 ANNUAL REPORT,0,0,0,0,False,0,0,0,0,0,0,0,0
+4,I AM BECAUSE YOU ARE.,1,0,1,0,True,0,0,0,0,0,1,2,2
+5,"Friends of [community_foundation_tag],",0,0,0,0,False,0,0,0,0,0,0,0,0
+6,I am celebrating my first anniversary at [community_foundation_tag].,0,0,0,0,False,0,0,0,0,0,0,0,0
+7,The fullness of this experience is beyond what I anticipated.,0,0,0,0,False,0,0,0,0,0,0,0,0
+8,"I've called Evanston my home for some time now, but I've been amazed by the depth and breadth of meaningful work and generosity happening these past couple of years.",0,0,1,0,False,0,2,0,0,0,0,0,1
+9,"This work [community_foundation_tag] do together exemplifies the true meaning of philanthropy, which is rooted in 'the love of humanity.' That's why I've been viewing [community_foundation_tag]'s work through the lens of 'Ubuntu'-a term used by the Bantu people of Southern Africa-which means 'I am because you are.'",1,0,2,0,True,0,1,0,0,0,1,2,4
+10,I am strong because you are strong. I am weak when you are weak.,1,1,1,0,True,0,0,0,0,0,1,0,2
+11,"If my neighbor is hungry, needs shelter or clothing, and cannot thrive, then I am not whole.",1,0,1,0,True,0,0,0,0,0,1,2,2
+12,The Ubuntu philosophy links and weaves all of us together inextricably.,2,0,1,0,True,0,0,0,0,0,1,4,2
+13,"In this report, you will read about Evanstonians who partner with [community_foundation_tag] and who embody Ubuntu in their work and personal lives.",1,0,1,0,True,0,1,0,0,0,0,2,2
+14,These individuals are made stronger through their support of their neighbors.,1,0,1,0,True,0,1,0,0,0,0,2,2
+15,"Join me in creating that Evanston-now, forever, and for everyone!",0,0,2,0,False,0,2,0,0,0,0,0,4
+16,"[individual_tag], President &amp; CEO, [community_foundation_tag]",0,0,0,0,False,0,0,0,0,0,0,0,0
+17,LET'S UNLOCK THE POWER WITHIN ALL OF US.,0,0,1,0,False,0,0,0,0,0,1,0,2
+19,"' I was born and raised here. I've been here 78 years, almost 79.",0,0,1,0,False,0,2,0,0,0,0,0,1
+20,"We used to be on the lake but were pushed out. Either they moved our houses, or we had to move this way.",0,0,1,0,False,0,1,0,0,0,0,0,2
+21,"I'm part of the West End Area Block Club, which has been around since the early '60s.",0,0,1,0,False,0,2,0,0,0,1,0,0
+22,This is a very unique group-and a lovely neighborhood of people-that learned to take care of each other.,1,0,1,0,True,1,2,0,0,0,1,2,0
+23,"When there were floods, people made sure you were okay. If you didn't have food because your freezer was flooded, you would look up and someone had brought you food.",1,0,1,0,True,1,2,0,0,0,1,2,0
+24,Evanston has been a nonprofit haven to me.,0,0,1,0,False,0,2,0,0,0,1,0,0
+25,"If there's something you want, there are some people here who will join you to try and make that happen.",0,0,1,0,False,0,1,0,0,0,2,0,0
+26,"So, Evanston is unique in that.",0,0,0,0,False,0,0,0,0,0,0,0,0
+27,I think some people don't have empathy for others.,0,0,1,0,False,0,0,0,0,0,1,0,2
+28,"How they got that way, I don't know.",0,0,0,0,False,0,0,0,0,0,0,0,0
+29,I don't understand not sharing.,0,0,1,0,False,0,1,0,0,0,0,0,2
+30,"Have you thought about what you've done for others, other than your family?",0,0,1,0,False,0,1,0,0,0,0,0,2
+31,"Our family is the family of man, no matter what color, no matter where you came from, or how old you are.'",1,0,1,0,True,0,0,0,0,0,1,2,2
+32,[community_foundation_tag] DIVERSITY IS [community_foundation_tag] STRENGTH,1,0,1,0,True,0,0,0,1,0,0,2,2
+33,'He vivido en Evanston por 21 años y por primera vez fui incluida en una consulta ciudadana en español para las familias vulnerables.,1,0,1,0,True,0,0,0,0,0,1,2,2
+34,Evanston es una comunidad diversa que necesita implementar la igualdad y la equidad para todos sus residentes utilizando sus recursos.',1,0,1,0,True,0,1,0,0,0,0,2,2
+35,"[individual_tag], Delegate/Team Builder",0,0,0,0,False,0,0,0,0,0,0,0,0
+36,POWER-PAC IL/Community Organizing and Family Issues (COFI),0,0,1,0,False,0,0,0,0,0,1,0,2
+37,Bringing diverse voices to the table,1,0,0,0,False,0,0,0,0,1,0,2,0
+38,"The pandemic has brought opportunities to Evanston, along with challenges.",0,0,0,0,False,0,0,0,0,0,0,0,0
+39,Making decisions wisely means that it's important that the broadest and deepest set of community voices be heard.,1,0,1,0,True,0,0,0,0,1,1,2,2
+40,The American Rescue Plan Act of 2021 (ARPA) allocated $43 million to be spent over five years in the City of Evanston.,1,0,0,0,False,0,0,0,0,2,0,0,0
+41,To determine the best and most impactful ways to deploy these funds meant bringing the community together.,1,0,1,0,True,0,0,0,0,2,2,0,1
+42,[community_foundation_tag] was proud to play an integral role in convening these voices.,1,0,1,0,True,0,0,0,0,2,2,0,1
+43,"During the summer of 2021, the City hosted three town halls, two in English and one in Spanish.",0,0,0,0,False,0,0,0,0,0,0,0,0
+44,[community_foundation_tag] with Evanston Latinos and the Evanston Early Childhood Council partnered to ensure that all community members had a voice in these discussions.,1,0,2,0,True,0,0,0,0,1,4,2,2
+45,More than 300 community members participated in these discussions.,0,0,1,0,False,0,0,0,0,0,2,0,1
+46,"[community_foundation_tag] led a coalition with Evanston Cradle to Career and Northwestern University to hold seven roundtables, each organized around a sector, as well as a youth town hall and a survey of ETHS students.",1,0,2,0,True,0,0,0,0,2,4,0,2
+47,169 people representing 62 organizations participated in the roundtables.,1,1,1,0,True,0,0,0,0,0,2,0,1
+48,It was vital to this process that one of the roundtables focused on the needs and assets of Evanston's immigrant and undocumented population and that one town hall was held in Spanish.,1,0,2,0,True,0,0,0,1,1,1,2,4
+49,"Evanston's Latinx population has grown to more than 11% of the population, according to the 2020 Census, and 21% of students in District 65 identify as Hispanic.",1,0,1,0,True,0,0,0,1,1,0,2,2
+50,"One community leader, [individual_tag], said that she has lived in Evanston for 21 years, and for the first time, she was included in a citizen consultation for vulnerable families in Spanish.",2,0,2,0,True,2,0,0,0,1,2,2,4
+51,"As [individual_tag] told [community_foundation_tag], Evanston is a diverse community that needs to implement equality and fairness for all of its residents using its resources.",1,0,1,0,True,0,1,0,0,0,0,2,2
+52,'I am proud to serve as a founding member of the Reparations Stakeholders' Authority of Evanston (RSAE) as this work is important to redress the harm done to Black people here in Evanston.,1,0,2,0,True,0,0,0,1,0,1,2,4
+53,I am inspired daily by the work of RSAE and countless other Evanston community leaders to advance the Evanston Reparations movement. A movement being witnessed nationally and internationally serving as a blueprint for fair and just reparations.',1,0,2,0,True,0,0,0,0,0,2,2,4
+55,Founder of FirstRepair,0,0,0,0,False,0,0,0,0,0,0,0,0
+56,• Former 5th Ward Alderman,0,0,0,0,False,0,0,0,0,0,0,0,0
+57,Reparations in Evanston: reinvesting in the Black community,1,0,0,0,False,0,0,0,0,0,0,2,0
+58,Centering Black voices and reinvesting in the Black community are pillars of [community_foundation_tag] work as [community_foundation_tag]. [community_foundation_tag] is proud to be part of Evanston's historic efforts to repair harm.,1,0,2,0,True,0,0,0,1,0,1,2,4
+59,"In June 2019, the City of Evanston took the landmark step to establish a reparations fund, allocating up to $10 million of tax revenue from the sales of recreational cannabis.",0,0,0,0,False,0,0,0,0,0,0,0,0
+60,This groundbreaking step was the culmination of work led by then Fifth Ward Alderman [individual_tag] and a group of community leaders and clergy.,0,0,1,0,False,0,0,0,0,0,1,0,2
+61,"Their work is underpinned by the research of [individual_tag] (founder of Shorefront), which documents Black history in Evanston and the North Shore. This group founded the nonprofit Reparations Stakeholders Authority of Evanston (RSAE) to provide further support for repair in [community_foundation_tag] community.",0,0,2,0,False,0,1,0,0,0,1,0,4
+62,"The RSAE worked with [community_foundation_tag] to establish the Evanston Reparations Community Fund, housed at [community_foundation_tag].",1,0,3,0,True,0,0,0,2,1,1,2,6
+63,"The fund's purpose is to directly benefit Evanston's Black community, heal racism, and address the harm caused by discriminatory practices.",1,0,3,0,True,0,0,0,3,0,0,2,6
+64,The Fund ensures that funding is available in perpetuity for reparations.,1,0,2,0,True,0,2,0,0,0,0,2,4
+65,[community_foundation_tag] made an initial capacitybuilding grant to help launch RSAE and the Evanston Reparations Community Fund.,1,0,2,0,True,0,0,0,0,0,2,2,4
+66,"In addition, [community_foundation_tag] Board Treasurer, [individual_tag] devoted his time to partnering with [individual_tag] to open doors to credit unions and national banks to support the Reparations Movement with dollars allocated to the Community Reinvestment Act.",1,0,2,0,True,0,0,0,0,1,2,2,4
+67,"Because [community_foundation_tag] is committed to centering Black voices, spending decisions for the Reparations Community Fund will be made by the RSAE rather than the [community_foundation_tag] board.",1,0,2,0,True,0,0,0,2,0,0,2,4
+68,[community_foundation_tag] does not charge any fees for holding the fund.,1,0,1,0,True,0,0,0,1,0,0,2,2
+69,"[community_foundation_tag] are proud to help grow the fund, partner with the RSAE, and help grow the Reparations Movement in Evanston and beyond.",1,0,2,0,True,0,0,0,0,1,2,2,4
+71,BOARD MEMBER · RETIRED BANKER · ADVOCATE,0,0,1,0,False,0,0,0,0,0,2,0,1
+73,' I began working on reparations with [individual_tag] in my role as the treasurer of [community_foundation_tag].,1,0,1,0,True,0,1,0,0,0,0,2,2
+74,"I've had a long standing belief that there needed to be a greater level of support in healing our society in the context of our racial gap, which is both horrendous and unconscionable.",1,0,1,0,True,0,0,0,0,0,1,2,2
+75,"It's endemic to our culture: a schism based on race that's so pervasive, it's often impossible for people who look like me to see it until it is pointed out.",1,1,1,0,True,0,0,0,0,0,1,0,2
+76,"I am a member of Beth Emet synagogue, which is very actively engaged.",1,0,1,0,True,0,0,0,2,0,0,2,1
+77,"I became the de facto leader of a working group to educate and build support for reparations, which has now expanded into an outreach effort to other faith-based communities.",1,0,1,0,True,0,0,0,1,0,0,2,2
+78,"In Jewish teaching, there's a focus on mutual accountability and  responsibility to others.",1,0,1,0,True,0,0,0,1,0,0,2,2
+79,"The core concept that has always impacted me is tikkun olam, which is 'repair the broken world.'",1,0,1,0,True,0,0,0,1,0,0,2,2
+80,It is all of our responsibilities to do that.,1,0,1,0,True,0,0,0,0,0,1,2,2
+81,"There is also teshuva, which is reparations.",1,0,0,0,False,0,0,0,0,0,0,2,0
+82,"If you have done harm to a neighbor, either purposely or inadvertently, it is your responsibility to repair that harm.",1,0,1,0,True,0,0,0,0,0,1,2,2
+83,"We cannot live fully without actually seeing people as people-not objects, not stereotypesand appreciating them for who they are.'",1,0,1,0,True,0,0,0,0,0,1,2,2
+85,"' Before my family came to Evanston, like many families in the Black community, they migrated here during the Great Migration.",1,0,1,0,True,0,1,0,0,0,0,2,2
+86,"It was segregated, but it was a better opportunity than the communities that they came from. It wasn't because we were intellectually inferior or had less work ethic that we lived in lesser conditions than the rest of Evanston.",1,0,1,0,True,0,1,0,0,0,0,2,2
+87,"I've launched and operated multiple businesses, including a bookstore that offered free after-school programming and a construction company that employed Black tradespeople developing affordable houses funded by the Illinois Neighborhood Stabilization Program.",0,0,0,0,False,0,0,0,0,0,0,0,0
+88,"In February 2019, I came to the revelation that equity is not enough to address the egregious harms to the Black community and that reparations at the local level were in order based on the conditions in Black Evanston.",1,0,1,0,True,0,1,0,0,0,0,2,2
+89,We're not a unique city.,1,0,0,0,False,0,0,0,0,0,0,2,0
+90,We reflect the racial disparity across the nation.,1,0,1,0,True,0,0,0,0,0,1,2,2
+91,"What makes us different is that we decided to take this first step-not perfect, not complete.",1,0,1,0,True,0,0,0,0,0,1,2,2
+92,"When I submitted my proposal to the city's Equity and Empowerment Commission, my ideas were instantly welcomed.",1,0,0,0,False,0,0,0,0,0,0,2,0
+93,I'm not surprised because it's Evanston.,0,0,0,0,False,0,0,0,0,0,0,0,0
+94,We're progressive. We're a liberal city.',1,0,1,0,True,0,2,0,0,0,0,2,1
+95,"DIRECTOR OF COMMUNITY ENGAGEMENT, EVANSTON CRADLE TO CAREER",0,0,1,0,False,0,0,0,0,0,2,0,1
+97,"' We started off wanting to build a community leadership team, where the community led, had a voice, and received leadership training. Then all of a sudden, different organizations said, 'We need community voices too.'",1,0,2,0,True,0,0,0,0,2,2,1,4
+98,The Advocates for Action were a model group to come in and provide community voices to boards and different organizations.,1,0,1,0,True,0,0,0,0,1,1,2,2
+99,"They are trusted people in the community, so they were able to get into spaces and places where others couldn't.",1,0,1,0,True,0,0,0,0,0,1,2,2
+100,"[community_foundation_tag] came to us with the opportunity for this team to lead a community-building grants initiative. There were a few places doing them already, and we eventually landed on a model where the community creates the guidelines for the grants.",2,0,2,0,True,0,0,0,0,2,2,4,4
+101,The process is theirs-Advocates for Action. They own it.,1,0,1,0,True,0,0,0,0,0,1,2,2
+102,[community_foundation_tag] and I are just here to support.,1,0,1,0,True,0,0,0,0,0,1,2,2
+103,They've funded several projects including a celebration of textured hair for young girls; the vision of a young guy who wanted to see more minorities in the game of golf; and a grief support group for moms who have lost their children.,1,0,1,0,True,0,1,0,0,0,0,2,2
+104,We are now in our fifth round and have awarded thousands of dollars to individuals who want to make their communities better.',1,0,2,0,True,2,2,0,0,0,0,0,4
+105,Making grants more accessible to the community,1,0,0,0,False,0,0,0,0,0,0,2,0
+106,"Community Building Grants, led by EC2C's Advocates for Action and supported by [community_foundation_tag], give individuals the power and resources to make meaningful change in their community.",1,0,2,0,True,0,1,0,0,1,1,2,4
+107,"Evanston Cradle to Career established the Advocates for Action in 2017, recruiting a group of neighborhood residents to be leaders in the efforts to make Evanston a place where all children and their families get the resources and support they need to succeed.",1,0,1,0,True,0,0,0,0,2,1,0,2
+108,"With the help of [individual_tag], Cradle's Director of Community Engagement, the Advocates threw themselves into talking with neighbors to hear their ideas for the community. The Advocates wanted to support these ideas.",1,0,1,0,True,0,0,0,0,0,1,2,2
+109,[community_foundation_tag] worked with the Advocates and [individual_tag] to create a grassroots grants program aimed at supporting individuals rather than organizations.,1,0,1,0,True,0,0,0,0,1,1,2,2
+110,"Individuals could apply for grants for amounts less than $1,500 to support projects that bring people together to share skills and knowledge that make the community better.",1,0,2,0,True,2,2,0,0,0,0,0,4
+111,"Since the first round of Community Building Grants in 2018, thirtyeight grants have been awarded.",0,0,2,0,False,0,4,0,0,0,0,0,2
+112,"Grants have supported a wide range of projects, including: a neighborhood share for tools and toys; a support group for mothers who have lost a child; and a program that utilizes storytelling to help people gain financial skills.",1,0,1,0,True,0,1,0,0,0,0,2,2
+113,The Advocates review all the applications and interview the applicants.,1,0,1,0,True,0,0,0,0,0,1,2,2
+114,"Once projects are selected, each recipient is paired with an Advocate for support.",1,0,1,0,True,0,0,0,0,0,1,2,2
+115,[community_foundation_tag] provides back-office support.,1,0,1,0,True,0,0,0,1,0,0,2,2
+116,"In 2022, the Community Grants Program came back after a COVID hiatus.",0,0,1,0,False,0,2,0,0,0,0,0,1
+117,"Once again, community members brought innovative ideas to the table.",1,0,1,0,True,0,0,0,0,0,1,2,2
+118,"As [individual_tag] says, 'The Community Grants Program works because we trust the community.",1,0,1,0,True,0,0,0,0,0,1,2,2
+119,We build relationships and meet the people where they are at.',1,0,1,0,True,0,0,0,0,0,1,2,2
+120,"'I've always appreciated [community_foundation_tag], but I don't think I had ever seen [community_foundation_tag] take such a powerful leadership role in the city: responding quickly; bringing nonprofit leaders together to strategize and to connect and share needs; and then changing their own grantmaking process around how people apply for funding.",1,0,1,0,True,0,0,0,0,2,2,0,1
+121,It was incredibly responsive and fast.',1,0,0,0,False,2,0,0,0,0,0,0,0
+123,"Executive Director, Books &amp; Breakfast",0,0,1,0,False,0,1,0,0,0,0,0,2
+124,The impact of grantmaking built on mutual trust,1,0,0,0,False,0,0,0,0,0,0,2,0
+125,"[community_foundation_tag] is committed to supporting creative, community-centered nonprofits and helping them to grow as strong, sustainable organizations. [community_foundation_tag] grantmaking evolves to support this mission.",1,0,2,0,True,0,0,0,0,0,4,2,2
+126,"Books &amp; Breakfast has long been committed to advancing equity in District 65 by ensuring that students were physically, emotionally, and academically prepared each morning to enter their classrooms.",1,0,1,0,True,0,0,0,0,0,1,2,2
+127,They did this by providing a healthy breakfast alongside tutoring and support.,1,0,1,0,True,0,1,0,0,0,0,2,2
+128,"From the beginning, Books &amp; Breakfast has been supported by partnerships with [community_foundation_tag]. [community_foundation_tag] root2fruit program provided funds and training when the organization was established. Later, [community_foundation_tag] supported Books &amp; Breakfast's ability to raise major gifts through the Building the Future and Partners for the Future matching gift challenges.",1,0,3,0,True,0,5,0,0,2,4,0,0
+129,[community_foundation_tag] was also there when schools shut their doors in March 2020 and the Books &amp; Breakfast onsite model was turned upside down.,0,0,2,0,False,0,4,0,0,0,0,0,2
+130,"'[community_foundation_tag] has given us the bandwidth to rebuild and expand,' says [individual_tag], Executive Director. 'This has been a hard year, but having [community_foundation_tag] there to walk through the crisis with us has made such a difference in rebuilding our work.'",1,0,2,0,True,2,4,0,0,0,2,0,0
+131,Books &amp; Breakfast,0,0,1,0,False,0,2,0,0,0,0,0,1
+132,had to quickly shift to providing remote tutoring and support for eleven schools.,0,0,1,0,False,0,1,0,0,0,2,0,0
+133,"They were able to do so with the help of a $50,000 grant from [community_foundation_tag] and a partnership with Y.O.U.",1,0,2,0,True,2,2,0,0,0,4,0,0
+134,"In 2020, [community_foundation_tag] also offered unrestricted operating grants to nonprofits for the first time, trusting its partners to use funds as they knew how to best.",1,0,2,0,True,0,2,0,0,0,0,2,4
+135,Books &amp; Breakfast received one of these operating grants as well.,1,0,1,0,True,0,1,0,0,0,0,2,2
+136,[community_foundation_tag]'s grantmaking during 2020 and early 2021 led to creating a permanent grantmaking program to support Nonprofit Growth and Sustainability.,1,0,1,0,True,0,1,0,0,2,2,0,0
+137,Part of the program provides unrestricted operating grants to provide flexible support for the vital work of nonprofits.,1,0,2,0,True,0,2,0,0,1,0,2,4
+138,"EXECUTIVE DIRECTOR, BOOKS AND BREAKFAST",0,0,1,0,False,0,1,0,0,0,0,0,2
+140,"' The pandemic for us was a very destabilizing, very overwhelming moment that has turned into a lot of moments continued over time.",0,0,1,0,False,0,2,0,0,0,1,0,0
+141,"Seeing schools, students, and families so disrupted was really difficult, and we had to adjust to figure out how to meet that moment and stay in support of students.",0,0,1,0,False,0,2,0,0,0,1,0,0
+142,[community_foundation_tag] adjusting their own processes around grant funding was huge for us.,1,0,1,0,True,2,0,0,0,0,1,0,2
+143,"With the number of challenges and the nature of things changing rapidly because of the pandemic, we needed to be able to respond quickly and creatively in trying to solve problems.",1,0,1,0,True,2,2,0,0,0,1,0,0
+144,"[community_foundation_tag] was able to say, 'Hey, we trust you.",1,0,1,0,True,0,0,0,0,0,1,2,2
+145,"We're going to come alongside you, and we're going to give you the ability to shift quickly, because we're going to let go of processes that aren't necessary at this moment to make sure that we're able to meet the needs of families and students.'",1,0,1,0,True,2,1,0,0,0,0,0,2
+146,"[community_foundation_tag] opened the door for us to think creatively and to build a partnership with the district that allowed us to double the amount of students, double the amount of schools, in the online space.'",1,0,2,0,True,0,0,0,0,2,4,0,2
+148,"' Each morning the kids come in around eight o'clock, have breakfast.",0,0,1,0,False,0,2,0,0,0,0,0,1
+149,"After they eat, I usually ask them if they have homework, and we get them some homework support. If they don't have homework, we have a book cart with tons of amazing books on there. I have an amazing group of students who love to read, so they run towards the book cart, and they grab a book. Every morning we're giving some nutrition, some reading time to work our brains, and then having a ton of fun.",0,0,1,0,False,0,2,0,0,0,0,0,1
+150,I think the biggest part is making sure the students know that they're loved and supported.,0,0,1,0,False,0,2,0,0,0,0,0,1
+151,"I always remind them that seeing them is the best part of my day and starting my mornings with them is amazing- all their energy, all their sweetness is amazing to absorb every morning.",0,0,0,0,False,0,0,0,0,0,0,0,0
+152,"We have community volunteers-people who live in the neighborhood, retired teachers, parents in the communitywho want to be a part of Books and Breakfast.",1,0,2,0,True,2,4,0,0,0,2,0,0
+153,"This wouldn't be possible without the community's support and everybody coming together. It is quite amazing to see how much support we get, but also how much we are able to give back to the community.'",1,0,2,0,True,2,4,0,0,0,2,0,0
+154,"'Access to information is fundamental for a fair and just society and necessary for individuals, families, and communities to thrive.",1,0,1,0,True,0,0,0,0,0,1,2,2
+155,"We help people access the information they need by making clear, understandable, human-centered communication the norm in mission-driven work.'",0,0,1,0,False,0,0,0,0,0,1,0,2
+157,"Clear Language Lab Program Director, Literacy Works",0,0,1,0,False,0,0,0,0,0,1,0,2
+158,Collective and enduring initiatives: making the work more accessible,1,0,0,0,False,0,0,0,0,0,0,2,0
+159,[community_foundation_tag] helps to provide tools that break down barriers.,1,0,1,0,True,0,0,0,0,1,1,2,2
+160,"[community_foundation_tag] partnership with the Clear Language Lab at Literacy Works makes [community_foundation_tag] communications more accessible, as well as those of other nonprofit organizations.",1,0,2,0,True,0,0,0,0,1,4,2,2
+161,"Many nonprofit organizations and government agencies offer great resources, but all too often, the language used to provide information is a barrier that prevents people from accessing those resources.",0,0,0,0,False,0,0,0,0,0,0,0,0
+162,[community_foundation_tag] has been working with the Clear Language Lab at Literacy Works for the last two years to help take those barriers down.,1,0,2,0,True,0,0,0,0,1,4,2,2
+163,"The Clear Language Lab provides training and consultation to nonprofits, government agencies, and other entities to serve their communities more effectively and equitably by using plain language.",1,0,1,0,True,0,0,0,0,1,2,2,1
+164,"In 2021, [community_foundation_tag] partnered with the Clear Language Lab to provide training and coaching for nonprofit organizations to use clear and concise language, making their communications more accessible to community members.",1,0,2,0,True,0,0,0,0,1,4,2,2
+165,"Many organizations were able to use these services, including providers of early childhood care and education, agencies serving youth, and [community_foundation_tag].",1,0,1,0,True,0,0,0,0,0,2,2,1
+166,"For example, the Clear Language Lab at Literacy Works offered critical help in the development of language for new grantmaking processes at [community_foundation_tag].",1,0,2,0,True,0,0,0,0,0,3,2,3
+167,"This collective and enduring initiative grant also gave nonprofit organizations free access to attend Clear Language Lab deep listening trainings, where they developed skills to evaluate and revise their communications.",1,0,2,0,True,0,0,0,0,0,4,2,2
+168,"This work is having a profound impact on [community_foundation_tag] community. 'We are grateful to [community_foundation_tag] and proud of the growth we are making together!' says [individual_tag], Executive Director of Literacy Works.",0,0,2,0,False,0,0,0,0,0,4,0,2
+169,"CLEAR LANGUAGE LAB PROGRAM DIRECTOR, LITERACY WORKS",0,0,1,0,False,0,0,0,0,0,1,0,2
+171,' Our work at the Clear Language Lab is about making content and information accessible.,1,0,1,0,True,0,0,0,0,0,1,2,2
+172,"We noticed the lack of access was a huge, unnecessary barrier for a lot of our students who came through our literacy programs.",1,0,1,0,True,0,0,0,0,0,1,2,2
+173,We created the Clear Language Lab in this spirit of accessibility.,1,0,1,0,True,0,0,0,0,0,1,2,2
+174,[community_foundation_tag] has been a wonderful partner-seeing the vision for Clear Language Lab and Literacy Works and recognizing the potential there.,1,0,1,0,True,0,0,0,0,2,2,0,1
+175,"I think there's a lot of talk about equity these days across foundations and nonprofits, but actually doing the work to make those transformations happen takes commitment, and it has been really incredible to see [community_foundation_tag] really living that in their actions and programs.",1,0,1,0,True,0,0,0,0,0,1,2,2
+176,"We also worked with [community_foundation_tag] to look at their own grantmaking process to say, 'Wait a minute.",1,0,1,0,True,0,0,0,0,1,1,2,2
+177,What are we doing to make sure our processes are accessible for organizations?',1,0,1,0,True,0,0,0,0,0,1,2,2
+178,"Not every organization has a giant Development department or has the resources to devote to the sometimes overwhelming grantmaking processes. Therefore, how do we make that process easier and more accessible so that the groups that are doing important work aren't inhibited by that process, and that money can get into the hands of those that need it to do critical work.'",1,0,2,0,True,0,0,0,0,0,2,2,4
+179,"EXECUTIVE DIRECTOR, LITERACY WORKS",0,0,1,0,False,0,1,0,0,0,2,0,0
+181,' Literacy Works has been around for over 25 years now.,0,0,1,0,False,0,2,0,0,0,1,0,0
+182,We were originally founded to provide tutor training and professional development opportunities to volunteer-based adult literacy programs on the north side of Chicago.,0,0,1,0,False,0,0,0,0,0,2,0,1
+183,Today we work with over 50 adult literacy programs across Illinois.,0,0,1,0,False,0,0,0,0,0,2,0,1
+184,"For years, we were getting requests from organizations across many different sectors to help make their communications easier to understand.",0,0,1,0,False,0,0,0,0,0,2,0,1
+185,"As adult educators, we recognized this to be such an important need that in 2018 we decided to create the Clear Language Lab at Literacy Works.",0,0,1,0,False,0,0,0,0,0,2,0,1
+186,It is fantastic to see [community_foundation_tag] step up as a real leader in prioritizing clear and accessible communication. I am thrilled to have [community_foundation_tag]'s support and partnership as we work together to change societal systems and make easy-to-understand messaging the norm.,1,0,1,0,True,0,0,0,0,1,2,2,1
+187,"It is my hope that [community_foundation_tag] will serve as a model for other foundations. We'd like to showcase the important progress being made here in Evanston to other funders and say, 'Look at the remarkable work being done in Evanston!",1,0,1,0,True,0,0,0,0,2,2,0,1
+188,Let the Clear Language Lab work with you and your grantees to make sure that the valuable programs being funded are reaching those who need them most.'',1,0,1,0,True,0,0,0,0,0,1,2,2
+189,'I love this community.,0,0,1,0,False,0,2,0,0,0,0,0,1
+190,"It has given me a home, a place to raise my children with the values that I hold dear, deep friendships, and unwavering support.",1,0,1,0,True,2,2,0,0,0,1,0,0
+191,"I cannot imagine a better place to live, work and serve, nor an organization more deserving of support than [community_foundation_tag] [community_foundation_tag].'",1,1,2,0,True,0,4,0,1,0,1,0,0
+193,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0
+194,Letter from [community_foundation_tag],0,0,0,0,False,0,0,0,0,0,0,0,0
+195,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0
+196,Thank you. From the bottom of [community_foundation_tag] hearts: thank you.,0,0,1,0,False,0,2,0,1,0,0,0,0
+197,"Because of you, [community_foundation_tag] can strongly continue the work of healing [community_foundation_tag] community in the wake of the pandemic and the economic devastation that it caused.",1,0,2,0,True,2,4,0,0,0,0,0,2
+198,"Because of you, more resources than ever before were contributed to the annual campaign: more vulnerable people received the help and support that they needed, more challenged nonprofits were able to keep operating, and the character of the city that [community_foundation_tag] hold dear was nurtured and strengthened.",1,0,2,0,True,1,3,0,0,0,0,2,3
+199,[community_foundation_tag] don't intend to rest!,0,0,0,0,False,0,0,0,0,0,0,0,0
+200,"Fresh from working through a strategic planning exercise which centers racial justice, lifting community voices and developing the financial resources that [community_foundation_tag] need to address community harms, [community_foundation_tag] as a Board and organization are excited for the work ahead, ready to face the challenges to making [community_foundation_tag] vision come true.",2,0,2,0,True,0,0,0,0,0,2,4,4
+201,"[community_foundation_tag] is truly 'here for good,' in all meanings of this phrase.",1,0,1,0,True,2,2,0,0,0,0,0,1
+202,"[community_foundation_tag]'s reputation as the indispensable organization in [community_foundation_tag] community is a testament to the foresight of [community_foundation_tag] founders 35 years ago. These visionaries recognized that a community like Evanston needed an organization dedicated to forging partnerships across [community_foundation_tag] strong nonprofit community. Guided by committed Board and staff members, donors and supporters, and [community_foundation_tag] beloved Evanston community, [community_foundation_tag] serves as a catalyst to [community_foundation_tag] nonprofits and multiplier of their impact, while also identifying and addressing unmet needs.",1,0,4,0,True,2,7,0,0,1,5,0,0
+203,"I am so very proud of [community_foundation_tag] and excited for [community_foundation_tag] future. As [community_foundation_tag] embark upon this new era under [community_foundation_tag] President &amp; CEO [individual_tag], I invite you to join me in supporting the important work of [community_foundation_tag].",0,0,1,0,False,0,2,0,1,0,0,0,0
+204,"Most cordially yours,",0,0,0,0,False,0,0,0,0,0,0,0,0
+206,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0
+207,2021 in review,0,0,0,0,False,0,0,0,0,0,0,0,0
+208,"The last two years have been a time of challenge, opportunity, and assessment.",0,0,0,0,False,0,0,0,0,0,0,0,0
+209,"In 2020, [community_foundation_tag] created the Evanston Community Rapid Response Fund (ECRRF) in response to COVID in [community_foundation_tag] community and to address the need for relief, recovery, and rebuilding. [community_foundation_tag] Rapid Response experience taught [community_foundation_tag] new ways to think about investing in [community_foundation_tag] community, and informed [community_foundation_tag] work in 2021.",1,0,2,0,True,2,4,0,0,0,2,0,0
+210,"[community_foundation_tag] has deepened its commitment to  be an equitable, just, and vibrant community. [community_foundation_tag]'ve taken a hard look at [community_foundation_tag] work and impact, and [community_foundation_tag]'ve evolved [community_foundation_tag] processes to build deeper partnerships with established nonprofits and startups, businesses, and government, joining together to really hear community voice.",1,0,2,0,True,0,0,0,0,1,3,2,3
+211,"In 2021, [community_foundation_tag] wound down ECRRF grantmaking and created new grant programs focused on equitable innovation, nonprofit growth and sustainability, cohort learning, and collective and enduring initiatives. Here's how [community_foundation_tag] invested in Evanston in 2021:",1,0,1,0,True,0,0,0,0,2,2,1,1
+213,Community-Centered grants,1,0,0,0,False,0,0,0,0,0,0,2,0
+214,"Recipients of Collective &amp; Enduring, E-Town Innovation, Immediate Needs, and Nonprofit Growth &amp; Sustainability Grants",1,0,1,0,True,1,0,0,0,2,2,0,1
+215,The Actors Gymnasium Alliance to End Homelessness in Suburban,0,0,1,0,False,0,1,0,0,0,0,0,2
+216,Cook County,0,0,0,0,False,0,0,0,0,0,0,0,0
+217,Art Encounter,0,0,1,0,False,0,2,0,1,0,0,0,0
+218,Books &amp; Breakfast,0,0,1,0,False,0,1,0,0,0,0,0,2
+219,Center for Neighborhood Technology,0,0,1,0,False,0,1,0,0,0,2,0,0
+220,Chicago Methodist Senior Services,0,0,1,0,False,0,1,0,0,0,0,0,2
+221,"Childcare Network of Evanston City of Evanston, Parks and Recreation City of Evanston, Public Art",1,0,1,0,True,0,2,0,0,2,1,0,0
+222,Community Organizing and Family Issues (COFI),0,0,1,0,False,0,0,0,0,0,1,0,2
+223,Connections for the Homeless,0,0,1,0,False,0,1,0,0,0,0,0,2
+224,Curt's Café,0,0,1,0,False,0,1,0,0,0,0,0,2
+225,C&amp;W Market and Ice Cream Parlor,0,0,1,0,False,0,1,0,0,0,0,0,2
+226,Erie Family Health Centers Evanston,0,0,1,0,False,0,1,0,0,0,0,0,2
+227,Cradle to Career,0,0,1,0,False,0,0,0,0,0,2,0,1
+228,Evanston Latinos Evanston Public Library Evanston Rebuilding Warehouse Evanston Roundtable Media Evanston Scholars Housing Opportunity Development Corporation Infant Welfare Society of Evanston Institute for Therapy through the Arts Interfaith Action of Evanston,1,0,1,0,True,0,2,0,0,2,0,0,1
+229,James B. Moran Center for Youth Advocacy,0,0,1,0,False,0,0,0,0,0,1,0,2
+230,Jennifer's Edibles,0,0,1,0,False,0,1,0,0,0,0,0,2
+231,Feeding the Community Literacy Works,0,0,1,0,False,0,1,0,0,0,0,0,2
+232,McGaw YMCA,0,0,1,0,False,0,2,0,1,0,0,0,0
+233,Next Steps for Transformation,0,0,1,0,False,0,0,0,0,0,1,0,2
+234,"PEER Services, Inc.",0,0,1,0,False,0,1,0,0,0,0,0,2
+235,Reparations Stakeholder Authority of Evanston,1,0,1,0,True,0,0,0,0,0,1,2,2
+236,STEM School Evanston YWCA Evanston/North Shore,0,0,1,0,False,0,1,0,0,0,0,0,2
+237,Cohort-Based Learning and Grants Building the Future &amp; Partners for the Future,0,0,1,0,False,0,0,0,1,0,2,0,0
+238,"Books &amp; Breakfast Childcare Network of Evanston Family Promise Chicago North Shore Meals on Wheels Northeastern Illinois PEER Services, Inc.",0,0,1,0,False,0,2,0,0,0,0,0,1
+240,Actors Gymnasium Evanston Wilmette Golf Course Association Puerta Abierta Preschool Reba Place Development Corporation Young Black &amp; Lit,1,0,1,0,True,0,2,0,0,0,0,2,1
+241,"Becoming Equitable Institutions, in partnership with the YWCA Evanston/North Shore",1,0,2,0,True,0,0,0,0,1,2,2,4
+242,Covenant Nursery School Evanston Early Childhood Council Learning Bridge Reba Early Learning Center School for Little Children,0,0,1,0,False,0,2,0,1,0,0,0,0
+243,2021 grants &amp; distributions,0,0,0,0,False,0,0,0,0,0,0,0,0
+244,"$2.88 million total, including $1.26 million in Community-Centered and Cohort Learning Grants",0,0,2,0,False,0,4,0,0,0,2,0,0
+245,"**Cohort Learning Grants include root2fruit , funded by the Mammel Foundation, and Partners for the Future and Building the Future programs. The latter programs are funded by Partners for the Future, a donor advised fund of [community_foundation_tag]; its grants are managed by [community_foundation_tag] program staff.",1,0,2,0,True,1,0,2,4,0,2,0,0
+246,"[community_foundation_tag]'s Communityworks fund provided 15% of the funding for Community-centered grants focused in the areas of early childhood, land use and protection, and workforce development.",0,0,2,0,False,0,2,0,3,0,1,0,0
+247,"[community_foundation_tag] was honored to partner on a community-centered process to distribute $248,500 in United Way of Metro Chicago funds as a partner in Evanston Cradle to Career.",2,1,2,0,True,0,0,0,0,1,4,2,2
+248,Leadership of [community_foundation_tag],0,0,0,0,False,0,0,0,0,0,0,0,0
+249,Board of Directors,0,0,1,0,False,0,2,0,0,0,1,0,0
+250,"[individual_tag], Past Chair",0,0,1,0,False,0,2,0,0,0,1,0,0
+252,[individual_tag] (retired),0,0,1,0,False,0,2,0,0,0,1,0,0
+253,"[individual_tag], Treasurer",0,0,1,0,False,0,2,0,0,0,1,0,0
+255,"[individual_tag], Secretary",0,0,1,0,False,0,2,0,0,0,1,0,0
+257,"[individual_tag], Community",0,0,1,0,False,0,2,0,0,0,1,0,0
+258,Investment Chair,0,0,1,0,False,0,2,0,0,0,1,0,0
+264,"[individual_tag], Vice Chair",0,0,1,0,False,0,2,0,0,0,1,0,0
+268,"[individual_tag], Chair",0,0,1,0,False,0,2,0,0,0,1,0,0
+270,"[individual_tag], Governance Chair",0,0,1,0,False,0,1,0,0,0,2,0,0
+271,"[individual_tag], Philanthropic",0,0,1,0,False,0,1,0,2,0,0,0,0
+272,Engagement Chair,0,0,1,0,False,0,1,0,2,0,0,0,0
+274,Leadership Network,0,0,0,0,False,0,0,0,0,0,0,0,0
+281,[community_foundation_tag] Committees,0,0,1,0,False,0,2,0,0,0,1,0,0
+283,Celebrate! Evanston,0,0,1,0,False,0,2,0,0,0,1,0,0
+284,Community Investment,0,0,1,0,False,0,2,0,0,0,1,0,0
+285,Finance [individual_tag] [individual_tag] [individual_tag] [individual_tag] [individual_tag] [individual_tag] Governance &amp; Sustainability Investment Council E-town Innovation Grants Selection [individual_tag] [individual_tag] [individual_tag] [individual_tag] [individual_tag] [individual_tag] Nonprofit Growth &amp;,0,0,1,0,False,0,2,0,0,0,1,0,0
+286,Sustainability Grants,0,0,1,0,False,0,1,0,0,0,2,0,0
+288,Philanthropic Engagement,0,0,1,0,False,0,1,0,2,0,0,0,0
+289,[individual_tag] [individual_tag] Hon. [individual_tag],1,0,1,0,True,0,1,0,0,2,2,0,0
+290,Investment Council,1,1,1,0,True,0,2,0,0,0,1,0,0
+291,Members volunteer their time and expertise.,1,1,1,0,True,0,1,0,0,0,2,0,0
+292,"The average tenure of current members is 12 years, and their cumulative professional investment experience is 357 years.",1,0,1,0,True,0,2,0,0,2,1,0,0
+293,"[individual_tag], Chair, Chief Investment Officer, Segall, Bryant &amp; Hamill",1,0,1,0,True,0,2,0,0,2,1,0,0
+294,Former [community_foundation_tag] Chair,1,0,1,0,True,2,2,0,0,0,1,0,0
+295,[individual_tag] Community Volunteer Former [community_foundation_tag] Chair,1,0,1,0,True,2,2,0,0,0,0,0,1
+296,"[individual_tag] Financial Advisor, Private Wealth Management, UBS",1,0,1,0,True,0,2,0,1,2,0,0,0
+297,Former [community_foundation_tag] Treasurer,1,0,1,0,True,2,2,0,0,0,1,0,0
+299,"Partner, Jenner &amp; Block, LLP",1,0,1,0,True,0,1,0,0,2,2,0,0
+300,Former [community_foundation_tag] Chair,1,0,1,0,True,2,2,0,0,0,1,0,0
+302,"Former President and CEO,",1,0,1,0,True,2,2,0,0,0,1,0,0
+303,Federal Home Loan Bank of Chicago,1,0,1,0,True,0,2,0,0,2,1,0,0
+305,"President, Chesley, Taft &amp; Associates, LLC",1,0,1,0,True,0,2,0,0,2,1,0,0
+307,"Former Global Head - Equity Trading, UBS Global Asset Management",1,0,1,0,True,0,2,0,0,2,1,0,0
+308,[individual_tag] Chief Investment Officer,1,0,1,0,True,0,2,0,0,2,1,0,0
+309,Centaur Capital Partners,1,0,1,0,True,0,2,0,0,2,1,0,0
+310,Former [community_foundation_tag] Treasurer,1,0,1,0,True,2,2,0,0,0,1,0,0
+312,"Partner, Braydon Partner",1,0,1,0,True,0,1,0,0,2,2,0,0
+313,Former [community_foundation_tag] Treasurer,1,0,1,0,True,2,2,0,0,0,1,0,0
+315,"Wealth Advisor, William Blair",1,0,1,0,True,0,2,0,1,2,0,0,0
+317,Board Member,0,0,1,0,False,0,2,0,0,0,1,0,0
+318,[individual_tag] Community Volunteer,0,0,1,0,False,0,1,0,0,0,0,0,2
+322,"Former VP for Financial Operations and Treasurer, Northwestern University",1,0,1,0,True,0,2,0,0,2,1,0,0
+323,Former [community_foundation_tag] Board Member,1,0,1,0,True,2,2,0,0,0,1,0,0
+327,President &amp; CEO,0,0,0,0,False,0,0,0,0,0,0,0,0
+329,(through June 2021),0,0,0,0,False,0,0,0,0,0,0,0,0
+330,Interim President &amp; CEO,0,0,0,0,False,0,0,0,0,0,0,0,0
+332,Program Officer,0,0,0,0,False,0,0,0,0,0,0,0,0
+334,VP for Community Investment,0,0,0,0,False,0,0,0,0,0,0,0,0
+335,[individual_tag] (as of March 2022),0,0,0,0,False,0,0,0,0,0,0,0,0
+336,VP for Finance and Operations,0,0,0,0,False,0,0,0,0,0,0,0,0
+338,Chief Financial Officer,0,0,0,0,False,0,0,0,0,0,0,0,0
+339,[individual_tag] (as of Feb. 2022),0,0,0,0,False,0,0,0,0,0,0,0,0
+340,Administrative Associate,0,0,0,0,False,0,0,0,0,0,0,0,0
+341,[individual_tag] (through Dec. 2021),0,0,0,0,False,0,0,0,0,0,0,0,0
+342,Communications Coordinator,0,0,0,0,False,0,0,0,0,0,0,0,0
+344,(through May 2021),0,0,0,0,False,0,0,0,0,0,0,0,0
+345,Leadership &amp; Training Coordinator,0,0,0,0,False,0,0,0,0,0,0,0,0
+347,Director of Leadership &amp; Training,0,0,0,0,False,0,0,0,0,0,0,0,0
+348,[individual_tag] (through Feb. 2022),0,0,0,0,False,0,0,0,0,0,0,0,0
+349,Donor Relations Manager,0,0,0,0,False,0,0,0,0,0,0,0,0
+351,VP for Philanthropy &amp; Communications,0,0,0,0,False,0,0,0,0,0,0,0,0
+353,Community Investment Advisor,0,0,0,0,False,0,0,0,0,0,0,0,0
+355,Accounting Manager,0,0,0,0,False,0,0,0,0,0,0,0,0
+357,Program Associate,0,0,0,0,False,0,0,0,0,0,0,0,0
+359,Office and Technology Manager,0,0,0,0,False,0,0,0,0,0,0,0,0
+361,Database Manager and,0,0,0,0,False,0,0,0,0,0,0,0,0
+362,Donor Services Associate '[community_foundation_tag] represents this type of support that stretches across the community.,0,0,1,0,False,0,2,0,0,0,1,0,0
+363,My gift when pooled with other gifts at [community_foundation_tag] will make a difference.,0,0,1,0,False,0,2,0,1,0,0,0,0
+364,I believe in the power of working together.',1,0,1,0,True,0,1,0,0,2,2,0,0
+366,Neighborhood leader • activist • [community_foundation_tag] supporter,0,0,1,0,False,0,2,0,0,0,0,0,1
+367,FINANCE &amp; INVESTMENTS,0,0,0,0,False,0,0,0,0,0,0,0,0
+368,2021 investment results,1,0,0,0,False,2,0,0,0,0,0,0,0
+369,"In 2021, the good times continued to roll, at least in the financial markets.",1,0,0,0,False,2,0,0,0,0,0,0,0
+370,"This was especially true in the U.S., where the stock market rose 26.7% as measured by the Wilshire 5000 Index.",0,0,0,0,False,0,0,0,0,0,0,0,0
+371,"International equity returns were also up, though not quite as much at 12.6%.",0,0,0,0,False,0,0,0,0,0,0,0,0
+372,"Both markets were influenced by the persistence of the low interest rate regime that has prevailed globally since 2010, but the low absolute level of rates finally caught up the bond market.",0,0,0,0,False,0,0,0,0,0,0,0,0
+373,"The Barclay's Aggregate Bond Index (a broad index of domestic bonds, ranging from US Treasury bonds to 'junk bonds') generated a negative 1.5% return; the index had not generated a negative return since 1999.",0,0,0,0,False,0,0,0,0,0,0,0,0
+374,Meanwhile international bond returns declined an astounding 8.2%.,0,0,0,0,False,0,0,0,0,0,0,0,0
+375,"Within these strange times, [community_foundation_tag] produced a return of 15.0%, ahead of [community_foundation_tag]",1,0,1,0,True,2,2,0,1,0,0,0,0
+376,Blended Benchmark which is a weighted average of the market indices used to measure portfolio performance.,0,0,0,0,False,0,0,0,0,0,0,0,0
+377,"2021 results also exceeded [community_foundation_tag] endowment spending target of 5% plus the increase in the Consumer Price Index (which clocked in at 6.7%), and outperformed the 14.7% median rate of return for all community foundations participating in the annual Council on Foundations survey.",1,0,1,0,True,2,2,0,0,0,1,0,0
+378,"[community_foundation_tag] are pleased to report these relatively favorable results, but [community_foundation_tag] are firmly aware of the old adage, 'The year is over, what have you done for me lately?'",0,0,1,0,False,0,2,0,1,0,0,0,0
+379,"Wilshire 5000 Index, 2021",0,0,0,0,False,0,0,0,0,0,0,0,0
+380,2021 investment results continued,0,0,0,0,False,0,0,0,0,0,0,0,0
+381,*[community_foundation_tag]'s Blended Benchmark Index is a weighted average of the market indices used to measure portfolio performance.,0,0,1,0,False,0,2,0,1,0,0,0,0
+382,2021 investment results continued,0,0,0,0,False,0,0,0,0,0,0,0,0
+383,131 funds participate in [community_foundation_tag]'s $36.9 million investment portfolio.,1,0,1,0,True,2,2,0,1,0,0,0,0
+384,2022 investment outlook,1,0,0,0,False,2,0,0,0,0,0,0,0
+385,"Gauging by the results of the financial markets in the first five months of the new year, 2022 is not likely to be a year for stellar returns.",0,0,0,0,False,0,0,0,0,0,0,0,0
+386,"Just as there are periods to make money, there are times in which the backdrop is not favorable and taking care to hunker down and ride out the storm is the most prudent course of action.",1,0,0,0,False,2,0,0,0,0,0,0,0
+387,"Normally, this would suggest a widely diversified portfolio, as one segment or another of the broad financial markets may perform well, even if most segments are not.",0,0,0,0,False,0,0,0,0,0,0,0,0
+388,"In this case, however, [community_foundation_tag] note that bonds are continuing to perform poorly as interest rates rise, and stocks are finally taking note of interest rate increases and inflation.",1,0,1,0,True,2,2,0,1,0,0,0,0
+389,It is fairly easy to envision success for any investment security or theme when interest rates are zero.,0,0,0,0,False,0,0,0,0,0,0,0,0
+390,It becomes quite another matter to justify dubious business plans or high risk companies as rates move up.,1,0,0,0,False,2,0,0,0,0,0,0,0
+391,"Right now, in the thick of summer, [community_foundation_tag]'s portfolio is widely diversified, as befits a portfolio built for the long term. In the areas where [community_foundation_tag] has actively managed holdings, [community_foundation_tag] are working with managers whose solid approaches to investing both align with [community_foundation_tag] values and [community_foundation_tag] investment sensibilities.",1,0,1,0,True,2,2,0,0,0,1,0,0
+392,"Riding out a storm is never pleasant, but the aftermath also brings clearing skies.",1,0,0,0,False,2,0,0,0,0,0,0,0
+393,2021 financial review,1,0,0,0,False,2,0,0,0,0,0,0,0
+394,"[community_foundation_tag]'s financial results for 2021 align with the transitional nature of the year for [community_foundation_tag] and all of [community_foundation_tag]. [community_foundation_tag] assessed and adapted, increasing [community_foundation_tag] efforts to address the inequities laid bare at the height of the pandemic.",1,0,1,0,True,1,1,0,0,0,0,2,2
+395,"[community_foundation_tag]'s 2021 revenues and expenses reflect the winding down of [community_foundation_tag] Rapid Response Fund and the evolution of [community_foundation_tag] grantmaking and programs. 2021 contributions and program expenses are significantly less than the exceptional 2020 levels, but also differ from prior years in significant ways.",1,0,1,0,True,2,2,0,0,0,1,0,0
+396,"[community_foundation_tag] community's continuing support for [community_foundation_tag]'s work was reflected in Now! Fund contributions that exceeded any previous year. And, buoyed by the final Rapid Response gifts, [community_foundation_tag] community-centered grantmaking exceeded $1.2 million, nearly 50% more than comparable grantmaking in 2019. In 2021, [community_foundation_tag] donor advised funds increased their grantmaking to [community_foundation_tag] and nonprofits in Evanston by 40%.",1,0,3,0,True,2,6,0,3,0,0,0,0
+397,"As noted in the report of the investment council, the funds invested in [community_foundation_tag]'s portfolio earned 15.0% in 2021, ahead of [community_foundation_tag] 2020 return of 12.4%.",1,0,1,0,True,2,2,0,1,0,0,0,0
+398,The investment results are reflected in both the increase in assets and liabilities.,0,0,0,0,False,0,0,0,0,0,0,0,0
+399,"The funds [community_foundation_tag] holds for other nonprofits are categorized as liabilities, in accordance with accounting standards.",1,0,1,0,True,2,1,0,2,0,0,0,0
+400,"Investment earnings on those funds in 2021 exceeded fund distributions by more than $500,000.",1,0,1,0,True,2,2,0,1,0,0,0,0
+401,"Summary of Financial Data as of December 31, 2021 and 2020, in thousands",1,0,0,0,False,2,0,0,0,0,0,0,0
+403,"*2021 audited financial statements will be available for review at [community_foundation_tag], and at [community_foundation_tag]'s office in August 2022.",0,0,0,0,False,0,0,0,0,0,0,0,0

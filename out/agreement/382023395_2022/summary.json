@@ -3,33 +3,5 @@
   "n_ai_rows": 335,
   "n_matched_chunks": 333,
   "n_unmatched_human": 60,
-  "n_unmatched_ai": 2,
-  "n_included_in_aggregate": 113,
-  "doc_human_points": {
-    "PS": 44,
-    "DS": 39,
-    "PPG": 122,
-    "SC": 38
-  },
-  "doc_ai_points": {
-    "PS": 182,
-    "DS": 96,
-    "PPG": 179,
-    "SC": 95
-  },
-  "doc_human_proportions": {
-    "PS": 0.18106995884773663,
-    "DS": 0.16049382716049382,
-    "PPG": 0.5020576131687243,
-    "SC": 0.15637860082304528
-  },
-  "doc_ai_proportions": {
-    "PS": 0.32971014492753625,
-    "DS": 0.17391304347826086,
-    "PPG": 0.3242753623188406,
-    "SC": 0.1721014492753623
-  },
-  "top1_pct_agreement": 0.6666666666666666,
-  "top1_n_comparable": 96,
-  "top1_n_matches": 64
+  "n_unmatched_ai": 2
 }

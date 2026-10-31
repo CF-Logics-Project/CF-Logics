@@ -1,16 +1,7 @@
 {
-  "n_chunks_coded_by_both": 161,
-  "ordinal_order": [
-    "PS",
-    "DS",
-    "PPG",
-    "SC"
-  ],
-  "ordinal_rationale": "PS(0) < DS(1) < PPG(2) < SC(3), following the coding instrument's own numbering (1=PS,2=DS,3=PPG,4=SC), treated as an ordinal continuum so that weighted kappa penalizes disagreement between non-adjacent classes more than between neighboring ones.",
-  "tie_break_rule": "Ties broken by fixed priority order PS > DS > PPG > SC (arbitrary, disclosed).",
   "n_human_ties": 7,
   "n_ai_ties": 3,
-  "n_overlapping_ties": 0,
+  "tie_break_rule": "Mechanical only \u2014 fixed priority PS > DS > PPG > SC (no theoretical ordering implied).",
   "full_sample": {
     "n": 161,
     "confusion_matrix": [

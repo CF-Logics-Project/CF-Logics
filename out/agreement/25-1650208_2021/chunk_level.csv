@@ -1,115 +1,115 @@
-chunk_id_cd,text,human_n_applicable_elements,human_n_incomplete_rankings,ai_n_applicable_elements,ai_n_incomplete_rankings,coded_by_both,human_points_PS,ai_points_PS,human_points_DS,ai_points_DS,human_points_PPG,ai_points_PPG,human_points_SC,ai_points_SC,human_prop_PS,ai_prop_PS,human_prop_DS,ai_prop_DS,human_prop_PPG,ai_prop_PPG,human_prop_SC,ai_prop_SC
-1,"In 2021, [community_foundation_tag] saw a record number of new funds, scholarships and charitable gift annuities established including:",1,0,2,0,True,2,2,0,4,0,0,0,0,1.0,0.3333333333333333,0.0,0.6666666666666666,0.0,0.0,0.0,0.0
-2,The Clare Wilson Honorary Fund,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-3,"To honor his legacy of service, Fuller Hose Company established the Clare Wilson Fund.",1,0,1,0,True,0,2,2,1,0,0,0,0,0.0,0.6666666666666666,1.0,0.3333333333333333,0.0,0.0,0.0,0.0
-4,"The fund helps the fire company in two critical ways: meeting immediate equipment needs and ensuring that funds will be there in the future to support the changing needs of the community. In December 2021, thanks to the Clare Wilson Fund, the department received a much-needed new piece of equipment - an F550 multipurpose truck that will assist in brush fires and water rescues.",1,0,4,0,True,1,7,0,1,2,4,0,0,0.3333333333333333,0.5833333333333334,0.0,0.08333333333333333,0.6666666666666666,0.3333333333333333,0.0,0.0
-5,The John Manville &amp; Frieda Bodendorfer Phillips Fund,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-6,The  fund  was  created  by  [individual_tag]  and  [individual_tag]  to  honor  family members'  contributions  to  the  community.,1,0,2,0,True,0,4,2,2,0,0,0,0,0.0,0.6666666666666666,1.0,0.3333333333333333,0.0,0.0,0.0,0.0
-7,"Funds  will  be  used  to  support qualified and deserving non-profit organizations whose activities and mission address agriculture and/or food related education, projects and needs.",1,0,3,0,True,0,3,2,6,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-8,The Miller Family Scholarship Fund,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-9,"For decades, the late [individual_tag] and his family have provided scholarships to students in North East.",1,0,2,0,True,0,3,2,3,0,0,0,0,0.0,0.5,1.0,0.5,0.0,0.0,0.0,0.0
-10,"In 2021, they opted to continue this long-standing tradition by partnering with [community_foundation_tag].",1,0,2,0,True,0,3,2,3,0,0,0,0,0.0,0.5,1.0,0.5,0.0,0.0,0.0,0.0
-11,"The Miller Family Scholarship is unique in that it is available to students of any age pursuing 2-year, 4-year or vocational education.",0,0,3,0,False,0,0,0,6,0,0,0,3,,0.0,,0.6666666666666666,,0.0,,0.3333333333333333
-12,The Susan Valone MD Memorial Scholarship [individual_tag]  was  raised  in  North  East  and  went  on  to  become  an  infectious disease specialist  in  Colorado.,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-13,Her  family  established  the  scholarship  in her memory.,1,0,1,0,True,0,1,2,2,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-14,It will be awarded to students entering a career in healthcare.,1,0,3,0,True,0,2,2,6,0,1,0,0,0.0,0.2222222222222222,1.0,0.6666666666666666,0.0,0.1111111111111111,0.0,0.0
-15,The Jane Novak Zavasky Scholarship Fund,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-16,Former North East Middle School English teacher [individual_tag] and her family established a new scholarship in 2021.,1,0,1,0,True,0,1,2,2,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-17,It will be awarded to students who are pursuing a degree in education with  preference will be given to those who attended North East Middle School.,1,0,3,0,True,0,3,2,6,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-18,DID YOU KNOW?,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-19,Did you know [community_foundation_tag] provides its own match to local non-profits during Erie Gives?,0,0,3,0,False,0,6,0,3,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-20,This is on top of  funds  donated  by residents on Aug. 10 and matched by The Erie Community Foundation.,0,0,3,0,False,0,6,0,1,0,2,0,0,,0.6666666666666666,,0.1111111111111111,,0.2222222222222222,,0.0
-21,"This year [community_foundation_tag] was proud to contribute an additional $30,000 in matching funds to support the mission of 21 local organizations that work to make  life better for the people of North East.",1,0,4,0,True,2,8,0,0,0,4,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-22,GIVE TODAY!,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-23,"DONATE: Mail a gift of any amount to [community_foundation_tag], P.O. Box 327, North East, PA 16428.",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-24,START A FUND: Funds can be established in any amount.,0,0,2,0,False,0,2,0,4,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-25,Call [individual_tag] at 814.882.5594 to learn more.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-26,GRANTS: 501(c)(3) organizations can request a grant at any time.,0,0,2,0,False,0,4,0,0,0,0,0,2,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-27,Find [community_foundation_tag] on Facebook: [community_foundation_tag],0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-28,The Fuller Hose Co. #1 Fund,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-29,The Fuller Hose Company #1 was established on December 31 of 1885 as a volunteer fire company serving the citizens of North East and beyond.,0,0,2,0,False,0,4,0,0,0,2,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-30,"The fund was established to ensure the future public safety needs of the growing North East community can be met. Specifically the fund addresses future apparatus replacement costs, as fire departments are encouraged to replace front line fire engines every 20 years from the date of manufacture.",1,0,4,0,True,0,7,0,0,2,5,0,0,0.0,0.5833333333333334,0.0,0.0,1.0,0.4166666666666667,0.0,0.0
-31,"Fuller Hose Company #1 currently operates two engines, one tanker, one utility truck, one brush truck and two boats.",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-35,"&amp; Receive Exclusive Offers PO Box 327 North East, PA 16428",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-37,[community_foundation_tag] are grateful to those who made contributions or established a new fund in 2021,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-38,Anonymous 4 N.I.N.E. Place Advance North East,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-40,[individual_tag] Be A Dog Golf Tournament,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-41,"Bella Salon &amp; Day Spa, Inc. [individual_tag] Brett Maloney Landscapes, LLC [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] Downtown North East, Inc.",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-42,[individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] Erie Philharmonic,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-43,[individual_tag] [individual_tag] Fidelity Charitable Gift Fund,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-44,"[individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] Fuller Hose Company [individual_tag] Greenman - Pedersen, Inc. [individual_tag] [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] Orris C. &amp; B. Dewey Hirtzel Memorial Foundation [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] Knox, McLaughlin, Gornall &amp;",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-45,"Sennett, PC",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-47,"- Leafguard of Lake Erie, Inc.",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-50,"Lollie &amp; Co., LLC",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-60,Mercyhurst University,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-62,- North East Borough North East Community Players,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-63,North East in Bloom,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-65,"- Orton &amp; Orton, LLC",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-76,[individual_tag] &amp; [individual_tag] Sample News Group,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-78,Corry Journal,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-79,[individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] [individual_tag] Skunk &amp; Goat Tavern,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-80,"[individual_tag] &amp; [individual_tag] Stetson Brothers Ace Hardware Straw Hat, LLC SWELL",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-81,"[individual_tag] [individual_tag] Trolley Line Vineyards, LTD",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-82,[individual_tag] United Way of Erie County,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-84,&lt;&lt;endorse&gt;&gt;   Tray &lt;&lt;cont\_id&gt;&gt;   Pkg &lt;&lt;gpb\_id&gt;&gt;   &lt;&lt;sequence&gt;&gt; &lt;&lt;imbarcode&gt;&gt;,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-85,&lt;&lt;first&gt;&gt; &lt;&lt;last&gt;&gt; &lt;&lt;ocompany&gt;&gt; &lt;&lt;address&gt;&gt; &lt;&lt;address2&gt;&gt;,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-86,"&lt;&lt;city&gt;&gt;, &lt;&lt;st&gt;&gt; &lt;&lt;zip&gt;&gt;",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-87,A letter from the Chairman,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-88,"Dear members of the North East community,",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-89,"When I joined the board of [community_foundation_tag] it was 2001, I was 36 and [community_foundation_tag] felt blessed to have $250,000.",0,0,2,0,False,0,4,0,0,0,2,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-90,Recently [community_foundation_tag] celebrated two significant milestones - [community_foundation_tag] 30th year impacting the quality of life in North East and an endowment that has grown to more than $10 million.,1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-91,"Thinking of all that has been done over the last 30 years and all who have contributed their time, talents and resources to leave a lasting legacy on [community_foundation_tag] community is humbling.",0,0,2,0,False,0,4,0,1,0,1,0,0,,0.6666666666666666,,0.16666666666666666,,0.16666666666666666,,0.0
-92,It's been said: with great power comes great responsibility.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-93,Which is why in 2021 [community_foundation_tag] began its own strategic visioning process.,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-94,[community_foundation_tag] now have the funds to make meaningful and transformational change.,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-95,"Therefore, [community_foundation_tag] needed a vision, board structure and strategic direction to support it.",1,0,2,0,True,0,2,0,0,2,4,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-96,"Because collaboration is key to the success of any community or initiative, [community_foundation_tag] started the process by listening. Over the course of several months, the task force committee sat down with members of local government, nonprofits and agencies to gauge [community_foundation_tag] community and organization's strengths, weaknesses, needs and opportunities.",1,0,3,0,True,0,0,0,0,2,6,0,3,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-97,"After nearly a year of reflection and planning, [community_foundation_tag] is happy to release [community_foundation_tag] new strategic direction.",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-98,"You may view the document on [community_foundation_tag] website at [community_foundation_tag] , but here are a few highlights:",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-99,"[community_foundation_tag] mission is to improve the quality of life in and around North East by identifying, evaluating and addressing community issues, building charitable endowments and by promoting philanthropic and community leadership.",1,0,2,0,True,1,3,0,0,2,3,0,0,0.3333333333333333,0.5,0.0,0.0,0.6666666666666666,0.5,0.0,0.0
-100,Additionally [community_foundation_tag] vision includes:,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-101,"-  To be recognized as a valued stakeholder in the future of North East -    T o be a trusted custodian of resources to fulfill the philanthropic intent of [community_foundation_tag] donors -  To create transformational grants in support of [community_foundation_tag] non-profits -    T o actively promote community leadership, civic awareness and public engagement",1,0,3,0,True,0,2,1,3,2,4,0,0,0.0,0.2222222222222222,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.4444444444444444,0.0,0.0
-102,"Please don't hesitate to reach out to the members of [community_foundation_tag] board with questions you have about [community_foundation_tag] new strategic direction, [community_foundation_tag] or how you can join in [community_foundation_tag] efforts.",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-103,It is an honor to partner with donors and the community to make North East better for [community_foundation_tag] residents today - and well into the future.,1,0,3,0,True,0,6,0,1,2,2,0,0,0.0,0.6666666666666666,0.0,0.1111111111111111,1.0,0.2222222222222222,0.0,0.0
-108,Vice Chairman,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-110,"Esq., Treasurer",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-114,Executive Asst .,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-117,[community_foundation_tag] now have the funds to make meaningful and transformational change.,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-119,"In 2021, with the help of [community_foundation_tag] donors, [community_foundation_tag] was able to grant nearly $285,000 including:",0,0,3,0,False,0,6,0,3,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-120,"More than $78,000 to education",0,0,2,0,False,0,4,0,1,0,1,0,0,,0.6666666666666666,,0.16666666666666666,,0.16666666666666666,,0.0
-121,"- Supporting libraries and schools, providing college scholarships and funds for summer camp experiences in the arts and nature",1,0,2,0,True,0,4,0,2,2,0,0,0,0.0,0.6666666666666666,0.0,0.3333333333333333,1.0,0.0,0.0,0.0
-122,"More than $92,000 to basic health and safety needs",1,0,2,0,True,2,4,0,0,0,0,0,2,1.0,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.3333333333333333
-123,"- Firefighters and first responders, nursing and hospice care, food, clothing and other essentials.",1,0,2,0,True,2,4,0,0,1,0,0,2,0.6666666666666666,0.6666666666666666,0.0,0.0,0.3333333333333333,0.0,0.0,0.3333333333333333
-124,"In 2021, a new need was addressed:  to meet basic food and hygiene needs of students in the North East School District by partnering with the school and Second Harvest Food Bank to offer backpacks to bridge the gap when kids get hungry over the weekend.",1,0,2,0,True,1,0,0,0,2,3,0,3,0.3333333333333333,0.0,0.0,0.0,0.6666666666666666,0.5,0.0,0.5
-125,Another partnership with Project Love Inc. provided basic hygiene supplies.,1,0,2,0,True,1,2,0,0,2,4,0,0,0.3333333333333333,0.3333333333333333,0.0,0.0,0.6666666666666666,0.6666666666666666,0.0,0.0
-126,"More than $70,000 to enrich [community_foundation_tag] community and preserve [community_foundation_tag] unique history and downtown",1,0,3,0,True,2,6,0,0,1,3,0,0,0.6666666666666666,0.6666666666666666,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.0
-127,"- Offering arts and culture, and family fun through free outdoor concerts by the Erie Philharmonic in Gibson Park, entertainment for Picnic in the Park and the Saturday Open Market, July 4 fireworks and an expanded annual holiday light up celebration.",1,0,3,0,True,0,6,0,0,2,3,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-128,"Funds provided to North East in Bloom brought new planters and flowers to beautify downtown, along with a new mural.",1,0,2,0,True,0,4,0,0,2,2,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-131,Improving the quality of life for North East residents can take many forms.,1,0,2,0,True,2,4,0,0,0,2,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-132,"In 2021, [community_foundation_tag] was honored to fund $284,110.16 in grants, scholarships, specified gifts and Erie Gives matches to the following:",0,0,2,0,False,0,4,0,2,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-133,4 N.I.N.E. Place,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-134,Advance North East,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-135,Allegheny College,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-136,Boy Scout Troop #57,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-137,Boy Scout Troop #82,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-138,Campbell University,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-139,Community Nursing Services of North East,0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-140,Crescent Hose Co.,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-141,Cub Scout Pack #57,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-142,Cub Scout Pack #82,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-143,"Door Student Services, Inc Downtown North East, Inc. Edinboro University",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-144,Episcopal Church of the Holy Cross First Baptist Church of North East First Presbyterian Church of North East,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-145,Fuller Hose Company,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-146,Gannon University,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-147,Lake Shore Railway Historical Society Inc.,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-148,Livermore Valley Performing Arts Center Lock Haven University,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-149,McCord Memorial Library,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-150,North East Arts Council North East Band Boosters North East Food Pantry North East Historical Society North East in Bloom North East Little League North East School District Foundation North East School Scholarship Fund,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-151,Orchard Beach Assembly,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-153,United Methodist Church,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-154,Penn State,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-155,"Erie, The Behrend College Penn State University",0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-156,Powerful Pink Warriors Project,0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-157,"Love, Inc.",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-158,St. Gregory School,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-159,United Neighborhood Facilities Health Care Co United Way of Erie County,0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
+chunk_id,text,human_n_applicable_elements,human_n_incomplete_rankings,ai_n_applicable_elements,ai_n_incomplete_rankings,coded_by_both,human_points_PS,ai_points_PS,human_points_DS,ai_points_DS,human_points_PPG,ai_points_PPG,human_points_SC,ai_points_SC
+1,"In 2021, [community_foundation_tag] saw a record number of new funds, scholarships and charitable gift annuities established including:",1,0,2,0,True,2,2,0,4,0,0,0,0
+2,The Clare Wilson Honorary Fund,0,0,1,0,False,0,2,0,1,0,0,0,0
+3,"To honor his legacy of service, Fuller Hose Company established the Clare Wilson Fund.",1,0,1,0,True,0,2,2,1,0,0,0,0
+4,"The fund helps the fire company in two critical ways: meeting immediate equipment needs and ensuring that funds will be there in the future to support the changing needs of the community. In December 2021, thanks to the Clare Wilson Fund, the department received a much-needed new piece of equipment - an F550 multipurpose truck that will assist in brush fires and water rescues.",1,0,4,0,True,1,7,0,1,2,4,0,0
+5,The John Manville &amp; Frieda Bodendorfer Phillips Fund,0,0,1,0,False,0,1,0,2,0,0,0,0
+6,The  fund  was  created  by  [individual_tag]  and  [individual_tag]  to  honor  family members'  contributions  to  the  community.,1,0,2,0,True,0,4,2,2,0,0,0,0
+7,"Funds  will  be  used  to  support qualified and deserving non-profit organizations whose activities and mission address agriculture and/or food related education, projects and needs.",1,0,3,0,True,0,3,2,6,0,0,0,0
+8,The Miller Family Scholarship Fund,0,0,1,0,False,0,1,0,2,0,0,0,0
+9,"For decades, the late [individual_tag] and his family have provided scholarships to students in North East.",1,0,2,0,True,0,3,2,3,0,0,0,0
+10,"In 2021, they opted to continue this long-standing tradition by partnering with [community_foundation_tag].",1,0,2,0,True,0,3,2,3,0,0,0,0
+11,"The Miller Family Scholarship is unique in that it is available to students of any age pursuing 2-year, 4-year or vocational education.",0,0,3,0,False,0,0,0,6,0,0,0,3
+12,The Susan Valone MD Memorial Scholarship [individual_tag]  was  raised  in  North  East  and  went  on  to  become  an  infectious disease specialist  in  Colorado.,0,0,1,0,False,0,2,0,1,0,0,0,0
+13,Her  family  established  the  scholarship  in her memory.,1,0,1,0,True,0,1,2,2,0,0,0,0
+14,It will be awarded to students entering a career in healthcare.,1,0,3,0,True,0,2,2,6,0,1,0,0
+15,The Jane Novak Zavasky Scholarship Fund,0,0,1,0,False,0,1,0,2,0,0,0,0
+16,Former North East Middle School English teacher [individual_tag] and her family established a new scholarship in 2021.,1,0,1,0,True,0,1,2,2,0,0,0,0
+17,It will be awarded to students who are pursuing a degree in education with  preference will be given to those who attended North East Middle School.,1,0,3,0,True,0,3,2,6,0,0,0,0
+18,DID YOU KNOW?,0,0,0,0,False,0,0,0,0,0,0,0,0
+19,Did you know [community_foundation_tag] provides its own match to local non-profits during Erie Gives?,0,0,3,0,False,0,6,0,3,0,0,0,0
+20,This is on top of  funds  donated  by residents on Aug. 10 and matched by The Erie Community Foundation.,0,0,3,0,False,0,6,0,1,0,2,0,0
+21,"This year [community_foundation_tag] was proud to contribute an additional $30,000 in matching funds to support the mission of 21 local organizations that work to make  life better for the people of North East.",1,0,4,0,True,2,8,0,0,0,4,0,0
+22,GIVE TODAY!,0,0,1,0,False,0,2,0,1,0,0,0,0
+23,"DONATE: Mail a gift of any amount to [community_foundation_tag], P.O. Box 327, North East, PA 16428.",0,0,1,0,False,0,2,0,1,0,0,0,0
+24,START A FUND: Funds can be established in any amount.,0,0,2,0,False,0,2,0,4,0,0,0,0
+25,Call [individual_tag] at 814.882.5594 to learn more.,0,0,0,0,False,0,0,0,0,0,0,0,0
+26,GRANTS: 501(c)(3) organizations can request a grant at any time.,0,0,2,0,False,0,4,0,0,0,0,0,2
+27,Find [community_foundation_tag] on Facebook: [community_foundation_tag],0,0,0,0,False,0,0,0,0,0,0,0,0
+28,The Fuller Hose Co. #1 Fund,0,0,1,0,False,0,2,0,1,0,0,0,0
+29,The Fuller Hose Company #1 was established on December 31 of 1885 as a volunteer fire company serving the citizens of North East and beyond.,0,0,2,0,False,0,4,0,0,0,2,0,0
+30,"The fund was established to ensure the future public safety needs of the growing North East community can be met. Specifically the fund addresses future apparatus replacement costs, as fire departments are encouraged to replace front line fire engines every 20 years from the date of manufacture.",1,0,4,0,True,0,7,0,0,2,5,0,0
+31,"Fuller Hose Company #1 currently operates two engines, one tanker, one utility truck, one brush truck and two boats.",0,0,1,0,False,0,2,0,0,0,1,0,0
+35,"&amp; Receive Exclusive Offers PO Box 327 North East, PA 16428",0,0,0,0,False,0,0,0,0,0,0,0,0
+37,[community_foundation_tag] are grateful to those who made contributions or established a new fund in 2021,0,0,1,0,False,0,2,0,1,0,0,0,0
+38,Anonymous 4 N.I.N.E. Place Advance North East,0,0,1,0,False,0,2,0,1,0,0,0,0
+40,[individual_tag] Be A Dog Golf Tournament,0,0,1,0,False,0,2,0,1,0,0,0,0
+41,"Bella Salon &amp; Day Spa, Inc. [individual_tag] Brett Maloney Landscapes, LLC [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] Downtown North East, Inc.",0,0,1,0,False,0,2,0,1,0,0,0,0
+42,[individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] Erie Philharmonic,0,0,1,0,False,0,2,0,1,0,0,0,0
+43,[individual_tag] [individual_tag] Fidelity Charitable Gift Fund,0,0,1,0,False,0,1,0,2,0,0,0,0
+44,"[individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] Fuller Hose Company [individual_tag] Greenman - Pedersen, Inc. [individual_tag] [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] Orris C. &amp; B. Dewey Hirtzel Memorial Foundation [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] &amp; [individual_tag] [individual_tag] Knox, McLaughlin, Gornall &amp;",0,0,1,0,False,0,2,0,1,0,0,0,0
+45,"Sennett, PC",0,0,1,0,False,0,2,0,1,0,0,0,0
+47,"- Leafguard of Lake Erie, Inc.",0,0,1,0,False,0,2,0,1,0,0,0,0
+50,"Lollie &amp; Co., LLC",0,0,1,0,False,0,2,0,1,0,0,0,0
+60,Mercyhurst University,0,0,1,0,False,0,2,0,1,0,0,0,0
+62,- North East Borough North East Community Players,0,0,1,0,False,0,2,0,1,0,0,0,0
+63,North East in Bloom,0,0,1,0,False,0,2,0,1,0,0,0,0
+65,"- Orton &amp; Orton, LLC",0,0,1,0,False,0,2,0,1,0,0,0,0
+76,[individual_tag] &amp; [individual_tag] Sample News Group,0,0,1,0,False,0,2,0,1,0,0,0,0
+78,Corry Journal,0,0,1,0,False,0,2,0,1,0,0,0,0
+79,[individual_tag] &amp; [individual_tag] [individual_tag] [individual_tag] [individual_tag] Skunk &amp; Goat Tavern,0,0,1,0,False,0,2,0,1,0,0,0,0
+80,"[individual_tag] &amp; [individual_tag] Stetson Brothers Ace Hardware Straw Hat, LLC SWELL",0,0,1,0,False,0,2,0,1,0,0,0,0
+81,"[individual_tag] [individual_tag] Trolley Line Vineyards, LTD",0,0,1,0,False,0,2,0,1,0,0,0,0
+82,[individual_tag] United Way of Erie County,0,0,1,0,False,0,2,0,1,0,0,0,0
+84,&lt;&lt;endorse&gt;&gt;   Tray &lt;&lt;cont\_id&gt;&gt;   Pkg &lt;&lt;gpb\_id&gt;&gt;   &lt;&lt;sequence&gt;&gt; &lt;&lt;imbarcode&gt;&gt;,0,0,0,0,False,0,0,0,0,0,0,0,0
+85,&lt;&lt;first&gt;&gt; &lt;&lt;last&gt;&gt; &lt;&lt;ocompany&gt;&gt; &lt;&lt;address&gt;&gt; &lt;&lt;address2&gt;&gt;,0,0,0,0,False,0,0,0,0,0,0,0,0
+86,"&lt;&lt;city&gt;&gt;, &lt;&lt;st&gt;&gt; &lt;&lt;zip&gt;&gt;",0,0,0,0,False,0,0,0,0,0,0,0,0
+87,A letter from the Chairman,0,0,1,0,False,0,2,0,0,0,1,0,0
+88,"Dear members of the North East community,",0,0,1,0,False,0,2,0,0,0,1,0,0
+89,"When I joined the board of [community_foundation_tag] it was 2001, I was 36 and [community_foundation_tag] felt blessed to have $250,000.",0,0,2,0,False,0,4,0,0,0,2,0,0
+90,Recently [community_foundation_tag] celebrated two significant milestones - [community_foundation_tag] 30th year impacting the quality of life in North East and an endowment that has grown to more than $10 million.,1,0,1,0,True,2,2,0,0,0,1,0,0
+91,"Thinking of all that has been done over the last 30 years and all who have contributed their time, talents and resources to leave a lasting legacy on [community_foundation_tag] community is humbling.",0,0,2,0,False,0,4,0,1,0,1,0,0
+92,It's been said: with great power comes great responsibility.,0,0,0,0,False,0,0,0,0,0,0,0,0
+93,Which is why in 2021 [community_foundation_tag] began its own strategic visioning process.,1,0,1,0,True,0,1,0,0,2,2,0,0
+94,[community_foundation_tag] now have the funds to make meaningful and transformational change.,1,0,1,0,True,0,1,0,0,2,2,0,0
+95,"Therefore, [community_foundation_tag] needed a vision, board structure and strategic direction to support it.",1,0,2,0,True,0,2,0,0,2,4,0,0
+96,"Because collaboration is key to the success of any community or initiative, [community_foundation_tag] started the process by listening. Over the course of several months, the task force committee sat down with members of local government, nonprofits and agencies to gauge [community_foundation_tag] community and organization's strengths, weaknesses, needs and opportunities.",1,0,3,0,True,0,0,0,0,2,6,0,3
+97,"After nearly a year of reflection and planning, [community_foundation_tag] is happy to release [community_foundation_tag] new strategic direction.",1,0,1,0,True,0,1,0,0,2,2,0,0
+98,"You may view the document on [community_foundation_tag] website at [community_foundation_tag] , but here are a few highlights:",0,0,0,0,False,0,0,0,0,0,0,0,0
+99,"[community_foundation_tag] mission is to improve the quality of life in and around North East by identifying, evaluating and addressing community issues, building charitable endowments and by promoting philanthropic and community leadership.",1,0,2,0,True,1,3,0,0,2,3,0,0
+100,Additionally [community_foundation_tag] vision includes:,0,0,0,0,False,0,0,0,0,0,0,0,0
+101,"-  To be recognized as a valued stakeholder in the future of North East -    T o be a trusted custodian of resources to fulfill the philanthropic intent of [community_foundation_tag] donors -  To create transformational grants in support of [community_foundation_tag] non-profits -    T o actively promote community leadership, civic awareness and public engagement",1,0,3,0,True,0,2,1,3,2,4,0,0
+102,"Please don't hesitate to reach out to the members of [community_foundation_tag] board with questions you have about [community_foundation_tag] new strategic direction, [community_foundation_tag] or how you can join in [community_foundation_tag] efforts.",0,0,1,0,False,0,1,0,0,0,2,0,0
+103,It is an honor to partner with donors and the community to make North East better for [community_foundation_tag] residents today - and well into the future.,1,0,3,0,True,0,6,0,1,2,2,0,0
+108,Vice Chairman,0,0,1,0,False,0,2,0,0,0,1,0,0
+110,"Esq., Treasurer",0,0,1,0,False,0,2,0,0,0,1,0,0
+114,Executive Asst .,0,0,0,0,False,0,0,0,0,0,0,0,0
+117,[community_foundation_tag] now have the funds to make meaningful and transformational change.,1,0,1,0,True,0,1,0,0,2,2,0,0
+119,"In 2021, with the help of [community_foundation_tag] donors, [community_foundation_tag] was able to grant nearly $285,000 including:",0,0,3,0,False,0,6,0,3,0,0,0,0
+120,"More than $78,000 to education",0,0,2,0,False,0,4,0,1,0,1,0,0
+121,"- Supporting libraries and schools, providing college scholarships and funds for summer camp experiences in the arts and nature",1,0,2,0,True,0,4,0,2,2,0,0,0
+122,"More than $92,000 to basic health and safety needs",1,0,2,0,True,2,4,0,0,0,0,0,2
+123,"- Firefighters and first responders, nursing and hospice care, food, clothing and other essentials.",1,0,2,0,True,2,4,0,0,1,0,0,2
+124,"In 2021, a new need was addressed:  to meet basic food and hygiene needs of students in the North East School District by partnering with the school and Second Harvest Food Bank to offer backpacks to bridge the gap when kids get hungry over the weekend.",1,0,2,0,True,1,0,0,0,2,3,0,3
+125,Another partnership with Project Love Inc. provided basic hygiene supplies.,1,0,2,0,True,1,2,0,0,2,4,0,0
+126,"More than $70,000 to enrich [community_foundation_tag] community and preserve [community_foundation_tag] unique history and downtown",1,0,3,0,True,2,6,0,0,1,3,0,0
+127,"- Offering arts and culture, and family fun through free outdoor concerts by the Erie Philharmonic in Gibson Park, entertainment for Picnic in the Park and the Saturday Open Market, July 4 fireworks and an expanded annual holiday light up celebration.",1,0,3,0,True,0,6,0,0,2,3,0,0
+128,"Funds provided to North East in Bloom brought new planters and flowers to beautify downtown, along with a new mural.",1,0,2,0,True,0,4,0,0,2,2,0,0
+131,Improving the quality of life for North East residents can take many forms.,1,0,2,0,True,2,4,0,0,0,2,0,0
+132,"In 2021, [community_foundation_tag] was honored to fund $284,110.16 in grants, scholarships, specified gifts and Erie Gives matches to the following:",0,0,2,0,False,0,4,0,2,0,0,0,0
+133,4 N.I.N.E. Place,0,0,1,0,False,0,2,0,1,0,0,0,0
+134,Advance North East,0,0,1,0,False,0,2,0,0,0,1,0,0
+135,Allegheny College,0,0,1,0,False,0,1,0,2,0,0,0,0
+136,Boy Scout Troop #57,0,0,1,0,False,0,2,0,1,0,0,0,0
+137,Boy Scout Troop #82,0,0,1,0,False,0,2,0,1,0,0,0,0
+138,Campbell University,0,0,1,0,False,0,1,0,2,0,0,0,0
+139,Community Nursing Services of North East,0,0,1,0,False,0,2,0,0,0,0,0,1
+140,Crescent Hose Co.,0,0,1,0,False,0,2,0,0,0,1,0,0
+141,Cub Scout Pack #57,0,0,1,0,False,0,2,0,1,0,0,0,0
+142,Cub Scout Pack #82,0,0,1,0,False,0,2,0,1,0,0,0,0
+143,"Door Student Services, Inc Downtown North East, Inc. Edinboro University",0,0,1,0,False,0,2,0,1,0,0,0,0
+144,Episcopal Church of the Holy Cross First Baptist Church of North East First Presbyterian Church of North East,0,0,1,0,False,0,2,0,1,0,0,0,0
+145,Fuller Hose Company,0,0,1,0,False,0,2,0,0,0,1,0,0
+146,Gannon University,0,0,1,0,False,0,1,0,2,0,0,0,0
+147,Lake Shore Railway Historical Society Inc.,0,0,1,0,False,0,2,0,1,0,0,0,0
+148,Livermore Valley Performing Arts Center Lock Haven University,0,0,1,0,False,0,1,0,2,0,0,0,0
+149,McCord Memorial Library,0,0,1,0,False,0,2,0,1,0,0,0,0
+150,North East Arts Council North East Band Boosters North East Food Pantry North East Historical Society North East in Bloom North East Little League North East School District Foundation North East School Scholarship Fund,0,0,1,0,False,0,2,0,1,0,0,0,0
+151,Orchard Beach Assembly,0,0,1,0,False,0,2,0,1,0,0,0,0
+153,United Methodist Church,0,0,1,0,False,0,2,0,1,0,0,0,0
+154,Penn State,0,0,1,0,False,0,1,0,2,0,0,0,0
+155,"Erie, The Behrend College Penn State University",0,0,1,0,False,0,1,0,2,0,0,0,0
+156,Powerful Pink Warriors Project,0,0,1,0,False,0,2,0,0,0,0,0,1
+157,"Love, Inc.",0,0,1,0,False,0,2,0,0,0,0,0,1
+158,St. Gregory School,0,0,1,0,False,0,2,0,1,0,0,0,0
+159,United Neighborhood Facilities Health Care Co United Way of Erie County,0,0,1,0,False,0,2,0,0,0,0,0,1

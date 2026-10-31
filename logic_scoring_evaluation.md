@@ -1,6 +1,6 @@
 # Methodology — Human vs. AI Coder Agreement on Institutional Logics
 
-This note documents every method, formula, and parameter used to compare the human coder's export against the AI pipeline's own run, across three nonprofit annual reports, as implemented in the numbered scripts in `repro_scripts/` and reproduced with live formulas in `institutional_logics_agreement.xlsx`.
+This note documents every method, formula, and parameter used to compare the human coder's export against the AI pipeline's own run, across three nonprofit annual reports, as implemented in `agreement_analysis.py`.
 
 **Revision history.** This is the third revision of this document. (1) The original single-report version used quadratic ordinal-weighted Cohen's kappa as the primary statistic. (2) That was extended to 3 reports plus a pooled combination, keeping the same ordinal weighting. (3) **This revision retires the ordinal weighting entirely**: PS, DS, PPG and SC are nominal categories with no established theoretical ordering between them, so there is no principled basis for treating a PPG↔SC disagreement as "smaller" than a PS↔SC one. Standard (nominal, unweighted) Cohen's kappa is now the sole primary statistic, and an alternative, chunk-flexible agreement measure (§8) is reported alongside it — not as a replacement, but as a different, independently-motivated way of giving partial credit for near misses without assuming any category order.
 
@@ -214,15 +214,6 @@ A pooled kappa across the 3 reports cannot be obtained by averaging the three re
 
 ## Files
 
-- `repro_scripts/run_agreement.sh` — runs steps 01–09 in order (03 is not needed for the 3-report study), reading `out/out_coding/` and writing every output below to `out/agreement/`.
-- `repro_scripts/01_match_and_score.py` — chunk matching, points/proportions, per-report document aggregate.
-- `repro_scripts/02_chunk_kappa.py` — chunk-level dominant logic, tie flags, confusion matrix, all kappa variants (standard is `kappa_unweighted`; quadratic/linear are retained in the output only as a labeled, retired comparison — see note in §7).
-- `repro_scripts/03_build_xlsx.py` — single-report Excel workbook (superseded by `05_build_xlsx_multi.py` for this 3-report study; kept for the original single-report reproduction).
-- `repro_scripts/04_aggregate_multi_report.py` — pools per-report confusion matrices by summation; recomputes pooled kappa.
-- `repro_scripts/05_build_xlsx_multi.py` — multi-report Excel workbook (per-report + pooled sheets, live formulas).
-- `repro_scripts/06_report_level_profile.py` — §10: whole-file, unmatched logic-frequency profile and document-position curves, per coder.
-- `repro_scripts/07_build_dashboard_data.py` — assembles the single JSON bundle consumed by the dashboard, merging 01/02/04/06/08/09's outputs.
-- `repro_scripts/08_flexible_agreement.py` — §9: per-report standard kappa (self-contained re-derivation) and the permutation-based flexible-agreement alternative.
-- `repro_scripts/09_pool_flexible_agreement.py` — §9's pooled version (pools the chunk set, then permutes across the full pool).
-- `out/agreement/institutional_logics_agreement.xlsx` — per-report + pooled sheets, live formulas, standard kappa as the primary figure, zero formula errors on recalculation.
-- Dashboard (built from `out/agreement/dashboard_bundle.json`; not included in this repository) — "Chunk-matched agreement" (§7–8), "Flexible chunk-vicinity" (§9), and "Report-level profile" (§10) tabs, each switchable between the 3 reports and the pooled total.
+- `agreement_analysis.py` — runs every step above for the reports listed in `out/out_coding/manifest.csv` and pools them: `python3 agreement_analysis.py` (requires pandas, numpy, scikit-learn).
+- `out/agreement/<report_id>/` — per report: `chunk_level.csv` (§2–5), `chunk_dominant.csv` and `summary_chunk_kappa.json` (§7–8), `flexible_agreement.json` (§9), `report_level_profile.json` (§10), `summary.json` (coverage counts).
+- `out/agreement/agreement_bundle.json` — all per-report results plus the pooled results (§11) in one file.

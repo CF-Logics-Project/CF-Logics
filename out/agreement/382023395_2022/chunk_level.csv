@@ -1,334 +1,334 @@
-chunk_id_cd,text,human_n_applicable_elements,human_n_incomplete_rankings,ai_n_applicable_elements,ai_n_incomplete_rankings,coded_by_both,human_points_PS,ai_points_PS,human_points_DS,ai_points_DS,human_points_PPG,ai_points_PPG,human_points_SC,ai_points_SC,human_prop_PS,ai_prop_PS,human_prop_DS,ai_prop_DS,human_prop_PPG,ai_prop_PPG,human_prop_SC,ai_prop_SC
-2,2022 Annual Report,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-3,"[community_foundation_tag] Purpose Statement [community_foundation_tag] exist to cultivate the power of giving within [community_foundation_tag] community, support long-term transformation, and help ensure all residents thrive.",1,0,3,0,True,2,2,0,0,1,4,0,3,0.6666666666666666,0.2222222222222222,0.0,0.0,0.3333333333333333,0.4444444444444444,0.0,0.3333333333333333
-7,"Welcome to [community_foundation_tag], your local leader in community philanthropy since 1973.",1,0,2,0,True,0,4,0,0,2,2,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-8,"[community_foundation_tag] believe anyone can be a philanthropist, facilitating a broad scope of avenues for involvement and bringing to life the philanthropic goals of foundation members.",1,0,2,0,True,0,2,2,4,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-9,"[community_foundation_tag] reflect [community_foundation_tag] donors' and community partners' broad array of interests, including arts, culture, economic development, education, environment, health, human services, neighboring, and recreation. [community_foundation_tag] supports philanthropy in many ways.",1,0,2,0,True,0,0,2,4,1,2,0,0,0.0,0.0,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.0,0.0
-10,A few examples are:,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-11,"Grants - [community_foundation_tag] goes beyond making grants that advance charitable activities. [community_foundation_tag] identifies current and emerging community gaps, helps the community prepare for the future, and provides donors the opportunity to leave lasting legacies.",1,0,2,0,True,2,2,1,0,0,4,0,0,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.0,0.0,0.6666666666666666,0.0,0.0
-12,[community_foundation_tag] granted over $12 million in 2022 to support a wide array of community programming and nonprofits.,0,0,2,0,False,0,4,0,0,0,2,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-13,"Scholarships - [community_foundation_tag] commits to providing students the opportunity to continue their education beyond high school. Scholarships provide an investment in the community's future, developing talent by helping students achieve their dreams.",1,0,2,0,True,0,1,0,2,2,3,0,0,0.0,0.16666666666666666,0.0,0.3333333333333333,1.0,0.5,0.0,0.0
-14,"For example, the Midland Believes Scholarship, since 2017, has provided over $125,000 to first-generation college students to pursue postsecondary certificates and college degrees.",1,0,2,0,True,0,0,0,2,1,0,2,4,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.6666666666666666,0.6666666666666666
-15,Projects - Project funds permit [community_foundation_tag] members to donate for specific purposes. They provide an opportunity for [community_foundation_tag] to offer service and leadership to the community.,1,0,2,0,True,0,1,2,4,1,1,0,0,0.0,0.16666666666666666,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.16666666666666666,0.0,0.0
-16,These funds vary in size and scope.,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-17,"An excellent example of a project [community_foundation_tag] helped bring to life, with generous support from several community members and local family foundations, is The Tridge, Midland's iconic three-legged bridge that was erected in 1981.",1,0,3,0,True,0,6,0,0,2,3,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-18,"Initiatives - With initiatives like Midland Area Cultural Awareness Coalition, Midland Area Youth Impact Partnership, Midland Area Career &amp; College Access Network, Public Arts Midland, and community events like Midland Area River Days, community members can participate in a group, activity, or event that represents their values. Community members can donate to existing funds like the Community Investment Fund to improve Midland, to specific funds representing their philanthropic goals, or to develop their own funds. [community_foundation_tag] permits donors to direct gifts broadly or narrowly to whatever issues they care about most.",1,0,3,0,True,1,1,2,6,0,2,0,0,0.3333333333333333,0.1111111111111111,0.6666666666666666,0.6666666666666666,0.0,0.2222222222222222,0.0,0.0
-19,Contributions from donors change lives today and in the future. All donations allow individuals to directly engage in philanthropy - giving to those things that matter most to them.,1,1,1,0,True,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-20,"[community_foundation_tag] allows everyday people to invest in opportunities that enrich and improve quality of life, resulting in long-term",1,0,2,0,True,0,4,0,0,2,2,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-21,community transformation.,1,0,0,0,False,0,0,0,0,2,0,0,0,0.0,,0.0,,1.0,,0.0,
-22,Message from [community_foundation_tag],0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-23,CEO &amp; Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-24,"Dear Friends,",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-25,"Thank you for joining [community_foundation_tag] to build a vibrant, thriving community.",1,0,2,0,True,2,4,0,0,0,2,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-26,"As [community_foundation_tag] celebrate [community_foundation_tag] 50th anniversary year, [community_foundation_tag] reflect on the many transformational changes that have taken place in the Midland area since the founding of [community_foundation_tag].",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-27,The theme for this year's annual report is transformation.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-28,"The Cambridge Dictionary defines transformation as 'a complete change in the appearance or character of something or someone, especially so that that thing or person is improved.'",1,0,0,0,False,0,0,0,0,2,0,0,0,0.0,,0.0,,1.0,,0.0,
-29,"Some of the photos in [community_foundation_tag] annual report show physical transformational changes in [community_foundation_tag] community, like the building of the Tridge, the development of the Rail Trail, and the construction of the Santa House.",1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-30,"Other transformational changes can be less obvious, like providing resources so [community_foundation_tag] youngest learners have access to high quality preschool education to ensure greater success in school or offering financial support so [community_foundation_tag] high school graduates are able to complete post-secondary education opening the door to meaningful employment opportunities.",1,0,2,0,True,0,1,0,1,2,4,0,0,0.0,0.16666666666666666,0.0,0.16666666666666666,1.0,0.6666666666666666,0.0,0.0
-31,"Whether visible or not, [community_foundation_tag] are constantly working to find ways to positively transform the Midland area.",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-32,"[individual_tag], author of The Purpose Driven Life stated, ""Transformation is a process, and as life happens there are tons of ups and downs.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-33,"It's a journey of discovery.""",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-34,"[community_foundation_tag] have had [community_foundation_tag] share of ups and downs particularly in recent years with the pandemic and the dam failures and resulting flooding. Through this journey, [community_foundation_tag]'ve shown [community_foundation_tag] care for neighbors and [community_foundation_tag] willingness to move together and forward in a bold way so that all in [community_foundation_tag] community can thrive.",1,0,2,0,True,2,4,0,0,0,0,0,2,1.0,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.3333333333333333
-35,"Community foundations are designed to demonstrate their love of community, working to be 'for good, for ever, for all.' It is a joy to work together with all of you to bring about positive changes as [community_foundation_tag] pursue [community_foundation_tag] purpose of cultivating the power of giving within [community_foundation_tag] community, supporting long-term transformation, and helping ensure all residents thrive.",1,0,3,0,True,2,6,0,0,1,0,0,3,0.6666666666666666,0.6666666666666666,0.0,0.0,0.3333333333333333,0.0,0.0,0.3333333333333333
-36,"As [individual_tag] said, 'Unless someone like you cares a whole awful lot, nothing is going to get better.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-37,It's not.',0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-38,"Thanks for caring a 'whole awful lot' with [community_foundation_tag] as [community_foundation_tag] continue [community_foundation_tag] journey of transformation, helping to change [community_foundation_tag] corner of the world for the better.",1,0,2,0,True,0,4,0,0,2,2,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-39,"In service,",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-41,President &amp; CEO,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-43,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-45,"Transformation [community_foundation_tag] believes that by working together, great things can happen. The following examples of transformation show projects in which [community_foundation_tag] played an integral role - sometimes as lead, sometimes as a convenor, and sometimes as a contributor. Your contributions to [community_foundation_tag] result in long-term community transformation.",1,0,3,0,True,0,4,0,0,2,5,0,0,0.0,0.4444444444444444,0.0,0.0,1.0,0.5555555555555556,0.0,0.0
-46,The Tridge,1,1,1,0,True,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-47,The Midland Area Santa House,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-48,The M20 Bridge Mural,1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-49,The Pere-Marquette Rail Trail,1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-50,The Downtown Midland Streetscape Amenities Project,1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-51,"[community_foundation_tag], formerly known as Community Drug Store - Circle Branch",1,0,1,0,True,2,2,0,0,1,1,0,0,0.6666666666666666,0.6666666666666666,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.0
-52,"March: [individual_tag] were awarded the 2022 Citizenship Award as part of the annual State of the City Celebration. The Citizenship Award  is an award to recognize individuals who are unselfishly committed to making [community_foundation_tag] community a better place by encouraging and helping others to employ civility, respect, and inclusiveness to make a difference.",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-53,"June: The Big Give awarded a grant for over $14,000 to the Bridge Food Center.",0,0,1,0,False,0,0,0,2,0,0,0,1,,0.0,,0.6666666666666666,,0.0,,0.3333333333333333
-54,The Big Give  is  a  group  of  men  from  the  greater  Midland  area  who  are  dedicated  to  helping local nonprofit agencies.,0,0,3,0,False,0,6,0,3,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-55,The idea is simple:,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-56,"Meet three times per year, donate $100 per member at each meeting, and vote on a local nonprofit to receive the funds.",0,0,3,0,False,0,3,0,6,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-57,"August: The Midland Area River Days Festival, an initiative of [community_foundation_tag], brought music and enriching entertainment to Downtown Midland. River Days is an inclusive festival, providing fun and local resources to the Midland community.",1,0,2,0,True,0,4,0,0,2,0,0,2,0.0,0.6666666666666666,0.0,0.0,1.0,0.0,0.0,0.3333333333333333
-58,"October: Ripple Effect, [community_foundation_tag]'s celebration of philanthropy, took place at the H Hotel,  where  [individual_tag]  was  named Philanthropist of the Year.",0,0,2,0,False,0,3,0,3,0,0,0,0,,0.5,,0.5,,0.0,,0.0
-59,"December: [community_foundation_tag] partnered with Senior Services for the Senior Christmas Dinner program. The Senior Christmas Dinner program serves over 1,000 free meals to local seniors. Senior Christmas Dinners has been an annual program for the last 45+ years.",1,0,2,0,True,2,4,0,0,0,1,0,1,1.0,0.6666666666666666,0.0,0.0,0.0,0.16666666666666666,0.0,0.16666666666666666
-60,December: Santa returned to the Midland Area Santa House in Downtown Midland.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-61,"Over 10,000 people visited the Santa House in 2022.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-64,"""I initially joined the Youth Action Council because my dad described the group to me back in middle school as being 'kind of like Shark Tank': Kids pitch their ideas and request money to accomplish them.",0,0,2,0,False,0,0,0,2,0,2,0,2,,0.0,,0.3333333333333333,,0.3333333333333333,,0.3333333333333333
-65,"I thought that was interesting, but I didn't join because I didn't know anyone on the committee. But then I was at cross country practice one day and heard one of my friends talking about being involved in the Council, and that's what got me to join. After I joined, I found myself looking up to the Council's officers-it was cool to see young people in leadership roles.",0,0,2,0,False,0,0,0,2,0,1,0,3,,0.0,,0.3333333333333333,,0.16666666666666666,,0.5
-66,"I wanted to be a role model for future kids, and that became something I wanted to take on.""",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-68,'I became involved with the Midland Soccer Club when my daughter started playing at the age of four.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-69,"At the time, the Club was discussing building new fields and a building, and since I came from the construction business, I offered to help with the expansion in early 2000.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-70,"[individual_tag] was our lead fundraising person, and that's also where [community_foundation_tag] comes in. What's great about [community_foundation_tag] is that they look at supporting the greater community, and they helped us fundraise for the building, the fields, and the alarm system for early weather warnings.""",1,0,3,0,True,2,6,0,2,0,1,0,0,1.0,0.6666666666666666,0.0,0.2222222222222222,0.0,0.1111111111111111,0.0,0.0
-72,"""My wife developed breast cancer and passed away in 1983.",1,0,0,0,False,0,0,2,0,0,0,0,0,0.0,,1.0,,0.0,,0.0,
-73,"My daughters were only two and seven, so I got involved with [community_foundation_tag] because I wanted to do some things to remember her and show my daughters how we can honor her life by giving back to others like she would have liked...",1,0,2,0,True,0,2,2,4,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-74,"I was looking for ways to help [community_foundation_tag] and showed some interest in Fireworks, so they said, 'great, we need someone to take over the fireworks [at] River Days,'",1,0,1,0,True,0,1,2,2,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-75,"I have been doing that for 20 years now.'""",1,0,0,0,False,0,0,2,0,0,0,0,0,0.0,,1.0,,0.0,,0.0,
-77,"'Many things led to where I am today, but with [community_foundation_tag], my first interaction was with applying for a scholarship when I was in high school at Dow High. I received an anonymous donor scholarship from [community_foundation_tag], which helped me immensely. And so it was this incredible gift to me.",0,0,3,0,False,0,2,0,6,0,1,0,0,,0.2222222222222222,,0.6666666666666666,,0.1111111111111111,,0.0
-78,"I'd been saving for college, knowing I'd pay for it myself.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-79,But it was massive and helped me to get started and be the first person in my family to get a four-year degree.,0,0,1,0,False,0,0,0,1,0,0,0,2,,0.0,,0.3333333333333333,,0.0,,0.6666666666666666
-80,I remember [individual_tag] shaking my hand at the ceremony that I attended with my mom.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-81,"From this experience, mentorship from [individual_tag], and how my mom and grandfather lived with a philosophy of helping other people, a whole new avenue opened up for me.""",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-83,"""A lot of communities don't have something like [community_foundation_tag], organizations who are able to help with projects like these, and we're totally blessed.",0,0,2,0,False,0,4,0,0,0,2,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-84,"Once completed, the Pere-Marquette Rail Trail became an excellent way to be able to link the communities!",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-85,"Plus, you can use the corridors for bicycling, for transportation, and I get a smile on my face whenever I see somebody go down in a motorized wheelchair.",1,0,1,0,True,0,1,0,0,2,0,1,2,0.0,0.3333333333333333,0.0,0.0,0.6666666666666666,0.0,0.3333333333333333,0.6666666666666666
-86,That is so cool because it's an opportunity for them to get out and to feel free.,0,0,1,0,False,0,0,0,1,0,0,0,2,,0.0,,0.3333333333333333,,0.0,,0.6666666666666666
-87,The Pere-Marquette Rail Trail didn't happen because of any one person.,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-88,It really took the entire community.',0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-90,'What I hope is that the dominant culture in Midland will internalize the mission of making Midland more inclusive and take it upon themselves to keep the ball moving forward.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-91,I feel the burden is too much on the minority groups to keep it going…,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-92,"I want our majority culture in Midland to take it upon themselves and say, 'this is important to us.' We need to continue to support the vision of the Midland Area Culture Awareness Coalition. An organization like the Cultural Awareness Coalition is so priceless.",1,0,2,0,True,0,0,0,0,0,2,2,4,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-93,"I hope this vision and its role become internalized by local government, schools, and the community.",1,0,1,0,True,0,0,0,0,2,1,1,2,0.0,0.0,0.0,0.0,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.6666666666666666
-94,What the Cultural Awareness Coalition is doing is exactly what you need to do to create positive and strong communities that can grow and raise children who are global citizens.,1,0,2,0,True,0,0,0,0,0,2,2,4,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-95,The benefits are endless.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-96,The best way to attract talented people is to build an inclusive community.',1,0,1,0,True,0,0,0,0,2,1,1,2,0.0,0.0,0.0,0.0,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.6666666666666666
-98,Access to Community,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-99,Changing Restrooms &amp; Changing Places,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-100,"""The Americans with Disabilities Act gives a very basic minimum requirement for an entry into a space and into the restroom.",1,0,0,0,False,0,0,0,0,2,0,0,0,0.0,,0.0,,1.0,,0.0,
-101,"What that person is able to do or not able to do once they're in that space is a big question,"" said [individual_tag], a mother of a child with accessibility needs.",1,0,1,0,True,0,0,0,0,2,1,0,2,0.0,0.0,0.0,0.0,1.0,0.3333333333333333,0.0,0.6666666666666666
-102,"""And this is where Access to Recreation [now known as Access to Community] is getting involved.",1,0,1,0,True,0,0,0,0,2,1,1,2,0.0,0.0,0.0,0.0,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.6666666666666666
-103,"We're trying to really make it so that the people with the most severe disabilities are served, and everybody else can have better access as well.""",1,0,2,0,True,0,0,0,0,1,2,2,4,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
-104,"Through [community_foundation_tag]'s Access to Community Committee, [individual_tag] and others have championed significant changes within Midland County. The vision of Access to Community is to remove barriers and ensure all projects and programs initiated in Midland County are thoughtfully designed to include the unique needs of people with all abilities.",1,0,3,0,True,0,0,0,0,0,3,2,6,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-105,It is impossible to engage in this work without all [community_foundation_tag] community systems working in alignment to collaborate around this vision statement.,1,0,1,0,True,0,0,0,0,2,2,0,1,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-106,"People with disabilities, along with their families and friends, have financial resources that they are more likely to invest in programs and services in communities that are inclusive and accessible.",1,0,1,0,True,0,0,0,0,2,1,1,2,0.0,0.0,0.0,0.0,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.6666666666666666
-107,Building a community accessible to all users means that Midland County will not only be accessible to all community members but also become an attractive tourism destination for all.,1,0,1,0,True,0,0,0,0,2,1,1,2,0.0,0.0,0.0,0.0,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.6666666666666666
-108,"Access to Community has spearheaded Midland's first ""Changing Places"" restroom facility in Grove Park, set to break ground in 2023. A Changing Places restroom goes beyond the minimum Americans with Disabilities Act (ADA) requirements for accessibility by providing hoists, adult changing tables, and the space for differently-abled people to navigate a public restroom in a dignified way.",1,0,1,0,True,0,0,0,0,2,1,1,2,0.0,0.0,0.0,0.0,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.6666666666666666
-109,"While ensuring this fundamental right is an accomplishment for advocacy groups, [individual_tag] hopes it will catalyze many future improvements.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-110,"""I want us to be known as a Small Town America that really did make an exceptional effort to include all people with all abilities and that we have not only the facilities to accommodate our own residents but to accommodate visitors and that we will be a destination for wheelchair users and for people of all abilities who want to go on vacation,"" said [individual_tag].",1,0,1,0,True,0,1,0,0,2,0,1,2,0.0,0.3333333333333333,0.0,0.0,0.6666666666666666,0.0,0.3333333333333333,0.6666666666666666
-111,"""With so many resources and with so much education and the socio-economic power, we can do it because we placed a high priority on this.",0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-112,"I have this hope and dream because of the people that I have interacted with so far; their deep level of emotional and personal involvement in what happens in the community allows me to literally see that vision coming to life.""",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-113,"In 2022 [community_foundation_tag] gifted $125,000 to the Midland Rotary Foundation to support the ""Changing Places"" restroom facility in Grove Park. This gift is a renewed commitment of [community_foundation_tag]'s support for Grove Park's revitalization. In 2020 [community_foundation_tag] gifted over $115,000 for Grove Park renovations and the development of the Pine Street promenade.",1,0,2,0,True,0,4,0,0,2,0,0,2,0.0,0.6666666666666666,0.0,0.0,1.0,0.0,0.0,0.3333333333333333
-114,"""The partnerships between philanthropic efforts of community members made possible by [community_foundation_tag] and public services like Parks and Recreation are significant and vital to understand.",1,0,2,0,True,0,2,0,0,2,4,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-115,Everyone is invited to participate and can engage in very simple ways.,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-116,"As the Director of Public Services for the City of Midland, I have worked with [community_foundation_tag] to seek grant support to build community assets - to create places where people can engage in creating or expanding their community experience; smaller grants to put signage at City Forest, larger grants for Chippewassee Trail expansion, and the Grove promenade,"" said [individual_tag].",1,0,3,0,True,0,4,0,0,2,5,0,0,0.0,0.4444444444444444,0.0,0.0,1.0,0.5555555555555556,0.0,0.0
-117,"""I want to continue to improve accessibility and inclusion in the community. I want spaces and places for everyone!",1,0,1,0,True,0,0,0,0,2,1,1,2,0.0,0.0,0.0,0.0,0.6666666666666666,0.3333333333333333,0.3333333333333333,0.6666666666666666
-118,I can play my part in this by ensuring that every improvement we make in our parks system is made through a lens of Universal Design and by looking at how we can best serve the most complex needs through the facilities we build and the programs we offer.,1,0,0,0,False,0,0,0,0,2,0,0,0,0.0,,0.0,,1.0,,0.0,
-119,"And through the partnerships and connections that we make along the way, I have met a wonderful mentor and friend, [individual_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-120,She has opened my eyes to a void that I didn't see in our community - we are missing out on a wonderful sector of our population because of the physical barriers that exist throughout Midland.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-121,"I am ready to work alongside people like [individual_tag] to help bring those barriers down to become a welcoming community where everyone can join in.""",1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-122,The work of Access to Community is representative of [community_foundation_tag]'s purpose to help ensure all residents thrive.,1,0,1,0,True,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.6666666666666666
-123,"If you would like to assist in enriching [community_foundation_tag] community in Midland County, contact [community_foundation_tag] directly to explore the best way to support this initiative.",0,0,2,0,False,0,0,0,4,0,0,0,2,,0.0,,0.6666666666666666,,0.0,,0.3333333333333333
-124,You can learn more at,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-129,"""With the endowment model, we love making a gift that will forever help children get the right start.""",1,0,2,0,True,0,4,2,2,0,0,0,0,0.0,0.6666666666666666,1.0,0.3333333333333333,0.0,0.0,0.0,0.0
-130,"When [individual_tag] attended the Naval Academy, they never dreamed they would settle in Michigan, let alone Midland.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-131,"""I grew up in Farmington Hills.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-132,We came home from college to Farmington for Easter.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-133,It was one of those cold 'Michigan Easters.' We were bundled up in our winter coats.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-134,"Rod said he would never live in Michigan,"" said [individual_tag] with a smile.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-135,"[individual_tag] followed, ""We were in the military and were really able to explore the world.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-136,"After exiting the military, I joined SYM Financial, which is headquartered in north central Indiana.",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-137,SYM did a tremendous amount of business in Midland.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-138,I traveled back and forth.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-139,A group of us acquired the company in 2006.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-140,That opened the door for us to do what we should have been doing - which was living in the community we serve.,1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-141,"Our family moved to Midland, and it was great. We loved it and raised our kids here.""",1,0,1,0,True,2,2,0,0,0,1,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-142,"[individual_tag] strongly emphasized community involvement, even before their children grew into adults.",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-143,"""When the kids were young, we would go ring the bell for Salvation Army.",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-144,"We volunteered time. I volunteered as a coach at the soccer club when our kids were playing,"" said [individual_tag]. ""Eventually, I was connected to [community_foundation_tag]'s Investment Committee, where I could give a bit of my time and talent.",0,0,2,0,False,0,4,0,1,0,1,0,0,,0.6666666666666666,,0.16666666666666666,,0.16666666666666666,,0.0
-145,"That expanded into an opportunity to serve the Board more broadly.""",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-146,"""It was [individual_tag] who really introduced us to [community_foundation_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-147,"I started the Tri-City Kids Triathalon, 'Tri-Kids-Try.'",1,0,0,0,False,0,0,2,0,0,0,0,0,0.0,,1.0,,0.0,,0.0,
-148,Sharon recommended we connect with [community_foundation_tag] as a way to develop some funds and awareness for the race.,1,0,2,0,True,0,2,2,4,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-149,"Our connection with [community_foundation_tag] really began there,"" said [individual_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-150,The [individual_tag] family's relationship with [community_foundation_tag] continued to grow over time.,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-151,"Their oldest son served as an Officer for the Midland Area Youth Action Council, and [individual_tag] has continued to serve as Foundation Trustee for almost nine years.",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-152,"Throughout [individual_tag]'s tenure, he's taken part in helping to shape the direction of [community_foundation_tag], but one specific event has supported the Coleman's current philanthropic strategy.",1,0,2,0,True,2,2,0,2,0,2,0,0,1.0,0.3333333333333333,0.0,0.3333333333333333,0.0,0.3333333333333333,0.0,0.0
-153,"""Early in my tenure as a board member, I attended the Council of Michigan Foundations' Annual Conference.",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-154,A group of us heard a gentleman named [individual_tag] speak.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-155,"He spoke about how children raised in the same community can end up with very different outcomes and how the most precious opportunity to make a change is early in one's life,"" said [individual_tag]. ""We started looking and researching how you can make a difference in someone's life and actually change the future instead of dealing with the issues as they come out. How can we make a change sufficient enough to make the outcome different?",1,0,2,0,True,0,0,0,0,2,4,0,2,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-156,"That resonated with me.""",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-157,"After the conference, the concept of circumstances and their effects on our lives resonated with the [individual_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-158,"[individual_tag] shared [individual_tag]'s book ""Our Kids: The American Dream in Crisis"" with fellow [community_foundation_tag] member [individual_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-159,One of the [individual_tag]' children wrote a college entrance essay inspired by their time volunteering at Big Brothers Big Sisters.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-160,"The theory underpinning the essay was that although they were 99.9% like their ""little,"" they still had very different opportunities and circumstances.",0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-161,"As conversations about the widening gap in upward mobility took place in the [individual_tag] household, they were also happening at [community_foundation_tag].",1,0,2,0,True,0,0,0,0,0,4,2,2,0.0,0.0,0.0,0.0,0.0,0.6666666666666666,1.0,0.3333333333333333
-162,"With the knowledge that 85% of the human brain's development has been completed by age five according to data compiled by the Rauch Foundation, [community_foundation_tag] developed the Ready for School Preschool Scholarship program with the goal for every child in Midland County to receive at least one year of high-quality preschool scholarship before kindergarten. The Ready for School Preschool Scholarship makes this possible for those with limited financial resources.",1,0,2,0,True,0,0,0,0,2,4,0,2,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-163,"The program is a partnership with the Midland County Great Start Collaborative and was developed under the guidance of a small committee, including [individual_tag].",1,0,2,0,True,2,2,0,0,0,4,0,0,1.0,0.3333333333333333,0.0,0.0,0.0,0.6666666666666666,0.0,0.0
-164,It is an endowed fund to underwrite tuition to attend quality preschool for Midland County children whose families would otherwise be unable or find it challenging to afford the experience.,1,0,3,0,True,0,4,0,0,0,1,2,4,0.0,0.4444444444444444,0.0,0.0,0.0,0.1111111111111111,1.0,0.4444444444444444
-165,"""As this concept developed into a fund, it was something we felt very passionate about,"" said [individual_tag].",1,0,1,0,True,0,1,2,2,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-166,"""With the endowment model, we love making a gift that will forever help children get the right start.""",1,0,2,0,True,0,4,2,2,0,0,0,0,0.0,0.6666666666666666,1.0,0.3333333333333333,0.0,0.0,0.0,0.0
-167,"Established with generous support from the Rollin M. Gerstacker Foundation, the Charles J. Strosacker Foundation, and many passionate individuals, families, and organizations, the endowed fund will grow, supporting some of Midland's youngest learners in perpetuity. If you would like to assist in developing talent in Midland County, contact [community_foundation_tag] directly to explore the best way to support this initiative.",0,0,3,0,False,0,5,0,1,0,3,0,0,,0.5555555555555556,,0.1111111111111111,,0.3333333333333333,,0.0
-168,You can learn more at [community_foundation_tag]/initiative/readyforschool.,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-169,"Assets [community_foundation_tag] has over $114 million in assets, enabling [community_foundation_tag] to give now and in the future.",1,0,1,0,True,2,2,0,1,0,0,0,0,1.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.0,0.0,0.0
-170,Over 700 funds are represented in the dollar amounts below.,1,0,1,0,True,2,1,0,2,0,0,0,0,1.0,0.3333333333333333,0.0,0.6666666666666666,0.0,0.0,0.0,0.0
-171,"Many of the funds are endowed, and all have the purpose of helping with causes [community_foundation_tag] donors care about.",1,0,2,0,True,0,2,2,4,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-172,Anyone can be a philanthropist.,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-173,"Whether the gift is large or small, gifts to [community_foundation_tag] go toward helping Midland thrive.",0,0,2,0,False,0,4,0,2,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-175,TOTAL ASSETS,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-176,"$11,738,964 Agency Funds $5,264,396 Field-Of-Interest Funds",0,0,2,0,False,0,2,0,4,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-177,"$28,267,222 Community Investment Funds",0,0,2,0,False,0,4,0,0,0,2,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-178,"$11,954 Giving Circle Funds",0,0,2,0,False,0,2,0,4,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-179,"$27,810,013 Designated Funds",0,0,2,0,False,0,2,0,4,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-180,"$7,232,167 Project Funds",0,0,2,0,False,0,2,0,4,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-181,"$12,934,897 Donor-Advised Funds $21,636,090 Scholarship Funds",0,0,2,0,False,0,2,0,4,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-182,Fund Types,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-183,Agency Funds,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-184,Endowing a nonprofit organization,0,0,3,0,False,0,6,0,3,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-185,A simple and efficient way to build an endowment and help create sustainability for local nonprofits.,0,0,3,0,False,0,6,0,3,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-186,Community Investment Funds,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-187,Meeting ever-changing needs,1,0,2,0,True,2,4,0,0,0,2,0,0,1.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,0.0,0.0
-188,"Help address a broad range of local needs, including future needs that often cannot be anticipated today.",1,0,2,0,True,2,4,0,0,1,2,0,0,0.6666666666666666,0.6666666666666666,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.0
-189,Designated Funds,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-190,Helping local organizations sustain and grow,0,0,3,0,False,0,6,0,3,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-191,"Make a lasting impact for a particular nonprofit organization - a senior center, museum, or other organization.",0,0,2,0,False,0,2,0,4,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-192,Donor-Advised Funds,1,0,1,0,True,0,1,2,2,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-193,A personal approach to giving,1,0,2,0,True,0,2,2,4,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-194,"Be actively involved in grantmaking with a simple, powerful personal approach to giving that is oftentimes called a ""charitable checking account.""",1,0,2,0,True,0,2,2,4,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-195,Field-Of-Interest Funds,1,0,1,0,True,0,1,2,2,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-196,Connecting personal values to high-impact opportunities,1,0,2,0,True,0,0,2,4,0,2,0,0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.0
-197,"Target specific areas of community investment such as arts, recreation, youth development, or other initiatives you are passionate about.",1,0,2,0,True,0,2,2,4,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-198,Giving Circle Funds,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-199,Giving with a group,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-200,Combine your contributions with other like-minded individuals so that everyone can collectively make a lasting difference on the causes they value. [community_foundation_tag]'ll manage the details while your group focuses on making an impact.,0,0,3,0,False,0,3,0,6,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-201,Project Funds,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-202,"Focus on fundraising, not fund management",0,0,2,0,False,0,2,0,4,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-203,The ideal vehicle for a short-term community project.,1,0,2,0,True,2,2,0,4,0,0,0,0,1.0,0.3333333333333333,0.0,0.6666666666666666,0.0,0.0,0.0,0.0
-204,"[community_foundation_tag]'ll manage all accounting, tax receipts, and donor communication so you can focus on fundraising.",1,0,2,0,True,2,2,0,4,0,0,0,0,1.0,0.3333333333333333,0.0,0.6666666666666666,0.0,0.0,0.0,0.0
-205,Scholarship Funds,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-206,Investing in deserving students,0,0,2,0,False,0,0,0,4,0,2,0,0,,0.0,,0.6666666666666666,,0.3333333333333333,,0.0
-207,Develop talent by helping hardworking area students achieve their lifelong dreams.,1,0,3,0,True,0,0,0,5,2,4,0,0,0.0,0.0,0.0,0.5555555555555556,1.0,0.4444444444444444,0.0,0.0
-208,All these types of funds can be set up in a way to memorialize a loved one or honor a family/individual.,1,0,2,0,True,0,2,2,4,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-209,What drives the work [community_foundation_tag] do?,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-210,Midland's Community Success Panel developed four major focus areas for [community_foundation_tag] community. The panel believed these areas would help Midland achieve its vision statement of 'Midland: an inclusive community. Together. Forward. Bold. An exceptional place where everyone thrives.',0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-211,"[community_foundation_tag], in turn, aligned with these focus areas. [community_foundation_tag] believe that to work towards a more vibrant, thriving community, [community_foundation_tag] efforts should focus on these broad areas.",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-212,"Building our livelihood means focusing on economic development and infrastructure. Developing our talent means focusing on education and the development and engagement of our youth. Caring for our people means focusing on health, human services, poverty, housing, and public safety. Enriching our community means focusing on arts, culture, entertainment, recreation, diversity, and the environment.",1,0,1,0,True,0,0,0,0,2,2,1,1,0.0,0.0,0.0,0.0,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.3333333333333333
-213,"[community_foundation_tag] believe that moving forward together with [community_foundation_tag] donors and the community, [community_foundation_tag] can help to transform [community_foundation_tag] community as [community_foundation_tag] focus on these areas. Together, [community_foundation_tag]'re enriching and improving [community_foundation_tag] quality of life.",2,1,3,0,True,2,4,0,0,0,5,0,0,1.0,0.4444444444444444,0.0,0.0,0.0,0.5555555555555556,0.0,0.0
-214,Building our Livelihood,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-216,Midland County creates and sustains competitive advantages for existing and future businesses.,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-217,We are well-connected and invest in our physical and technological infrastructure.,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-218,Enriching our Community,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-219,"Midland County is a vibrant hub of arts, culture, entertainment, and recreational opportunities.",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-220,"We are committed to equality and inclusion, and we welcome, embrace, and accept all people.",1,0,1,0,True,0,1,0,0,0,0,2,2,0.0,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,0.6666666666666666
-221,We are a sustainable community that values and protects its natural resources.,1,0,1,0,True,0,2,0,0,0,1,2,0,0.0,0.6666666666666666,0.0,0.0,0.0,0.3333333333333333,1.0,0.0
-222,Developing our Talent ·,0,0,1,0,False,0,0,0,1,0,2,0,0,,0.0,,0.3333333333333333,,0.6666666666666666,,0.0
-223,Midland County offers high-quality education and learning opportunities throughout life. Our community nurtures a skilled workforce and places high value on post-secondary learning.,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-224,We provide opportunities for children and youth to realize their hopes and dreams.,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-225,Caring for our People ·,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-226,The Midland community provides a coordinated and comprehensive system of supportive health and human services so that all may thrive.,1,0,1,0,True,0,0,0,0,2,2,0,1,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-227,We encourage self-sufficiency and accept all individual responsibilities to collaborate to create the safest community in the country.,1,0,1,0,True,2,1,0,0,0,2,0,0,1.0,0.3333333333333333,0.0,0.0,0.0,0.6666666666666666,0.0,0.0
-228,"Grantmaking [community_foundation_tag] holds over 700 individual funds, each with a different purpose, impacting [community_foundation_tag] community through grants and/or scholarships. Most funds were established by individuals partnering with [community_foundation_tag] to impact [community_foundation_tag] community positively.",1,0,2,0,True,0,2,2,4,0,0,0,0,0.0,0.3333333333333333,1.0,0.6666666666666666,0.0,0.0,0.0,0.0
-229,"Grant totals reflect all funds held at [community_foundation_tag]. Grants on the following pages represent [community_foundation_tag]'s competitive grants. Money for these grants comes from Community Investment and Foundation Directed Funds held at [community_foundation_tag]. Also, competitive grants are awarded through the Kellogg Youth Fund, utilized at the direction of the Midland Area Youth Action Council.",0,0,2,0,False,0,2,0,0,0,2,0,2,,0.3333333333333333,,0.0,,0.3333333333333333,,0.3333333333333333
-231,OUR GRANTMAKING,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-233,DEVELOPING OUR TALENT,0,0,1,0,False,0,0,0,1,0,2,0,0,,0.0,,0.3333333333333333,,0.6666666666666666,,0.0
-235,BUILDING OUR LIVELIHOOD,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-237,CARING FOR OUR PEOPLE,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-239,ENRICHING OUR COMMUNITY,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-241,Competitive Grants 2022,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-242,DEVELOPING OUR TALENT,0,0,1,0,False,0,0,0,1,0,2,0,0,,0.0,,0.3333333333333333,,0.6666666666666666,,0.0
-244,"Coleman Community Schools - $100,000",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-245,Coleman Culinary &amp; Hospitality Project at The Depot,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-246,"Coleman Community Schools - $10,000*",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-247,Coleman Culinary &amp; Hospitality Project at The Depot,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-248,"Midland County Educational Service Agency - $100,000*",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-249,Supporting Children &amp; Supporting Childcare,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-250,"The Rock Center for Youth Development - $50,000",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-251,Positive Youth Development Certificate,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-253,"Competitive Drumline of Mid-Michigan - $10,000*",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-254,Programming &amp; Equipment Expansion,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-255,"The Legacy Center for Community Success - $10,000",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-256,Read 2 Lead Summer Phonics Intervention Program,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-257,BUILDING OUR LIVELIHOOD,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-258,"Meridian Public Schools - $10,000*",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-259,Nature Education Support,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-260,"Creative 360 - $10,000*",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-261,Sprouts &amp; STEMS: Children's Garden with Integrated Arts &amp; Science,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-262,"Community Construct - $40,000",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-263,Community Construct - Building Community with Skills for Tomorrow,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-264,"Central Michigan University Research Corporation - $40,000",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-265,Entrepreneur Like Me: An Inclusive Entrepreneur Initiative [community_foundation_tag] staff utilized a day of service to assist with cleaning The Depot in Coleman. The Depot houses the Coleman Culinary &amp; Hospitality Project for Coleman Community Schools.,1,0,2,0,True,0,1,0,0,2,4,0,1,0.0,0.16666666666666666,0.0,0.0,1.0,0.6666666666666666,0.0,0.16666666666666666
-266,This project received a grant from [community_foundation_tag] and the Midland Area Youth Action Council.,1,0,3,0,True,0,2,0,0,2,5,0,2,0.0,0.2222222222222222,0.0,0.0,1.0,0.5555555555555556,0.0,0.2222222222222222
-267,CARING FOR OUR PEOPLE,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-269,"Adoption Option Inc. - $39,860",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-270,Parents as Teachers Training,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-271,"Andy's Angels - $100,000",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-272,Andy's Place Midland,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-273,"ARC of Midland - $3,683",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-274,IPS Car Seat &amp; EZ Rider Stroller,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-275,"County of Midland - $39,261",1,0,1,0,True,0,0,0,0,2,2,0,1,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-276,Mental Health Court Support,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-277,"Great Lakes Bay Foundation - $50,000*",1,0,1,0,True,0,0,0,0,2,1,0,2,0.0,0.0,0.0,0.0,1.0,0.3333333333333333,0.0,0.6666666666666666
-278,Advancing the iMatter Anti-Stigma Campaign,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-279,"Home to Stay - $80,000*",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-280,Housing Stability Support,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-281,"King's Daughters &amp; Sons of Midland, Inc. - $10,000 Community Christmas Closet",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-282,"Messiah Lutheran Church of Bullock Creek - $125,000*",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-283,The Bridge Food Center Expansion Project,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-284,"Messiah Lutheran Church of Bullock Creek - $40,000",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-285,The Bridge Food Center Expansion Project,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-286,"Midland Community Cancer Society - $40,000",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-287,Respite Relief for the Weary,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-288,"Midland Community Former Offenders Advocacy &amp; Rehabilitation - $11,000 Move-In &amp; Emergency Rent for Men &amp; Women's Sober Housing/",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-289,Impact Weekend Assistance,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-290,"Midland County Child Protection Council - $40,000",1,0,1,0,True,0,1,0,0,2,0,0,2,0.0,0.3333333333333333,0.0,0.0,1.0,0.0,0.0,0.6666666666666666
-291,Counseling Program,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-292,"Midland Rotary Foundation - $125,000",0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-293,Grove Park Full Accessible Bathroom Project,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-294,"Self Love Beauty - $10,000*",0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-295,Wellbeing &amp; Confidence Focus Program for Bullock Creek High School,1,0,1,0,True,0,0,0,0,2,1,0,2,0.0,0.0,0.0,0.0,1.0,0.3333333333333333,0.0,0.6666666666666666
-296,"Survivors of Suicide, Inc. - $40,000",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-297,Creating a Safety Net Together,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-298,"The Breaking Bread Village - $55,000*",0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-299,Breaking Bread Together While Offering Hope,0,0,1,0,False,0,1,0,0,0,0,0,2,,0.3333333333333333,,0.0,,0.0,,0.6666666666666666
-300,"The United Way of Midland County - $125,890*",0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-301,Support for the Leveraging Income For Tomorrow (LIFT) Program,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-302,ENRICHING OUR COMMUNITY,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-303,"Bullock Creek Youth Football League - $10,000*",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-305,"City of Midland - Parks &amp; Recreation - $40,000",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-306,Riverfront Trail Pedestrian Railing System,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-307,"Creative 360 - $55,000*",0,0,1,0,False,0,2,0,0,0,0,0,1,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-308,Meeting our Community Where They Live: An Inclusive &amp; Community-Centered Wellness Training Program,0,0,1,0,False,0,0,0,0,0,1,0,2,,0.0,,0.0,,0.3333333333333333,,0.6666666666666666
-309,"Midland Center for the Arts - $10,000*",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-310,Midland Center for the Arts Renovation Project,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-311,"Midland Center for the Arts - $100,000",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-312,Midland Center for the Arts Renovation Project,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-313,"Midland Township - $100,000",1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-314,Midland Township Path Extension,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-315,"Saint Brigid of Kildare Parish of Midland - $40,000",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-316,Playscape Replacement &amp; Safety Enhancement of Saint Brigid of Kildare Playground,1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-317,"Sanford Historical Society - $5,000*",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-318,Sanford's Santa House,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-319,"The Little Forks Conservancy - $100,000",0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-320,Nelson Woods Acquisition &amp; Improvement Project,1,0,1,0,True,0,2,0,0,2,1,0,0,0.0,0.6666666666666666,0.0,0.0,1.0,0.3333333333333333,0.0,0.0
-321,*Grants made during the ARPA Grant Cycle *Youth Action Council Grants,0,0,1,0,False,0,0,0,0,0,2,0,1,,0.0,,0.0,,0.6666666666666666,,0.3333333333333333
-322,[community_foundation_tag] granted to support Creative 360's Sprouts &amp; STEM Program in 2022.,0,0,2,0,False,0,2,0,0,0,4,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-323,"ARPA Grantmaking [community_foundation_tag] partnered with the County of Midland in 2022 to grant $600,000 in American Rescue Plan Act (ARPA) funds to local nonprofits, enabling them to continue providing vital services to Midland County residents.",1,0,2,0,True,0,2,0,0,2,4,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-324,"'[community_foundation_tag] purpose is to cultivate the power of giving within [community_foundation_tag] community, support long-term transformation, and help ensure all residents thrive,' said [individual_tag], President &amp; CEO of [community_foundation_tag]. 'Through [community_foundation_tag] partnership with the County of Midland, [community_foundation_tag] were able to aid local nonprofits that positively impact the quality of life in Midland County.'",1,0,4,0,True,0,3,0,0,2,6,0,3,0.0,0.25,0.0,0.0,1.0,0.5,0.0,0.25
-325,"Application requests were up to $150,000.",0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-326,This grant opportunity sought highly collaborative proposals between nonprofits and diverse sectors in Midland County.,1,0,2,0,True,0,0,0,0,2,4,0,2,0.0,0.0,0.0,0.0,1.0,0.6666666666666666,0.0,0.3333333333333333
-327,Applications were considered based on guidelines set forth by the State Budget Office's American Rescue Plan Priorities.,1,0,1,0,True,0,1,0,0,2,2,0,0,0.0,0.3333333333333333,0.0,0.0,1.0,0.6666666666666666,0.0,0.0
-328,The grant request rubric was based on the following nine categories:,0,0,1,0,False,0,1,0,0,0,2,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-331,"'[community_foundation_tag] has been engaged in grantmaking in Midland County for almost 50 years,' said [individual_tag], Midland County Administrator/Controller. 'We were pleased to have them assist the County of Midland with their grantmaking expertise to provide relief to impactful local nonprofits.'",1,0,2,0,True,1,4,0,0,2,2,0,0,0.3333333333333333,0.6666666666666666,0.0,0.0,0.6666666666666666,0.3333333333333333,0.0,0.0
-332,This grant opportunity was open to all 501(c)(3) nonprofits in Midland County.,0,0,2,0,False,0,2,0,0,0,4,0,0,,0.3333333333333333,,0.0,,0.6666666666666666,,0.0
-333,Legacy Society,0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-334,"Members of the Legacy Society have chosen to include [community_foundation_tag] in their estate plans. This means that after they pass, assets such as their IRA or real estate will be gifted to [community_foundation_tag].",1,0,2,0,True,2,3,0,3,0,0,0,0,1.0,0.5,0.0,0.5,0.0,0.0,0.0,0.0
-335,The goal of the Legacy Society is to recognize and honor members for their,0,0,2,0,False,0,2,0,4,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-336,"[individual_tag] [individual_tag] * [individual_tag] * [individual_tag]* [individual_tag] * [individual_tag]* [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag] [individual_tag] and [individual_tag] [individual_tag]* [individual_tag]* [individual_tag]* [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag]* [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag] [individual_tag]* [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] * [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] [individual_tag] and [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* and [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag] [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag] Dr. [individual_tag]* and [individual_tag]* [individual_tag] and *[individual_tag] [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]*. and [individual_tag] [individual_tag] [individual_tag] and [individual_tag] [individual_tag] * [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] [individual_tag] [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* [individual_tag] [individual_tag] and [individual_tag] [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag]* and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] [individual_tag] [individual_tag]* [individual_tag] &amp; [individual_tag] [individual_tag] and [individual_tag] [individual_tag] [individual_tag] * [individual_tag] * [individual_tag] and [individual_tag] [individual_tag] * [individual_tag]* [individual_tag] * [individual_tag]* and [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag]* [individual_tag]* and [individual_tag] [individual_tag]* [individual_tag]* [individual_tag] [individual_tag]* [individual_tag] [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] * [individual_tag]* and [individual_tag]* [individual_tag] * [individual_tag] [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] *DECEASED foresight, dedication, and philanthropic spirit.",0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-337,"Planned giving does not require a large income or vast estate, only a thoughtful intention to make a difference in your community.",0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-338,"To learn more about the Legacy Society, contact [community_foundation_tag] at 989-839-9661.",0,0,1,0,False,0,1,0,2,0,0,0,0,,0.3333333333333333,,0.6666666666666666,,0.0,,0.0
-343,Net Assets,0,0,1,0,False,0,2,0,1,0,0,0,0,,0.6666666666666666,,0.3333333333333333,,0.0,,0.0
-349,President &amp; CEO,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-351,Chief Financial Officer,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-353,Director of Community Impact,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-355,Director of Development,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-357,Scholarship Coordinator &amp; Impact Assistant,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-359,Administrative &amp; Development Assistant,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-361,Communications Officer,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-363,Executive Assistant,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-365,Finance Manager,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-367,Postsecondary Education Leader,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-369,Youth Impact Coordinator,0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
-370,[community_foundation_tag] Trustees,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-372,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-374,Vice Chair,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-380,Past Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-381,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-382,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-383,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-384,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-385,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-386,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-387,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-388,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-389,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-390,[individual_tag] Trustee [community_foundation_tag],0,0,1,0,False,0,2,0,0,0,1,0,0,,0.6666666666666666,,0.0,,0.3333333333333333,,0.0
-391,For Good. For Ever. For All.,0,0,2,0,False,0,4,0,0,0,0,0,2,,0.6666666666666666,,0.0,,0.0,,0.3333333333333333
-392,"76 Ashman Circle | Midland, MI 48640 | 989.839.9661",0,0,0,0,False,0,0,0,0,0,0,0,0,,,,,,,,
+chunk_id,text,human_n_applicable_elements,human_n_incomplete_rankings,ai_n_applicable_elements,ai_n_incomplete_rankings,coded_by_both,human_points_PS,ai_points_PS,human_points_DS,ai_points_DS,human_points_PPG,ai_points_PPG,human_points_SC,ai_points_SC
+2,2022 Annual Report,0,0,0,0,False,0,0,0,0,0,0,0,0
+3,"[community_foundation_tag] Purpose Statement [community_foundation_tag] exist to cultivate the power of giving within [community_foundation_tag] community, support long-term transformation, and help ensure all residents thrive.",1,0,3,0,True,2,2,0,0,1,4,0,3
+7,"Welcome to [community_foundation_tag], your local leader in community philanthropy since 1973.",1,0,2,0,True,0,4,0,0,2,2,0,0
+8,"[community_foundation_tag] believe anyone can be a philanthropist, facilitating a broad scope of avenues for involvement and bringing to life the philanthropic goals of foundation members.",1,0,2,0,True,0,2,2,4,0,0,0,0
+9,"[community_foundation_tag] reflect [community_foundation_tag] donors' and community partners' broad array of interests, including arts, culture, economic development, education, environment, health, human services, neighboring, and recreation. [community_foundation_tag] supports philanthropy in many ways.",1,0,2,0,True,0,0,2,4,1,2,0,0
+10,A few examples are:,0,0,0,0,False,0,0,0,0,0,0,0,0
+11,"Grants - [community_foundation_tag] goes beyond making grants that advance charitable activities. [community_foundation_tag] identifies current and emerging community gaps, helps the community prepare for the future, and provides donors the opportunity to leave lasting legacies.",1,0,2,0,True,2,2,1,0,0,4,0,0
+12,[community_foundation_tag] granted over $12 million in 2022 to support a wide array of community programming and nonprofits.,0,0,2,0,False,0,4,0,0,0,2,0,0
+13,"Scholarships - [community_foundation_tag] commits to providing students the opportunity to continue their education beyond high school. Scholarships provide an investment in the community's future, developing talent by helping students achieve their dreams.",1,0,2,0,True,0,1,0,2,2,3,0,0
+14,"For example, the Midland Believes Scholarship, since 2017, has provided over $125,000 to first-generation college students to pursue postsecondary certificates and college degrees.",1,0,2,0,True,0,0,0,2,1,0,2,4
+15,Projects - Project funds permit [community_foundation_tag] members to donate for specific purposes. They provide an opportunity for [community_foundation_tag] to offer service and leadership to the community.,1,0,2,0,True,0,1,2,4,1,1,0,0
+16,These funds vary in size and scope.,0,0,1,0,False,0,1,0,2,0,0,0,0
+17,"An excellent example of a project [community_foundation_tag] helped bring to life, with generous support from several community members and local family foundations, is The Tridge, Midland's iconic three-legged bridge that was erected in 1981.",1,0,3,0,True,0,6,0,0,2,3,0,0
+18,"Initiatives - With initiatives like Midland Area Cultural Awareness Coalition, Midland Area Youth Impact Partnership, Midland Area Career &amp; College Access Network, Public Arts Midland, and community events like Midland Area River Days, community members can participate in a group, activity, or event that represents their values. Community members can donate to existing funds like the Community Investment Fund to improve Midland, to specific funds representing their philanthropic goals, or to develop their own funds. [community_foundation_tag] permits donors to direct gifts broadly or narrowly to whatever issues they care about most.",1,0,3,0,True,1,1,2,6,0,2,0,0
+19,Contributions from donors change lives today and in the future. All donations allow individuals to directly engage in philanthropy - giving to those things that matter most to them.,1,1,1,0,True,0,1,0,2,0,0,0,0
+20,"[community_foundation_tag] allows everyday people to invest in opportunities that enrich and improve quality of life, resulting in long-term",1,0,2,0,True,0,4,0,0,2,2,0,0
+21,community transformation.,1,0,0,0,False,0,0,0,0,2,0,0,0
+22,Message from [community_foundation_tag],0,0,0,0,False,0,0,0,0,0,0,0,0
+23,CEO &amp; Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0
+24,"Dear Friends,",0,0,0,0,False,0,0,0,0,0,0,0,0
+25,"Thank you for joining [community_foundation_tag] to build a vibrant, thriving community.",1,0,2,0,True,2,4,0,0,0,2,0,0
+26,"As [community_foundation_tag] celebrate [community_foundation_tag] 50th anniversary year, [community_foundation_tag] reflect on the many transformational changes that have taken place in the Midland area since the founding of [community_foundation_tag].",0,0,1,0,False,0,2,0,0,0,1,0,0
+27,The theme for this year's annual report is transformation.,0,0,0,0,False,0,0,0,0,0,0,0,0
+28,"The Cambridge Dictionary defines transformation as 'a complete change in the appearance or character of something or someone, especially so that that thing or person is improved.'",1,0,0,0,False,0,0,0,0,2,0,0,0
+29,"Some of the photos in [community_foundation_tag] annual report show physical transformational changes in [community_foundation_tag] community, like the building of the Tridge, the development of the Rail Trail, and the construction of the Santa House.",1,0,1,0,True,0,2,0,0,2,1,0,0
+30,"Other transformational changes can be less obvious, like providing resources so [community_foundation_tag] youngest learners have access to high quality preschool education to ensure greater success in school or offering financial support so [community_foundation_tag] high school graduates are able to complete post-secondary education opening the door to meaningful employment opportunities.",1,0,2,0,True,0,1,0,1,2,4,0,0
+31,"Whether visible or not, [community_foundation_tag] are constantly working to find ways to positively transform the Midland area.",1,0,1,0,True,0,1,0,0,2,2,0,0
+32,"[individual_tag], author of The Purpose Driven Life stated, ""Transformation is a process, and as life happens there are tons of ups and downs.",0,0,0,0,False,0,0,0,0,0,0,0,0
+33,"It's a journey of discovery.""",0,0,0,0,False,0,0,0,0,0,0,0,0
+34,"[community_foundation_tag] have had [community_foundation_tag] share of ups and downs particularly in recent years with the pandemic and the dam failures and resulting flooding. Through this journey, [community_foundation_tag]'ve shown [community_foundation_tag] care for neighbors and [community_foundation_tag] willingness to move together and forward in a bold way so that all in [community_foundation_tag] community can thrive.",1,0,2,0,True,2,4,0,0,0,0,0,2
+35,"Community foundations are designed to demonstrate their love of community, working to be 'for good, for ever, for all.' It is a joy to work together with all of you to bring about positive changes as [community_foundation_tag] pursue [community_foundation_tag] purpose of cultivating the power of giving within [community_foundation_tag] community, supporting long-term transformation, and helping ensure all residents thrive.",1,0,3,0,True,2,6,0,0,1,0,0,3
+36,"As [individual_tag] said, 'Unless someone like you cares a whole awful lot, nothing is going to get better.",0,0,0,0,False,0,0,0,0,0,0,0,0
+37,It's not.',0,0,0,0,False,0,0,0,0,0,0,0,0
+38,"Thanks for caring a 'whole awful lot' with [community_foundation_tag] as [community_foundation_tag] continue [community_foundation_tag] journey of transformation, helping to change [community_foundation_tag] corner of the world for the better.",1,0,2,0,True,0,4,0,0,2,2,0,0
+39,"In service,",0,0,0,0,False,0,0,0,0,0,0,0,0
+41,President &amp; CEO,0,0,0,0,False,0,0,0,0,0,0,0,0
+43,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0
+45,"Transformation [community_foundation_tag] believes that by working together, great things can happen. The following examples of transformation show projects in which [community_foundation_tag] played an integral role - sometimes as lead, sometimes as a convenor, and sometimes as a contributor. Your contributions to [community_foundation_tag] result in long-term community transformation.",1,0,3,0,True,0,4,0,0,2,5,0,0
+46,The Tridge,1,1,1,0,True,0,2,0,0,0,1,0,0
+47,The Midland Area Santa House,0,0,1,0,False,0,2,0,0,0,1,0,0
+48,The M20 Bridge Mural,1,0,1,0,True,0,2,0,0,2,1,0,0
+49,The Pere-Marquette Rail Trail,1,0,1,0,True,0,2,0,0,2,1,0,0
+50,The Downtown Midland Streetscape Amenities Project,1,0,1,0,True,0,2,0,0,2,1,0,0
+51,"[community_foundation_tag], formerly known as Community Drug Store - Circle Branch",1,0,1,0,True,2,2,0,0,1,1,0,0
+52,"March: [individual_tag] were awarded the 2022 Citizenship Award as part of the annual State of the City Celebration. The Citizenship Award  is an award to recognize individuals who are unselfishly committed to making [community_foundation_tag] community a better place by encouraging and helping others to employ civility, respect, and inclusiveness to make a difference.",0,0,1,0,False,0,1,0,0,0,0,0,2
+53,"June: The Big Give awarded a grant for over $14,000 to the Bridge Food Center.",0,0,1,0,False,0,0,0,2,0,0,0,1
+54,The Big Give  is  a  group  of  men  from  the  greater  Midland  area  who  are  dedicated  to  helping local nonprofit agencies.,0,0,3,0,False,0,6,0,3,0,0,0,0
+55,The idea is simple:,0,0,0,0,False,0,0,0,0,0,0,0,0
+56,"Meet three times per year, donate $100 per member at each meeting, and vote on a local nonprofit to receive the funds.",0,0,3,0,False,0,3,0,6,0,0,0,0
+57,"August: The Midland Area River Days Festival, an initiative of [community_foundation_tag], brought music and enriching entertainment to Downtown Midland. River Days is an inclusive festival, providing fun and local resources to the Midland community.",1,0,2,0,True,0,4,0,0,2,0,0,2
+58,"October: Ripple Effect, [community_foundation_tag]'s celebration of philanthropy, took place at the H Hotel,  where  [individual_tag]  was  named Philanthropist of the Year.",0,0,2,0,False,0,3,0,3,0,0,0,0
+59,"December: [community_foundation_tag] partnered with Senior Services for the Senior Christmas Dinner program. The Senior Christmas Dinner program serves over 1,000 free meals to local seniors. Senior Christmas Dinners has been an annual program for the last 45+ years.",1,0,2,0,True,2,4,0,0,0,1,0,1
+60,December: Santa returned to the Midland Area Santa House in Downtown Midland.,0,0,0,0,False,0,0,0,0,0,0,0,0
+61,"Over 10,000 people visited the Santa House in 2022.",0,0,0,0,False,0,0,0,0,0,0,0,0
+64,"""I initially joined the Youth Action Council because my dad described the group to me back in middle school as being 'kind of like Shark Tank': Kids pitch their ideas and request money to accomplish them.",0,0,2,0,False,0,0,0,2,0,2,0,2
+65,"I thought that was interesting, but I didn't join because I didn't know anyone on the committee. But then I was at cross country practice one day and heard one of my friends talking about being involved in the Council, and that's what got me to join. After I joined, I found myself looking up to the Council's officers-it was cool to see young people in leadership roles.",0,0,2,0,False,0,0,0,2,0,1,0,3
+66,"I wanted to be a role model for future kids, and that became something I wanted to take on.""",0,0,0,0,False,0,0,0,0,0,0,0,0
+68,'I became involved with the Midland Soccer Club when my daughter started playing at the age of four.,0,0,0,0,False,0,0,0,0,0,0,0,0
+69,"At the time, the Club was discussing building new fields and a building, and since I came from the construction business, I offered to help with the expansion in early 2000.",0,0,0,0,False,0,0,0,0,0,0,0,0
+70,"[individual_tag] was our lead fundraising person, and that's also where [community_foundation_tag] comes in. What's great about [community_foundation_tag] is that they look at supporting the greater community, and they helped us fundraise for the building, the fields, and the alarm system for early weather warnings.""",1,0,3,0,True,2,6,0,2,0,1,0,0
+72,"""My wife developed breast cancer and passed away in 1983.",1,0,0,0,False,0,0,2,0,0,0,0,0
+73,"My daughters were only two and seven, so I got involved with [community_foundation_tag] because I wanted to do some things to remember her and show my daughters how we can honor her life by giving back to others like she would have liked...",1,0,2,0,True,0,2,2,4,0,0,0,0
+74,"I was looking for ways to help [community_foundation_tag] and showed some interest in Fireworks, so they said, 'great, we need someone to take over the fireworks [at] River Days,'",1,0,1,0,True,0,1,2,2,0,0,0,0
+75,"I have been doing that for 20 years now.'""",1,0,0,0,False,0,0,2,0,0,0,0,0
+77,"'Many things led to where I am today, but with [community_foundation_tag], my first interaction was with applying for a scholarship when I was in high school at Dow High. I received an anonymous donor scholarship from [community_foundation_tag], which helped me immensely. And so it was this incredible gift to me.",0,0,3,0,False,0,2,0,6,0,1,0,0
+78,"I'd been saving for college, knowing I'd pay for it myself.",0,0,0,0,False,0,0,0,0,0,0,0,0
+79,But it was massive and helped me to get started and be the first person in my family to get a four-year degree.,0,0,1,0,False,0,0,0,1,0,0,0,2
+80,I remember [individual_tag] shaking my hand at the ceremony that I attended with my mom.,0,0,0,0,False,0,0,0,0,0,0,0,0
+81,"From this experience, mentorship from [individual_tag], and how my mom and grandfather lived with a philosophy of helping other people, a whole new avenue opened up for me.""",0,0,1,0,False,0,2,0,1,0,0,0,0
+83,"""A lot of communities don't have something like [community_foundation_tag], organizations who are able to help with projects like these, and we're totally blessed.",0,0,2,0,False,0,4,0,0,0,2,0,0
+84,"Once completed, the Pere-Marquette Rail Trail became an excellent way to be able to link the communities!",0,0,1,0,False,0,2,0,0,0,1,0,0
+85,"Plus, you can use the corridors for bicycling, for transportation, and I get a smile on my face whenever I see somebody go down in a motorized wheelchair.",1,0,1,0,True,0,1,0,0,2,0,1,2
+86,That is so cool because it's an opportunity for them to get out and to feel free.,0,0,1,0,False,0,0,0,1,0,0,0,2
+87,The Pere-Marquette Rail Trail didn't happen because of any one person.,0,0,1,0,False,0,1,0,0,0,2,0,0
+88,It really took the entire community.',0,0,1,0,False,0,1,0,0,0,2,0,0
+90,'What I hope is that the dominant culture in Midland will internalize the mission of making Midland more inclusive and take it upon themselves to keep the ball moving forward.,1,0,1,0,True,0,0,0,0,0,1,2,2
+91,I feel the burden is too much on the minority groups to keep it going…,1,0,1,0,True,0,0,0,0,0,1,2,2
+92,"I want our majority culture in Midland to take it upon themselves and say, 'this is important to us.' We need to continue to support the vision of the Midland Area Culture Awareness Coalition. An organization like the Cultural Awareness Coalition is so priceless.",1,0,2,0,True,0,0,0,0,0,2,2,4
+93,"I hope this vision and its role become internalized by local government, schools, and the community.",1,0,1,0,True,0,0,0,0,2,1,1,2
+94,What the Cultural Awareness Coalition is doing is exactly what you need to do to create positive and strong communities that can grow and raise children who are global citizens.,1,0,2,0,True,0,0,0,0,0,2,2,4
+95,The benefits are endless.,0,0,0,0,False,0,0,0,0,0,0,0,0
+96,The best way to attract talented people is to build an inclusive community.',1,0,1,0,True,0,0,0,0,2,1,1,2
+98,Access to Community,0,0,1,0,False,0,0,0,0,0,1,0,2
+99,Changing Restrooms &amp; Changing Places,0,0,0,0,False,0,0,0,0,0,0,0,0
+100,"""The Americans with Disabilities Act gives a very basic minimum requirement for an entry into a space and into the restroom.",1,0,0,0,False,0,0,0,0,2,0,0,0
+101,"What that person is able to do or not able to do once they're in that space is a big question,"" said [individual_tag], a mother of a child with accessibility needs.",1,0,1,0,True,0,0,0,0,2,1,0,2
+102,"""And this is where Access to Recreation [now known as Access to Community] is getting involved.",1,0,1,0,True,0,0,0,0,2,1,1,2
+103,"We're trying to really make it so that the people with the most severe disabilities are served, and everybody else can have better access as well.""",1,0,2,0,True,0,0,0,0,1,2,2,4
+104,"Through [community_foundation_tag]'s Access to Community Committee, [individual_tag] and others have championed significant changes within Midland County. The vision of Access to Community is to remove barriers and ensure all projects and programs initiated in Midland County are thoughtfully designed to include the unique needs of people with all abilities.",1,0,3,0,True,0,0,0,0,0,3,2,6
+105,It is impossible to engage in this work without all [community_foundation_tag] community systems working in alignment to collaborate around this vision statement.,1,0,1,0,True,0,0,0,0,2,2,0,1
+106,"People with disabilities, along with their families and friends, have financial resources that they are more likely to invest in programs and services in communities that are inclusive and accessible.",1,0,1,0,True,0,0,0,0,2,1,1,2
+107,Building a community accessible to all users means that Midland County will not only be accessible to all community members but also become an attractive tourism destination for all.,1,0,1,0,True,0,0,0,0,2,1,1,2
+108,"Access to Community has spearheaded Midland's first ""Changing Places"" restroom facility in Grove Park, set to break ground in 2023. A Changing Places restroom goes beyond the minimum Americans with Disabilities Act (ADA) requirements for accessibility by providing hoists, adult changing tables, and the space for differently-abled people to navigate a public restroom in a dignified way.",1,0,1,0,True,0,0,0,0,2,1,1,2
+109,"While ensuring this fundamental right is an accomplishment for advocacy groups, [individual_tag] hopes it will catalyze many future improvements.",0,0,0,0,False,0,0,0,0,0,0,0,0
+110,"""I want us to be known as a Small Town America that really did make an exceptional effort to include all people with all abilities and that we have not only the facilities to accommodate our own residents but to accommodate visitors and that we will be a destination for wheelchair users and for people of all abilities who want to go on vacation,"" said [individual_tag].",1,0,1,0,True,0,1,0,0,2,0,1,2
+111,"""With so many resources and with so much education and the socio-economic power, we can do it because we placed a high priority on this.",0,0,1,0,False,0,0,0,0,0,1,0,2
+112,"I have this hope and dream because of the people that I have interacted with so far; their deep level of emotional and personal involvement in what happens in the community allows me to literally see that vision coming to life.""",0,0,1,0,False,0,2,0,0,0,0,0,1
+113,"In 2022 [community_foundation_tag] gifted $125,000 to the Midland Rotary Foundation to support the ""Changing Places"" restroom facility in Grove Park. This gift is a renewed commitment of [community_foundation_tag]'s support for Grove Park's revitalization. In 2020 [community_foundation_tag] gifted over $115,000 for Grove Park renovations and the development of the Pine Street promenade.",1,0,2,0,True,0,4,0,0,2,0,0,2
+114,"""The partnerships between philanthropic efforts of community members made possible by [community_foundation_tag] and public services like Parks and Recreation are significant and vital to understand.",1,0,2,0,True,0,2,0,0,2,4,0,0
+115,Everyone is invited to participate and can engage in very simple ways.,0,0,1,0,False,0,0,0,0,0,1,0,2
+116,"As the Director of Public Services for the City of Midland, I have worked with [community_foundation_tag] to seek grant support to build community assets - to create places where people can engage in creating or expanding their community experience; smaller grants to put signage at City Forest, larger grants for Chippewassee Trail expansion, and the Grove promenade,"" said [individual_tag].",1,0,3,0,True,0,4,0,0,2,5,0,0
+117,"""I want to continue to improve accessibility and inclusion in the community. I want spaces and places for everyone!",1,0,1,0,True,0,0,0,0,2,1,1,2
+118,I can play my part in this by ensuring that every improvement we make in our parks system is made through a lens of Universal Design and by looking at how we can best serve the most complex needs through the facilities we build and the programs we offer.,1,0,0,0,False,0,0,0,0,2,0,0,0
+119,"And through the partnerships and connections that we make along the way, I have met a wonderful mentor and friend, [individual_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0
+120,She has opened my eyes to a void that I didn't see in our community - we are missing out on a wonderful sector of our population because of the physical barriers that exist throughout Midland.,1,0,1,0,True,0,0,0,0,0,1,2,2
+121,"I am ready to work alongside people like [individual_tag] to help bring those barriers down to become a welcoming community where everyone can join in.""",1,0,1,0,True,0,0,0,0,0,1,2,2
+122,The work of Access to Community is representative of [community_foundation_tag]'s purpose to help ensure all residents thrive.,1,0,1,0,True,0,0,0,0,0,1,2,2
+123,"If you would like to assist in enriching [community_foundation_tag] community in Midland County, contact [community_foundation_tag] directly to explore the best way to support this initiative.",0,0,2,0,False,0,0,0,4,0,0,0,2
+124,You can learn more at,0,0,0,0,False,0,0,0,0,0,0,0,0
+129,"""With the endowment model, we love making a gift that will forever help children get the right start.""",1,0,2,0,True,0,4,2,2,0,0,0,0
+130,"When [individual_tag] attended the Naval Academy, they never dreamed they would settle in Michigan, let alone Midland.",0,0,0,0,False,0,0,0,0,0,0,0,0
+131,"""I grew up in Farmington Hills.",0,0,0,0,False,0,0,0,0,0,0,0,0
+132,We came home from college to Farmington for Easter.,0,0,0,0,False,0,0,0,0,0,0,0,0
+133,It was one of those cold 'Michigan Easters.' We were bundled up in our winter coats.,0,0,0,0,False,0,0,0,0,0,0,0,0
+134,"Rod said he would never live in Michigan,"" said [individual_tag] with a smile.",0,0,0,0,False,0,0,0,0,0,0,0,0
+135,"[individual_tag] followed, ""We were in the military and were really able to explore the world.",0,0,0,0,False,0,0,0,0,0,0,0,0
+136,"After exiting the military, I joined SYM Financial, which is headquartered in north central Indiana.",0,0,0,0,False,0,0,0,0,0,0,0,0
+137,SYM did a tremendous amount of business in Midland.,0,0,0,0,False,0,0,0,0,0,0,0,0
+138,I traveled back and forth.,0,0,0,0,False,0,0,0,0,0,0,0,0
+139,A group of us acquired the company in 2006.,0,0,0,0,False,0,0,0,0,0,0,0,0
+140,That opened the door for us to do what we should have been doing - which was living in the community we serve.,1,0,1,0,True,2,2,0,0,0,1,0,0
+141,"Our family moved to Midland, and it was great. We loved it and raised our kids here.""",1,0,1,0,True,2,2,0,0,0,1,0,0
+142,"[individual_tag] strongly emphasized community involvement, even before their children grew into adults.",0,0,1,0,False,0,2,0,1,0,0,0,0
+143,"""When the kids were young, we would go ring the bell for Salvation Army.",0,0,1,0,False,0,2,0,1,0,0,0,0
+144,"We volunteered time. I volunteered as a coach at the soccer club when our kids were playing,"" said [individual_tag]. ""Eventually, I was connected to [community_foundation_tag]'s Investment Committee, where I could give a bit of my time and talent.",0,0,2,0,False,0,4,0,1,0,1,0,0
+145,"That expanded into an opportunity to serve the Board more broadly.""",0,0,1,0,False,0,2,0,0,0,1,0,0
+146,"""It was [individual_tag] who really introduced us to [community_foundation_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0
+147,"I started the Tri-City Kids Triathalon, 'Tri-Kids-Try.'",1,0,0,0,False,0,0,2,0,0,0,0,0
+148,Sharon recommended we connect with [community_foundation_tag] as a way to develop some funds and awareness for the race.,1,0,2,0,True,0,2,2,4,0,0,0,0
+149,"Our connection with [community_foundation_tag] really began there,"" said [individual_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0
+150,The [individual_tag] family's relationship with [community_foundation_tag] continued to grow over time.,0,0,1,0,False,0,1,0,2,0,0,0,0
+151,"Their oldest son served as an Officer for the Midland Area Youth Action Council, and [individual_tag] has continued to serve as Foundation Trustee for almost nine years.",0,0,1,0,False,0,2,0,0,0,1,0,0
+152,"Throughout [individual_tag]'s tenure, he's taken part in helping to shape the direction of [community_foundation_tag], but one specific event has supported the Coleman's current philanthropic strategy.",1,0,2,0,True,2,2,0,2,0,2,0,0
+153,"""Early in my tenure as a board member, I attended the Council of Michigan Foundations' Annual Conference.",0,0,1,0,False,0,1,0,0,0,2,0,0
+154,A group of us heard a gentleman named [individual_tag] speak.,0,0,0,0,False,0,0,0,0,0,0,0,0
+155,"He spoke about how children raised in the same community can end up with very different outcomes and how the most precious opportunity to make a change is early in one's life,"" said [individual_tag]. ""We started looking and researching how you can make a difference in someone's life and actually change the future instead of dealing with the issues as they come out. How can we make a change sufficient enough to make the outcome different?",1,0,2,0,True,0,0,0,0,2,4,0,2
+156,"That resonated with me.""",0,0,0,0,False,0,0,0,0,0,0,0,0
+157,"After the conference, the concept of circumstances and their effects on our lives resonated with the [individual_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0
+158,"[individual_tag] shared [individual_tag]'s book ""Our Kids: The American Dream in Crisis"" with fellow [community_foundation_tag] member [individual_tag].",0,0,0,0,False,0,0,0,0,0,0,0,0
+159,One of the [individual_tag]' children wrote a college entrance essay inspired by their time volunteering at Big Brothers Big Sisters.,0,0,0,0,False,0,0,0,0,0,0,0,0
+160,"The theory underpinning the essay was that although they were 99.9% like their ""little,"" they still had very different opportunities and circumstances.",0,0,1,0,False,0,0,0,0,0,1,0,2
+161,"As conversations about the widening gap in upward mobility took place in the [individual_tag] household, they were also happening at [community_foundation_tag].",1,0,2,0,True,0,0,0,0,0,4,2,2
+162,"With the knowledge that 85% of the human brain's development has been completed by age five according to data compiled by the Rauch Foundation, [community_foundation_tag] developed the Ready for School Preschool Scholarship program with the goal for every child in Midland County to receive at least one year of high-quality preschool scholarship before kindergarten. The Ready for School Preschool Scholarship makes this possible for those with limited financial resources.",1,0,2,0,True,0,0,0,0,2,4,0,2
+163,"The program is a partnership with the Midland County Great Start Collaborative and was developed under the guidance of a small committee, including [individual_tag].",1,0,2,0,True,2,2,0,0,0,4,0,0
+164,It is an endowed fund to underwrite tuition to attend quality preschool for Midland County children whose families would otherwise be unable or find it challenging to afford the experience.,1,0,3,0,True,0,4,0,0,0,1,2,4
+165,"""As this concept developed into a fund, it was something we felt very passionate about,"" said [individual_tag].",1,0,1,0,True,0,1,2,2,0,0,0,0
+166,"""With the endowment model, we love making a gift that will forever help children get the right start.""",1,0,2,0,True,0,4,2,2,0,0,0,0
+167,"Established with generous support from the Rollin M. Gerstacker Foundation, the Charles J. Strosacker Foundation, and many passionate individuals, families, and organizations, the endowed fund will grow, supporting some of Midland's youngest learners in perpetuity. If you would like to assist in developing talent in Midland County, contact [community_foundation_tag] directly to explore the best way to support this initiative.",0,0,3,0,False,0,5,0,1,0,3,0,0
+168,You can learn more at [community_foundation_tag]/initiative/readyforschool.,0,0,0,0,False,0,0,0,0,0,0,0,0
+169,"Assets [community_foundation_tag] has over $114 million in assets, enabling [community_foundation_tag] to give now and in the future.",1,0,1,0,True,2,2,0,1,0,0,0,0
+170,Over 700 funds are represented in the dollar amounts below.,1,0,1,0,True,2,1,0,2,0,0,0,0
+171,"Many of the funds are endowed, and all have the purpose of helping with causes [community_foundation_tag] donors care about.",1,0,2,0,True,0,2,2,4,0,0,0,0
+172,Anyone can be a philanthropist.,0,0,1,0,False,0,1,0,2,0,0,0,0
+173,"Whether the gift is large or small, gifts to [community_foundation_tag] go toward helping Midland thrive.",0,0,2,0,False,0,4,0,2,0,0,0,0
+175,TOTAL ASSETS,0,0,1,0,False,0,2,0,1,0,0,0,0
+176,"$11,738,964 Agency Funds $5,264,396 Field-Of-Interest Funds",0,0,2,0,False,0,2,0,4,0,0,0,0
+177,"$28,267,222 Community Investment Funds",0,0,2,0,False,0,4,0,0,0,2,0,0
+178,"$11,954 Giving Circle Funds",0,0,2,0,False,0,2,0,4,0,0,0,0
+179,"$27,810,013 Designated Funds",0,0,2,0,False,0,2,0,4,0,0,0,0
+180,"$7,232,167 Project Funds",0,0,2,0,False,0,2,0,4,0,0,0,0
+181,"$12,934,897 Donor-Advised Funds $21,636,090 Scholarship Funds",0,0,2,0,False,0,2,0,4,0,0,0,0
+182,Fund Types,0,0,0,0,False,0,0,0,0,0,0,0,0
+183,Agency Funds,0,0,1,0,False,0,2,0,1,0,0,0,0
+184,Endowing a nonprofit organization,0,0,3,0,False,0,6,0,3,0,0,0,0
+185,A simple and efficient way to build an endowment and help create sustainability for local nonprofits.,0,0,3,0,False,0,6,0,3,0,0,0,0
+186,Community Investment Funds,0,0,1,0,False,0,2,0,0,0,1,0,0
+187,Meeting ever-changing needs,1,0,2,0,True,2,4,0,0,0,2,0,0
+188,"Help address a broad range of local needs, including future needs that often cannot be anticipated today.",1,0,2,0,True,2,4,0,0,1,2,0,0
+189,Designated Funds,0,0,1,0,False,0,1,0,2,0,0,0,0
+190,Helping local organizations sustain and grow,0,0,3,0,False,0,6,0,3,0,0,0,0
+191,"Make a lasting impact for a particular nonprofit organization - a senior center, museum, or other organization.",0,0,2,0,False,0,2,0,4,0,0,0,0
+192,Donor-Advised Funds,1,0,1,0,True,0,1,2,2,0,0,0,0
+193,A personal approach to giving,1,0,2,0,True,0,2,2,4,0,0,0,0
+194,"Be actively involved in grantmaking with a simple, powerful personal approach to giving that is oftentimes called a ""charitable checking account.""",1,0,2,0,True,0,2,2,4,0,0,0,0
+195,Field-Of-Interest Funds,1,0,1,0,True,0,1,2,2,0,0,0,0
+196,Connecting personal values to high-impact opportunities,1,0,2,0,True,0,0,2,4,0,2,0,0
+197,"Target specific areas of community investment such as arts, recreation, youth development, or other initiatives you are passionate about.",1,0,2,0,True,0,2,2,4,0,0,0,0
+198,Giving Circle Funds,0,0,1,0,False,0,1,0,2,0,0,0,0
+199,Giving with a group,0,0,1,0,False,0,1,0,2,0,0,0,0
+200,Combine your contributions with other like-minded individuals so that everyone can collectively make a lasting difference on the causes they value. [community_foundation_tag]'ll manage the details while your group focuses on making an impact.,0,0,3,0,False,0,3,0,6,0,0,0,0
+201,Project Funds,0,0,1,0,False,0,1,0,2,0,0,0,0
+202,"Focus on fundraising, not fund management",0,0,2,0,False,0,2,0,4,0,0,0,0
+203,The ideal vehicle for a short-term community project.,1,0,2,0,True,2,2,0,4,0,0,0,0
+204,"[community_foundation_tag]'ll manage all accounting, tax receipts, and donor communication so you can focus on fundraising.",1,0,2,0,True,2,2,0,4,0,0,0,0
+205,Scholarship Funds,0,0,1,0,False,0,1,0,2,0,0,0,0
+206,Investing in deserving students,0,0,2,0,False,0,0,0,4,0,2,0,0
+207,Develop talent by helping hardworking area students achieve their lifelong dreams.,1,0,3,0,True,0,0,0,5,2,4,0,0
+208,All these types of funds can be set up in a way to memorialize a loved one or honor a family/individual.,1,0,2,0,True,0,2,2,4,0,0,0,0
+209,What drives the work [community_foundation_tag] do?,0,0,0,0,False,0,0,0,0,0,0,0,0
+210,Midland's Community Success Panel developed four major focus areas for [community_foundation_tag] community. The panel believed these areas would help Midland achieve its vision statement of 'Midland: an inclusive community. Together. Forward. Bold. An exceptional place where everyone thrives.',0,0,1,0,False,0,0,0,0,0,2,0,1
+211,"[community_foundation_tag], in turn, aligned with these focus areas. [community_foundation_tag] believe that to work towards a more vibrant, thriving community, [community_foundation_tag] efforts should focus on these broad areas.",0,0,1,0,False,0,1,0,0,0,2,0,0
+212,"Building our livelihood means focusing on economic development and infrastructure. Developing our talent means focusing on education and the development and engagement of our youth. Caring for our people means focusing on health, human services, poverty, housing, and public safety. Enriching our community means focusing on arts, culture, entertainment, recreation, diversity, and the environment.",1,0,1,0,True,0,0,0,0,2,2,1,1
+213,"[community_foundation_tag] believe that moving forward together with [community_foundation_tag] donors and the community, [community_foundation_tag] can help to transform [community_foundation_tag] community as [community_foundation_tag] focus on these areas. Together, [community_foundation_tag]'re enriching and improving [community_foundation_tag] quality of life.",2,1,3,0,True,2,4,0,0,0,5,0,0
+214,Building our Livelihood,0,0,1,0,False,0,1,0,0,0,2,0,0
+216,Midland County creates and sustains competitive advantages for existing and future businesses.,1,0,1,0,True,0,1,0,0,2,2,0,0
+217,We are well-connected and invest in our physical and technological infrastructure.,1,0,1,0,True,0,1,0,0,2,2,0,0
+218,Enriching our Community,0,0,1,0,False,0,2,0,0,0,1,0,0
+219,"Midland County is a vibrant hub of arts, culture, entertainment, and recreational opportunities.",0,0,1,0,False,0,2,0,0,0,1,0,0
+220,"We are committed to equality and inclusion, and we welcome, embrace, and accept all people.",1,0,1,0,True,0,1,0,0,0,0,2,2
+221,We are a sustainable community that values and protects its natural resources.,1,0,1,0,True,0,2,0,0,0,1,2,0
+222,Developing our Talent ·,0,0,1,0,False,0,0,0,1,0,2,0,0
+223,Midland County offers high-quality education and learning opportunities throughout life. Our community nurtures a skilled workforce and places high value on post-secondary learning.,1,0,1,0,True,0,1,0,0,2,2,0,0
+224,We provide opportunities for children and youth to realize their hopes and dreams.,0,0,1,0,False,0,2,0,0,0,1,0,0
+225,Caring for our People ·,0,0,1,0,False,0,1,0,0,0,0,0,2
+226,The Midland community provides a coordinated and comprehensive system of supportive health and human services so that all may thrive.,1,0,1,0,True,0,0,0,0,2,2,0,1
+227,We encourage self-sufficiency and accept all individual responsibilities to collaborate to create the safest community in the country.,1,0,1,0,True,2,1,0,0,0,2,0,0
+228,"Grantmaking [community_foundation_tag] holds over 700 individual funds, each with a different purpose, impacting [community_foundation_tag] community through grants and/or scholarships. Most funds were established by individuals partnering with [community_foundation_tag] to impact [community_foundation_tag] community positively.",1,0,2,0,True,0,2,2,4,0,0,0,0
+229,"Grant totals reflect all funds held at [community_foundation_tag]. Grants on the following pages represent [community_foundation_tag]'s competitive grants. Money for these grants comes from Community Investment and Foundation Directed Funds held at [community_foundation_tag]. Also, competitive grants are awarded through the Kellogg Youth Fund, utilized at the direction of the Midland Area Youth Action Council.",0,0,2,0,False,0,2,0,0,0,2,0,2
+231,OUR GRANTMAKING,0,0,1,0,False,0,2,0,0,0,1,0,0
+233,DEVELOPING OUR TALENT,0,0,1,0,False,0,0,0,1,0,2,0,0
+235,BUILDING OUR LIVELIHOOD,0,0,1,0,False,0,1,0,0,0,2,0,0
+237,CARING FOR OUR PEOPLE,0,0,1,0,False,0,1,0,0,0,0,0,2
+239,ENRICHING OUR COMMUNITY,0,0,1,0,False,0,2,0,0,0,1,0,0
+241,Competitive Grants 2022,0,0,1,0,False,0,1,0,0,0,2,0,0
+242,DEVELOPING OUR TALENT,0,0,1,0,False,0,0,0,1,0,2,0,0
+244,"Coleman Community Schools - $100,000",1,0,1,0,True,0,1,0,0,2,2,0,0
+245,Coleman Culinary &amp; Hospitality Project at The Depot,0,0,1,0,False,0,1,0,0,0,2,0,0
+246,"Coleman Community Schools - $10,000*",1,0,1,0,True,0,1,0,0,2,2,0,0
+247,Coleman Culinary &amp; Hospitality Project at The Depot,0,0,1,0,False,0,1,0,0,0,2,0,0
+248,"Midland County Educational Service Agency - $100,000*",1,0,1,0,True,0,1,0,0,2,2,0,0
+249,Supporting Children &amp; Supporting Childcare,0,0,1,0,False,0,0,0,0,0,2,0,1
+250,"The Rock Center for Youth Development - $50,000",0,0,1,0,False,0,1,0,0,0,2,0,0
+251,Positive Youth Development Certificate,0,0,1,0,False,0,1,0,0,0,2,0,0
+253,"Competitive Drumline of Mid-Michigan - $10,000*",0,0,1,0,False,0,1,0,0,0,2,0,0
+254,Programming &amp; Equipment Expansion,0,0,1,0,False,0,1,0,0,0,2,0,0
+255,"The Legacy Center for Community Success - $10,000",0,0,1,0,False,0,1,0,0,0,2,0,0
+256,Read 2 Lead Summer Phonics Intervention Program,0,0,1,0,False,0,0,0,0,0,2,0,1
+257,BUILDING OUR LIVELIHOOD,0,0,1,0,False,0,1,0,0,0,2,0,0
+258,"Meridian Public Schools - $10,000*",1,0,1,0,True,0,1,0,0,2,2,0,0
+259,Nature Education Support,0,0,1,0,False,0,1,0,0,0,2,0,0
+260,"Creative 360 - $10,000*",0,0,1,0,False,0,1,0,0,0,2,0,0
+261,Sprouts &amp; STEMS: Children's Garden with Integrated Arts &amp; Science,0,0,1,0,False,0,1,0,0,0,2,0,0
+262,"Community Construct - $40,000",0,0,1,0,False,0,1,0,0,0,2,0,0
+263,Community Construct - Building Community with Skills for Tomorrow,0,0,1,0,False,0,1,0,0,0,2,0,0
+264,"Central Michigan University Research Corporation - $40,000",1,0,1,0,True,0,1,0,0,2,2,0,0
+265,Entrepreneur Like Me: An Inclusive Entrepreneur Initiative [community_foundation_tag] staff utilized a day of service to assist with cleaning The Depot in Coleman. The Depot houses the Coleman Culinary &amp; Hospitality Project for Coleman Community Schools.,1,0,2,0,True,0,1,0,0,2,4,0,1
+266,This project received a grant from [community_foundation_tag] and the Midland Area Youth Action Council.,1,0,3,0,True,0,2,0,0,2,5,0,2
+267,CARING FOR OUR PEOPLE,0,0,1,0,False,0,1,0,0,0,0,0,2
+269,"Adoption Option Inc. - $39,860",0,0,1,0,False,0,1,0,0,0,0,0,2
+270,Parents as Teachers Training,0,0,1,0,False,0,0,0,0,0,2,0,1
+271,"Andy's Angels - $100,000",0,0,1,0,False,0,1,0,0,0,0,0,2
+272,Andy's Place Midland,0,0,1,0,False,0,0,0,0,0,1,0,2
+273,"ARC of Midland - $3,683",0,0,1,0,False,0,1,0,0,0,0,0,2
+274,IPS Car Seat &amp; EZ Rider Stroller,0,0,1,0,False,0,1,0,0,0,0,0,2
+275,"County of Midland - $39,261",1,0,1,0,True,0,0,0,0,2,2,0,1
+276,Mental Health Court Support,0,0,1,0,False,0,0,0,0,0,2,0,1
+277,"Great Lakes Bay Foundation - $50,000*",1,0,1,0,True,0,0,0,0,2,1,0,2
+278,Advancing the iMatter Anti-Stigma Campaign,0,0,1,0,False,0,0,0,0,0,1,0,2
+279,"Home to Stay - $80,000*",0,0,1,0,False,0,1,0,0,0,0,0,2
+280,Housing Stability Support,0,0,1,0,False,0,1,0,0,0,0,0,2
+281,"King's Daughters &amp; Sons of Midland, Inc. - $10,000 Community Christmas Closet",0,0,1,0,False,0,2,0,0,0,0,0,1
+282,"Messiah Lutheran Church of Bullock Creek - $125,000*",0,0,1,0,False,0,1,0,0,0,0,0,2
+283,The Bridge Food Center Expansion Project,0,0,1,0,False,0,1,0,0,0,0,0,2
+284,"Messiah Lutheran Church of Bullock Creek - $40,000",0,0,1,0,False,0,1,0,0,0,0,0,2
+285,The Bridge Food Center Expansion Project,0,0,1,0,False,0,1,0,0,0,0,0,2
+286,"Midland Community Cancer Society - $40,000",0,0,1,0,False,0,2,0,0,0,0,0,1
+287,Respite Relief for the Weary,0,0,1,0,False,0,1,0,0,0,0,0,2
+288,"Midland Community Former Offenders Advocacy &amp; Rehabilitation - $11,000 Move-In &amp; Emergency Rent for Men &amp; Women's Sober Housing/",0,0,1,0,False,0,1,0,0,0,0,0,2
+289,Impact Weekend Assistance,0,0,1,0,False,0,1,0,0,0,0,0,2
+290,"Midland County Child Protection Council - $40,000",1,0,1,0,True,0,1,0,0,2,0,0,2
+291,Counseling Program,0,0,1,0,False,0,1,0,0,0,0,0,2
+292,"Midland Rotary Foundation - $125,000",0,0,1,0,False,0,0,0,0,0,1,0,2
+293,Grove Park Full Accessible Bathroom Project,0,0,1,0,False,0,0,0,0,0,1,0,2
+294,"Self Love Beauty - $10,000*",0,0,1,0,False,0,0,0,0,0,1,0,2
+295,Wellbeing &amp; Confidence Focus Program for Bullock Creek High School,1,0,1,0,True,0,0,0,0,2,1,0,2
+296,"Survivors of Suicide, Inc. - $40,000",0,0,1,0,False,0,1,0,0,0,0,0,2
+297,Creating a Safety Net Together,0,0,1,0,False,0,0,0,0,0,1,0,2
+298,"The Breaking Bread Village - $55,000*",0,0,1,0,False,0,1,0,0,0,0,0,2
+299,Breaking Bread Together While Offering Hope,0,0,1,0,False,0,1,0,0,0,0,0,2
+300,"The United Way of Midland County - $125,890*",0,0,1,0,False,0,0,0,0,0,2,0,1
+301,Support for the Leveraging Income For Tomorrow (LIFT) Program,0,0,1,0,False,0,0,0,0,0,1,0,2
+302,ENRICHING OUR COMMUNITY,0,0,1,0,False,0,2,0,0,0,1,0,0
+303,"Bullock Creek Youth Football League - $10,000*",0,0,1,0,False,0,2,0,0,0,1,0,0
+305,"City of Midland - Parks &amp; Recreation - $40,000",1,0,1,0,True,0,1,0,0,2,2,0,0
+306,Riverfront Trail Pedestrian Railing System,1,0,1,0,True,0,1,0,0,2,2,0,0
+307,"Creative 360 - $55,000*",0,0,1,0,False,0,2,0,0,0,0,0,1
+308,Meeting our Community Where They Live: An Inclusive &amp; Community-Centered Wellness Training Program,0,0,1,0,False,0,0,0,0,0,1,0,2
+309,"Midland Center for the Arts - $10,000*",0,0,1,0,False,0,2,0,0,0,1,0,0
+310,Midland Center for the Arts Renovation Project,0,0,1,0,False,0,2,0,0,0,1,0,0
+311,"Midland Center for the Arts - $100,000",0,0,1,0,False,0,2,0,0,0,1,0,0
+312,Midland Center for the Arts Renovation Project,0,0,1,0,False,0,2,0,0,0,1,0,0
+313,"Midland Township - $100,000",1,0,1,0,True,0,1,0,0,2,2,0,0
+314,Midland Township Path Extension,1,0,1,0,True,0,1,0,0,2,2,0,0
+315,"Saint Brigid of Kildare Parish of Midland - $40,000",0,0,1,0,False,0,2,0,0,0,1,0,0
+316,Playscape Replacement &amp; Safety Enhancement of Saint Brigid of Kildare Playground,1,0,1,0,True,0,2,0,0,2,1,0,0
+317,"Sanford Historical Society - $5,000*",0,0,1,0,False,0,2,0,0,0,1,0,0
+318,Sanford's Santa House,0,0,1,0,False,0,2,0,0,0,1,0,0
+319,"The Little Forks Conservancy - $100,000",0,0,1,0,False,0,2,0,0,0,1,0,0
+320,Nelson Woods Acquisition &amp; Improvement Project,1,0,1,0,True,0,2,0,0,2,1,0,0
+321,*Grants made during the ARPA Grant Cycle *Youth Action Council Grants,0,0,1,0,False,0,0,0,0,0,2,0,1
+322,[community_foundation_tag] granted to support Creative 360's Sprouts &amp; STEM Program in 2022.,0,0,2,0,False,0,2,0,0,0,4,0,0
+323,"ARPA Grantmaking [community_foundation_tag] partnered with the County of Midland in 2022 to grant $600,000 in American Rescue Plan Act (ARPA) funds to local nonprofits, enabling them to continue providing vital services to Midland County residents.",1,0,2,0,True,0,2,0,0,2,4,0,0
+324,"'[community_foundation_tag] purpose is to cultivate the power of giving within [community_foundation_tag] community, support long-term transformation, and help ensure all residents thrive,' said [individual_tag], President &amp; CEO of [community_foundation_tag]. 'Through [community_foundation_tag] partnership with the County of Midland, [community_foundation_tag] were able to aid local nonprofits that positively impact the quality of life in Midland County.'",1,0,4,0,True,0,3,0,0,2,6,0,3
+325,"Application requests were up to $150,000.",0,0,1,0,False,0,1,0,0,0,2,0,0
+326,This grant opportunity sought highly collaborative proposals between nonprofits and diverse sectors in Midland County.,1,0,2,0,True,0,0,0,0,2,4,0,2
+327,Applications were considered based on guidelines set forth by the State Budget Office's American Rescue Plan Priorities.,1,0,1,0,True,0,1,0,0,2,2,0,0
+328,The grant request rubric was based on the following nine categories:,0,0,1,0,False,0,1,0,0,0,2,0,0
+331,"'[community_foundation_tag] has been engaged in grantmaking in Midland County for almost 50 years,' said [individual_tag], Midland County Administrator/Controller. 'We were pleased to have them assist the County of Midland with their grantmaking expertise to provide relief to impactful local nonprofits.'",1,0,2,0,True,1,4,0,0,2,2,0,0
+332,This grant opportunity was open to all 501(c)(3) nonprofits in Midland County.,0,0,2,0,False,0,2,0,0,0,4,0,0
+333,Legacy Society,0,0,1,0,False,0,1,0,2,0,0,0,0
+334,"Members of the Legacy Society have chosen to include [community_foundation_tag] in their estate plans. This means that after they pass, assets such as their IRA or real estate will be gifted to [community_foundation_tag].",1,0,2,0,True,2,3,0,3,0,0,0,0
+335,The goal of the Legacy Society is to recognize and honor members for their,0,0,2,0,False,0,2,0,4,0,0,0,0
+336,"[individual_tag] [individual_tag] * [individual_tag] * [individual_tag]* [individual_tag] * [individual_tag]* [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag] [individual_tag] and [individual_tag] [individual_tag]* [individual_tag]* [individual_tag]* [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag]* [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag] [individual_tag]* [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] * [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] [individual_tag] and [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* and [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag] [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag] Dr. [individual_tag]* and [individual_tag]* [individual_tag] and *[individual_tag] [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]*. and [individual_tag] [individual_tag] [individual_tag] and [individual_tag] [individual_tag] * [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] [individual_tag] [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* [individual_tag] [individual_tag] and [individual_tag] [individual_tag] [individual_tag]* and [individual_tag]* [individual_tag]* and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] [individual_tag] [individual_tag]* [individual_tag] &amp; [individual_tag] [individual_tag] and [individual_tag] [individual_tag] [individual_tag] * [individual_tag] * [individual_tag] and [individual_tag] [individual_tag] * [individual_tag]* [individual_tag] * [individual_tag]* and [individual_tag]* [individual_tag] and [individual_tag] [individual_tag]* [individual_tag]* and [individual_tag]* [individual_tag]* [individual_tag]* and [individual_tag] [individual_tag]* [individual_tag]* [individual_tag] [individual_tag]* [individual_tag] [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] [individual_tag] * [individual_tag]* and [individual_tag]* [individual_tag] * [individual_tag] [individual_tag]* [individual_tag] and [individual_tag] [individual_tag] and [individual_tag] *DECEASED foresight, dedication, and philanthropic spirit.",0,0,1,0,False,0,1,0,2,0,0,0,0
+337,"Planned giving does not require a large income or vast estate, only a thoughtful intention to make a difference in your community.",0,0,1,0,False,0,2,0,1,0,0,0,0
+338,"To learn more about the Legacy Society, contact [community_foundation_tag] at 989-839-9661.",0,0,1,0,False,0,1,0,2,0,0,0,0
+343,Net Assets,0,0,1,0,False,0,2,0,1,0,0,0,0
+349,President &amp; CEO,0,0,0,0,False,0,0,0,0,0,0,0,0
+351,Chief Financial Officer,0,0,0,0,False,0,0,0,0,0,0,0,0
+353,Director of Community Impact,0,0,0,0,False,0,0,0,0,0,0,0,0
+355,Director of Development,0,0,0,0,False,0,0,0,0,0,0,0,0
+357,Scholarship Coordinator &amp; Impact Assistant,0,0,0,0,False,0,0,0,0,0,0,0,0
+359,Administrative &amp; Development Assistant,0,0,0,0,False,0,0,0,0,0,0,0,0
+361,Communications Officer,0,0,0,0,False,0,0,0,0,0,0,0,0
+363,Executive Assistant,0,0,0,0,False,0,0,0,0,0,0,0,0
+365,Finance Manager,0,0,0,0,False,0,0,0,0,0,0,0,0
+367,Postsecondary Education Leader,0,0,0,0,False,0,0,0,0,0,0,0,0
+369,Youth Impact Coordinator,0,0,0,0,False,0,0,0,0,0,0,0,0
+370,[community_foundation_tag] Trustees,0,0,1,0,False,0,2,0,0,0,1,0,0
+372,Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0
+374,Vice Chair,0,0,1,0,False,0,2,0,0,0,1,0,0
+380,Past Board Chair,0,0,1,0,False,0,2,0,0,0,1,0,0
+381,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0
+382,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0
+383,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0
+384,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0
+385,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0
+386,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0
+387,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0
+388,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0
+389,[individual_tag] Trustee,0,0,1,0,False,0,2,0,0,0,1,0,0
+390,[individual_tag] Trustee [community_foundation_tag],0,0,1,0,False,0,2,0,0,0,1,0,0
+391,For Good. For Ever. For All.,0,0,2,0,False,0,4,0,0,0,0,0,2
+392,"76 Ashman Circle | Midland, MI 48640 | 989.839.9661",0,0,0,0,False,0,0,0,0,0,0,0,0

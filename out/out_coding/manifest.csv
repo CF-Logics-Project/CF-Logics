@@ -1,0 +1,4 @@
+code,report_id,human_csv,ai_csv
+R1,363466802_2021,out/out_coding/human/CD institutional_logics_coded_2026-10-04_363466802_2021.csv,out/out_coding/ai/output_363466802_2021.csv
+R2,382023395_2022,out/out_coding/human/CD institutional_logics_coded_2026-10-06 382023395_2022.csv,out/out_coding/ai/output_382023395_2022.csv
+R3,25-1650208_2021,out/out_coding/human/CD institutional_logics_coded_2026-10-09_25-1650208_2021.csv,out/out_coding/ai/output_25-1650208_2021.csv

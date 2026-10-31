@@ -1,5 +1,4 @@
 {
-  "report_id": "25-1650208_2021",
   "n": 32,
   "n_permutations": 3000,
   "seed": 0,
@@ -14,7 +13,6 @@
     "n_flexible_only_chunks": 11
   },
   "permutation_sanity_check": {
-    "strict_rate_closed_form_chance": null,
     "strict_rate_permutation_chance": 0.30659375,
     "kappa_strict_via_permutation": 0.4591914912794628,
     "kappa_strict_closed_form": 0.45685997171145687

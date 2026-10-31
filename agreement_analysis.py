@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-01_run_agreement_analysis.py
+agreement_analysis.py
 
 ONE script that runs the full Human-vs-AI institutional-logics agreement
 analysis, for as many annual reports as you list in a manifest file, and
@@ -78,13 +78,13 @@ analysis; the per-report folders are detail underneath it.
 
 Usage
 -----
-    python3 01_run_agreement_analysis.py \\
-        --manifest manifest.csv \\
-        --outdir multi_report \\
-        --n-perm 3000 --seed 0
+    python3 agreement_analysis.py [--manifest out/out_coding/manifest.csv] \\
+        [--outdir out/agreement] [--n-perm 3000] [--seed 0]
 
-manifest.csv columns: code,report_id,human_csv,ai_csv (see manifest.csv
-in this folder for the 3 reports this project currently covers).
+manifest.csv columns: code,report_id,human_csv,ai_csv (see
+out/out_coding/manifest.csv for the 3 reports this project currently covers).
+Relative paths, both the defaults and those inside the manifest, are resolved
+from the repository root, where this script lives.
 """
 import argparse
 import csv
@@ -95,6 +95,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from sklearn.metrics import cohen_kappa_score
+
+REPO_ROOT = Path(__file__).resolve().parent
 
 ELEMENTS = ['element_community', 'element_donor', 'element_activity', 'element_board', 'element_grantee']
 LOGICS = ['PS', 'DS', 'PPG', 'SC']
@@ -594,17 +596,21 @@ def pool_everything(entries: dict, raw: dict, n_perm: int, seed: int) -> dict:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('--manifest', required=True, help='CSV with columns: code,report_id,human_csv,ai_csv')
-    ap.add_argument('--outdir', default='multi_report')
+    ap.add_argument('--manifest', default='out/out_coding/manifest.csv',
+                    help='CSV with columns: code,report_id,human_csv,ai_csv')
+    ap.add_argument('--outdir', default='out/agreement')
     ap.add_argument('--n-perm', type=int, default=3000)
     ap.add_argument('--seed', type=int, default=0)
     args = ap.parse_args()
 
-    outdir = Path(args.outdir)
+    outdir = REPO_ROOT / args.outdir
     outdir.mkdir(parents=True, exist_ok=True)
 
-    with open(args.manifest, newline='') as f:
+    with open(REPO_ROOT / args.manifest, newline='') as f:
         manifest = list(csv.DictReader(f))
+    for row in manifest:
+        row['human_csv'] = REPO_ROOT / row['human_csv']
+        row['ai_csv'] = REPO_ROOT / row['ai_csv']
 
     entries, raw = {}, {}
     for row in manifest:
