@@ -8,6 +8,11 @@ import re
 from pathlib import Path
 from typing import Any
 
+# All paths are relative to the repository root, where this script lives.
+REPO_ROOT = Path(__file__).resolve().parent
+OCR_OUTPUT_DIR = REPO_ROOT / "out" / "ocr"
+TAGGING_OUTPUT_DIR = REPO_ROOT / "out" / "tagging"
+
 PLACEHOLDER_MAP: dict[str, str] = {
     "person": "[person]",
     "community_foundation": "[community_foundation]",
@@ -328,3 +333,56 @@ def process_markdown_entities(
         "substitutions_applied": substitutions,
         "csv_rows_written": len(substitutions_log),
     }
+
+
+DEFAULT_TAGGING_PROMPT = """
+You are an information extraction assistant. There are three types of entities you must identify in a markdown text, everything that is not one of those entities, should be left unchanged.
+Once you identify one of these three types of entities, you need to substitute the text with its placeholder:
+1) placeholder [person]: any specific human person name and potentially surname, the entire name and surname is one single instance of the entity.
+2) placeholder [community_foundation]: a named community foundation (X) or any language used by the community foundation to refer to itself (e.g. "community foundation", "the foundation", "we", community foundation X, acronym of community foundation X etc.)
+3) placeholder [community]: a named community, neighborhood, local population group, or locality-based collective. Any language used by the community foundation X to refer to the community (e.g. "community", "the community", "our community", "the residents of X", "the people of X", etc.) is also considered a mention of the entity [community].
+
+Substitution policy:
+- Replace each detected specific entity mention with its placeholder:
+  - person -> [person]
+  - community_foundation -> [community_foundation]
+  - community -> [community]
+
+- Return exact text spans as they appear in the markdown.
+- Do not invent entities.
+- Do not include placeholders in the extracted text field.
+""".strip()
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description='Replace entity names with tags ("out_<report_id>_AR.md" -> "tagging_out_<report_id>_AR.md").'
+    )
+    parser.add_argument(
+        "--report",
+        help="Report identifier, e.g. 363466802_2021. Default: every Markdown file in the input folder.",
+    )
+    parser.add_argument("--input-dir", default=str(OCR_OUTPUT_DIR), help=f"OCR output folder (default: {OCR_OUTPUT_DIR}).")
+    parser.add_argument("--output-dir", default=str(TAGGING_OUTPUT_DIR), help=f"Output folder (default: {TAGGING_OUTPUT_DIR}).")
+    parser.add_argument("--mode", default="api", choices=["api", "local"], help="'api' calls Gemini (needs GEMINI_API_KEY); 'local' runs Gemma.")
+    parser.add_argument("--prompt-file", help="Text file with the tagging instructions. Default: DEFAULT_TAGGING_PROMPT.")
+    args = parser.parse_args()
+
+    input_dir = Path(args.input_dir)
+    output_dir = Path(args.output_dir)
+    prompt = Path(args.prompt_file).read_text(encoding="utf-8") if args.prompt_file else DEFAULT_TAGGING_PROMPT
+    md_paths = [input_dir / f"out_{args.report}_AR.md"] if args.report else sorted(input_dir.glob("out_*_AR.md"))
+
+    for md_path in md_paths:
+        if not md_path.is_file():
+            raise FileNotFoundError(f"Markdown file not found: {md_path}")
+        result = process_markdown_entities(
+            input_md_path=md_path,
+            output_md_path=output_dir / f"tagging_{md_path.name}",
+            output_csv_path=output_dir / f"tagging_{md_path.stem}.csv",
+            prompt_instructions=prompt,
+            mode=args.mode,
+        )
+        print(result)

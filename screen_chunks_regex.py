@@ -13,7 +13,7 @@ input always produces exactly the same output.
 
 WHAT IT DOES
 ------------
-For every .csv file in the input folder (default: "out/chunked reports"):
+For every .csv file in the input folder (default: "out/chunking"):
   1. read the file,
   2. look at the chunk text stored in the "text" column of each row,
   3. apply each screening rule to that text, writing "yes" or "no" into a new
@@ -23,7 +23,7 @@ For every .csv file in the input folder (default: "out/chunked reports"):
      the output folder (default: "out/screening") under the same file name with
      a "screening_" prefix.
 
-Example: "out/chunked reports/annual_report_chunks_42104021_2023_v5.csv"
+Example: "out/chunking/annual_report_chunks_42104021_2023_v5.csv"
       -> "out/screening/screening_annual_report_chunks_42104021_2023_v5.csv"
 
 SCREENING RULES
@@ -52,11 +52,11 @@ USAGE
 
     # screen a single file
     python scr/screening/screen_chunks_regex.py \
-        --input-file "out/chunked reports/annual_report_chunks_25-1650208_2021_v5.csv"
+        --input-file "out/chunking/annual_report_chunks_25-1650208_2021_v5.csv"
 
     # custom folders / custom text column
     python scr/screening/screen_chunks_regex.py \
-        --input-dir "out/chunked reports" \
+        --input-dir "out/chunking" \
         --output-dir "out/screening" \
         --text-column text
 
@@ -84,6 +84,11 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
+
+# Default folders, relative to the repository root, where this script lives.
+REPO_ROOT = Path(__file__).resolve().parent
+CHUNKING_OUTPUT_DIR = REPO_ROOT / "out" / "chunking"
+SCREENING_OUTPUT_DIR = REPO_ROOT / "out" / "screening"
 
 # Name of the column in the input .csv that holds the chunk text to screen.
 # Can be overridden on the command line with --text-column.
@@ -549,8 +554,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--input-dir",
-        default="out/chunked reports",
-        help='Folder containing the chunked .csv files to screen (default: "out/chunked reports").',
+        default=str(CHUNKING_OUTPUT_DIR),
+        help='Folder containing the chunked .csv files to screen (default: "out/chunking").',
     )
     parser.add_argument(
         "--input-file",
@@ -559,7 +564,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--output-dir",
-        default="out/screening",
+        default=str(SCREENING_OUTPUT_DIR),
         help='Folder where the "screening_" copies are written (default: "out/screening").',
     )
     parser.add_argument(

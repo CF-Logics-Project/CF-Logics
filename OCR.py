@@ -26,6 +26,11 @@ from huggingface_hub import snapshot_download
 from langdetect import DetectorFactory, detect
 from pypdf import PdfReader, PdfWriter
 
+# All paths are relative to the repository root, where this script lives.
+REPO_ROOT = Path(__file__).resolve().parent
+PDF_DIR = REPO_ROOT / "Sample Annual Report PDFs"
+OCR_OUTPUT_DIR = REPO_ROOT / "out" / "ocr"
+
 DEFAULT_OCR_REPO_ID = "SWHL/RapidOCR"
 DEFAULT_PICTURE_DESCRIPTION_PROMPT = (
     "Extract all text, axis labels, legend items, and coordinates from this chart. "
@@ -337,3 +342,42 @@ def run_dynamic_docling_pipeline(
 
     verbose_print("Conversion Success", "Final output generation completed successfully.")
     return final_result.document.export_to_markdown()
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description='Convert annual-report PDFs to Markdown ("<report_id>_AR.pdf" -> "out_<report_id>_AR.md").'
+    )
+    parser.add_argument(
+        "--report",
+        help="Report identifier, e.g. 363466802_2021. Default: every PDF in the input folder.",
+    )
+    parser.add_argument("--input-dir", default=str(PDF_DIR), help=f"Folder with the PDFs (default: {PDF_DIR}).")
+    parser.add_argument("--output-dir", default=str(OCR_OUTPUT_DIR), help=f"Output folder (default: {OCR_OUTPUT_DIR}).")
+    args = parser.parse_args()
+
+    input_dir = Path(args.input_dir)
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    pdf_paths = [input_dir / f"{args.report}_AR.pdf"] if args.report else sorted(input_dir.glob("*_AR.pdf"))
+
+    models = get_latest_ocr_models(repo_id=DEFAULT_OCR_REPO_ID)
+    for pdf_path in pdf_paths:
+        if not pdf_path.is_file():
+            raise FileNotFoundError(f"PDF not found: {pdf_path}")
+        markdown_document = run_dynamic_docling_pipeline(
+            pdf_path=str(pdf_path),
+            det_model_path=models["det"],
+            rec_model_path=models["rec"],
+            cls_model_path=models["cls"],
+            layout_spec=DOCLING_LAYOUT_HERON,
+            default_lang="en",
+            force_full_page_ocr=False,
+            do_table_structure=True,
+            do_picture_description=False,
+        )
+        md_output_path = output_dir / f"out_{pdf_path.stem}.md"
+        md_output_path.write_text(markdown_document, encoding="utf-8")
+        print(f"Markdown saved to {md_output_path}")

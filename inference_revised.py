@@ -56,9 +56,17 @@ import logging
 import re
 import time
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import pandas as pd
+
+# All paths are relative to the repository root, where this script lives.
+REPO_ROOT = Path(__file__).resolve().parent
+SCREENING_OUTPUT_DIR = REPO_ROOT / "out" / "screening"
+AI_CODING_OUTPUT_DIR = REPO_ROOT / "out" / "out_coding" / "ai"
+# Screening flags written by screen_chunks_regex.py; only chunks flagged "no" on all are coded.
+SCREENING_FLAGS = ["name", "list_names", "non_english", "min_length"]
 
 logger = logging.getLogger("2D_inference")
 if not logger.handlers:
@@ -574,3 +582,60 @@ def run_pipeline(
     logger.info("Done. Wrote %d records to %s and %s.", len(all_records), output_json_path, output_csv_path)
 
     return pd.DataFrame(all_records)
+
+
+if __name__ == "__main__":
+    import argparse
+    import os
+    import tempfile
+
+    parser = argparse.ArgumentParser(
+        description=(
+            'Code screened chunks with an LLM ("screening_annual_report_chunks_<report_id>_<version>.csv" '
+            '-> "output_<report_id>_<version>.csv" and ".json"). Only chunks flagged "no" on every '
+            "screening rule are coded."
+        )
+    )
+    parser.add_argument("--provider", default="anthropic", help="'anthropic' (needs ANTHROPIC_API_KEY) or 'google' (needs GEMINI_API_KEY).")
+    parser.add_argument("--model", help="Model id. Default: DEFAULT_MODELS[provider].")
+    parser.add_argument(
+        "--report",
+        help="Report identifier, e.g. 363466802_2021. Default: every screened .csv in the input folder.",
+    )
+    parser.add_argument("--input-dir", default=str(SCREENING_OUTPUT_DIR), help=f"Screening output folder (default: {SCREENING_OUTPUT_DIR}).")
+    parser.add_argument("--output-dir", default=str(AI_CODING_OUTPUT_DIR), help=f"Output folder (default: {AI_CODING_OUTPUT_DIR}).")
+    args = parser.parse_args()
+
+    provider = _normalize_provider(args.provider)
+    api_key = os.getenv("ANTHROPIC_API_KEY" if provider == "anthropic" else "GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("Set ANTHROPIC_API_KEY (provider 'anthropic') or GEMINI_API_KEY (provider 'google').")
+
+    input_dir = Path(args.input_dir)
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    pattern = f"screening_annual_report_chunks_{args.report}_*.csv" if args.report else "screening_annual_report_chunks_*.csv"
+    screened_paths = sorted(input_dir.glob(pattern))
+    if not screened_paths:
+        raise FileNotFoundError(f"No files matching {pattern} in {input_dir}")
+
+    for screened_path in screened_paths:
+        df = pd.read_csv(screened_path)
+        flags = [c for c in SCREENING_FLAGS if c in df.columns]
+        kept = df[(df[flags].astype(str).apply(lambda col: col.str.lower()) == "no").all(axis=1)]
+        logger.info("%s: coding %d of %d chunks.", screened_path.name, len(kept), len(df))
+
+        stem = screened_path.stem.removeprefix("screening_annual_report_chunks_")
+        with tempfile.NamedTemporaryFile("w", suffix=".csv", delete=False) as tmp:
+            kept.to_csv(tmp.name, index=False)
+        try:
+            run_pipeline(
+                input_csv_path=tmp.name,
+                output_json_path=str(output_dir / f"output_{stem}.json"),
+                output_csv_path=str(output_dir / f"output_{stem}.csv"),
+                provider=provider,
+                api_key=api_key,
+                model=args.model,
+            )
+        finally:
+            os.remove(tmp.name)

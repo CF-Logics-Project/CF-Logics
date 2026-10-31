@@ -33,17 +33,17 @@ We prepared an interface for human coding: [human\_labeling\_interface.html](htt
 
 ## Reproducing the Pipeline:&#32;
 
-Run the steps in order, each reads the output of the step before it.
+Run the steps in order from anywhere: every script resolves its paths from the repository root, and each step reads the output folder of the step before it. Intermediate outputs for the sample reports are stored in `out/`, one folder per step.
 
-| Step | Script | What it does | Output |
-| --- | --- | --- | --- |
-| 1 · OCR | `OCR.py` | Converts the unstructured text of each PDF report into a Markdown file. | `<report_id>_AR.md`: the report as text |
-| 2 · Entity tagging | `tagging.py` | Replaces the names of individual people and community foundations with standardized entity tags. | `tagging_out_<report_id>_AR.md`: PII and other elements replaced by tags |
-| 3 · Chunking | `report_chunking.py` | Splits the text into sentences with an NLP sentence splitter and regroups similar adjacent sentences using a cosine similarity threshold. | `annual_report_chunks_<report_id>_v5.csv`: one row per chunk |
-| 4 · Screening | `screen_chunks_regex.py` | Flags irrelevant chunks for removal from the analysis (e.g., lists of names, or text in another language). | `screening_annual_report_chunks_<report_id>_v5.csv`: four yes/no flags; `yes` excludes the chunk |
-| 5a · LLM coding | `inference_revised.py` | Runs the LLM coding of CF logics; shows how we translated the codebook into questions based on its elements. | LLM codes per chunk, in `out_coding/` |
-| 5b · Human coding | `human_labeling_interface.html` | Interface the expert coders use to code the same chunks with the same codebook questions. | Human codes per chunk, in `out_coding/` |
-| 6 · Agreement | `agreement_analysis.py` | Scores the human and LLM codes and compares them. | Human–LLM agreement statistics |
+| Step | Script | What it does | Reads | Writes |
+| --- | --- | --- | --- | --- |
+| 1 · OCR | `python OCR.py [--report <report_id>]` | Converts the unstructured text of each PDF report into a Markdown file. | `Sample Annual Report PDFs/<report_id>_AR.pdf` | `out/ocr/out_<report_id>_AR.md` |
+| 2 · Entity tagging | `python tagging.py [--report <report_id>]` | Replaces the names of individual people and community foundations with standardized entity tags (Gemini API: set `GEMINI_API_KEY`). | `out/ocr/` | `out/tagging/tagging_out_<report_id>_AR.md` and a `.csv` log of substitutions |
+| 3 · Chunking | `python report_chunking.py` | Splits the text into sentences with an NLP sentence splitter and regroups similar adjacent sentences using a cosine similarity threshold. Prompts for the report identifier. | `out/tagging/` | `out/chunking/annual_report_chunks_<report_id>_<version>.csv`: one row per chunk |
+| 4 · Screening | `python screen_chunks_regex.py` | Flags irrelevant chunks for removal from the analysis (e.g., lists of names, or text in another language). | `out/chunking/` | `out/screening/screening_annual_report_chunks_<report_id>_<version>.csv`: four yes/no flags; `yes` excludes the chunk |
+| 5a · LLM coding | `python inference_revised.py [--provider anthropic\|google] [--report <report_id>]` | Runs the LLM coding of CF logics on the chunks that pass screening; shows how we translated the codebook into questions based on its elements (set `ANTHROPIC_API_KEY` or `GEMINI_API_KEY`). | `out/screening/` | `out/out_coding/ai/output_<report_id>_<version>.csv` and `.json` |
+| 5b · Human coding | `human_labeling_interface.html` | Interface the expert coders use to code the same chunks with the same codebook questions; open it in a browser and upload a screening file. | `out/screening/` | `out/out_coding/human/` (CSV export) |
+| 6 · Agreement | `repro_scripts/` | Scores the human and LLM codes and compares them. | `out/out_coding/` | Human–LLM agreement statistics; method in `logic_scoring_evaluation.md` |
 
 ## A note on pipeline development
 

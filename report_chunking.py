@@ -1,7 +1,8 @@
 """Split an annual-report Markdown file into semantically grouped CSV chunks.
 
-Run this script with its Python dependencies installed. It prompts for the report folder and the
-identifier in `tagging_out_<identifier>_AR.md`, then writes both CSV outputs beside that report.
+Run this script with its Python dependencies installed. It prompts for the identifier in
+`tagging_out_<identifier>_AR.md`, reads that report from `out/tagging/` and writes both CSV outputs
+to `out/chunking/` (paths relative to the repository root).
 EmbeddingGemma runs locally, so no embedding-service API key is used. Hugging Face access is required
 for this gated model; accept Google's model license and provide a Hugging Face token if not already
 logged in.
@@ -22,6 +23,11 @@ MODEL_NAME = "google/embeddinggemma-300m"
 THRESHOLD = 0.70
 MIN_CHUNK_LENGTH = 0
 MAX_CHUNK_LENGTH = 3000
+
+# All paths are relative to the repository root, where this script lives.
+REPO_ROOT = Path(__file__).resolve().parent
+TAGGING_OUTPUT_DIR = REPO_ROOT / "out" / "tagging"
+CHUNKING_OUTPUT_DIR = REPO_ROOT / "out" / "chunking"
 
 
 def load_text(path):
@@ -428,11 +434,10 @@ def process_report(
 
 
 if __name__ == "__main__":
-    default_folder = Path(__file__).resolve().parent
     folder_input = input(
-        f"Folder containing the report Markdown file [{default_folder}]: "
+        f"Folder containing the report Markdown file [{TAGGING_OUTPUT_DIR}]: "
     ).strip()
-    report_folder = Path(folder_input).expanduser() if folder_input else default_folder
+    report_folder = Path(folder_input).expanduser() if folder_input else TAGGING_OUTPUT_DIR
     report_name = input(
         "Report name (identifier only, e.g. 541950727_2019): "
     ).strip()
@@ -456,8 +461,9 @@ if __name__ == "__main__":
         if not hf_token:
             raise ValueError("A Hugging Face access token is required to download the model.")
 
-    debug_sentence_path = report_folder / f"{report_name}_sentence_check_v5.csv"
-    chunks_output_path = report_folder / f"annual_report_chunks_{report_name}_v5.csv"
+    CHUNKING_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    debug_sentence_path = CHUNKING_OUTPUT_DIR / f"{report_name}_sentence_check_v5.csv"
+    chunks_output_path = CHUNKING_OUTPUT_DIR / f"annual_report_chunks_{report_name}_v5.csv"
 
     _, sentences, paragraph_breaks, _, chunks_df = process_report(
         report_path,
