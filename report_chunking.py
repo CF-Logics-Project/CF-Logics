@@ -227,7 +227,7 @@ def export_split_only_debug_csv(
     can see it here and fix it without changing the underlying wording.
     """
     if path is None:
-        path = Path.cwd() / "sentence_check_v5.csv"
+        path = Path.cwd() / "sentence_check.csv"
 
     debug_df = pd.DataFrame({
         "sentence_index": range(len(sentences)),
@@ -404,7 +404,7 @@ def process_report(
     if save_debug:
         if debug_path is None:
             debug_path = Path(report_path).with_name(
-                f"{Path(report_path).stem}_sentence_check_v5.csv"
+                f"{Path(report_path).stem}_sentence_check.csv"
             )
         export_split_only_debug_csv(sentences, paragraph_breaks, path=debug_path)
 
@@ -462,8 +462,8 @@ if __name__ == "__main__":
             raise ValueError("A Hugging Face access token is required to download the model.")
 
     CHUNKING_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    debug_sentence_path = CHUNKING_OUTPUT_DIR / f"{report_name}_sentence_check_v5.csv"
-    chunks_output_path = CHUNKING_OUTPUT_DIR / f"annual_report_chunks_{report_name}_v5.csv"
+    debug_sentence_path = CHUNKING_OUTPUT_DIR / f"{report_name}_sentence_check.csv"
+    chunks_output_path = CHUNKING_OUTPUT_DIR / f"annual_report_chunks_{report_name}.csv"
 
     _, sentences, paragraph_breaks, _, chunks_df = process_report(
         report_path,

@@ -14,9 +14,10 @@ OCR_OUTPUT_DIR = REPO_ROOT / "out" / "ocr"
 TAGGING_OUTPUT_DIR = REPO_ROOT / "out" / "tagging"
 
 PLACEHOLDER_MAP: dict[str, str] = {
-    "person": "[person]",
-    "community_foundation": "[community_foundation]",
-    "community": "[community]",
+    "community_foundation": "[community_foundation_tag]",
+    "individual": "[individual_tag]",
+    "financial_table": "[financial_table_tag]",
+    "table_of_contents": "[table_of_contents]",
 }
 
 REPLACEMENTS_RESPONSE_SCHEMA: dict[str, Any] = {
@@ -115,7 +116,7 @@ def _build_tagging_prompt(prompt_instructions: str, markdown_text: str) -> str:
         "Return ONLY valid JSON in this exact format:\n"
         "{\n"
         '  "replacements": [\n'
-        "    {\"text\": \"exact span from markdown\", \"entity\": \"person|community_foundation|community\"}\n"
+        "    {\"text\": \"exact span from markdown\", \"entity\": \"" + "|".join(PLACEHOLDER_MAP) + "\"}\n"
         "  ]\n"
         "}\n\n"
         "Rules:\n"
@@ -336,21 +337,12 @@ def process_markdown_entities(
 
 
 DEFAULT_TAGGING_PROMPT = """
-You are an information extraction assistant. There are three types of entities you must identify in a markdown text, everything that is not one of those entities, should be left unchanged.
-Once you identify one of these three types of entities, you need to substitute the text with its placeholder:
-1) placeholder [person]: any specific human person name and potentially surname, the entire name and surname is one single instance of the entity.
-2) placeholder [community_foundation]: a named community foundation (X) or any language used by the community foundation to refer to itself (e.g. "community foundation", "the foundation", "we", community foundation X, acronym of community foundation X etc.)
-3) placeholder [community]: a named community, neighborhood, local population group, or locality-based collective. Any language used by the community foundation X to refer to the community (e.g. "community", "the community", "our community", "the residents of X", "the people of X", etc.) is also considered a mention of the entity [community].
-
-Substitution policy:
-- Replace each detected specific entity mention with its placeholder:
-  - person -> [person]
-  - community_foundation -> [community_foundation]
-  - community -> [community]
-
-- Return exact text spans as they appear in the markdown.
-- Do not invent entities.
-- Do not include placeholders in the extracted text field.
+Identify the name of the community foundation that writes the report. If the name is preceded by a definite article such as "The", don't consider the article to be part of the name. Also identify if any acronym is used to refer to the community foundation and treat it as a synonym of the name. Keep this information in mind for the tagging tasks.
+The tagging tasks are the following:
+1) community_foundation: identify the language that the community foundation uses to refer to itself (e.g. [name], acronym of [name], "community foundation", "the foundation", "we", etc.). Do not tag any funds managed by the organization.
+2) individual: identify the names of all individual people in the report. Tag a name only if it is used to mention an individual, not if the name of the individual is part of the name of a foundation, a fund or any other entity, organization or company.
+3) financial_table: identify table structures containing only finance-related terms and numbers. Return the entire table as one span.
+4) table_of_contents: identify whether the report opens with a table of contents; if so, return the entire table of contents as one span.
 """.strip()
 
 

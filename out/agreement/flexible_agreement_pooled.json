@@ -1,0 +1,21 @@
+{
+  "report_id": "pooled",
+  "n": 306,
+  "n_permutations": 3000,
+  "seed": 0,
+  "standard_kappa": {
+    "kappa": 0.5593592731699351,
+    "raw_agreement": 0.6830065359477124
+  },
+  "flexible_agreement": {
+    "observed_rate": 0.9607843137254902,
+    "permutation_chance_rate": 0.5844074074074074,
+    "kappa_flexible": 0.9056391115398125,
+    "n_flexible_only_chunks": 85
+  },
+  "permutation_sanity_check": {
+    "strict_rate_permutation_chance": 0.28020588235294114,
+    "kappa_strict_via_permutation": 0.5596053700903945,
+    "kappa_strict_closed_form": 0.5593592731699351
+  }
+}

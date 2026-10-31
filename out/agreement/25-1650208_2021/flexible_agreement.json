@@ -1,0 +1,216 @@
+{
+  "report_id": "25-1650208_2021",
+  "n": 32,
+  "n_permutations": 3000,
+  "seed": 0,
+  "standard_kappa": {
+    "kappa": 0.45685997171145687,
+    "raw_agreement": 0.625
+  },
+  "flexible_agreement": {
+    "observed_rate": 0.96875,
+    "permutation_chance_rate": 0.6358333333333334,
+    "kappa_flexible": 0.914187643020595,
+    "n_flexible_only_chunks": 11
+  },
+  "permutation_sanity_check": {
+    "strict_rate_closed_form_chance": null,
+    "strict_rate_permutation_chance": 0.30659375,
+    "kappa_strict_via_permutation": 0.4591914912794628,
+    "kappa_strict_closed_form": 0.45685997171145687
+  },
+  "chunk_detail": [
+    {
+      "chunk_id": 1,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 3,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 4,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 6,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 7,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 9,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 10,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 13,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 14,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 16,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 17,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 21,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 30,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 90,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 93,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 94,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 95,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 96,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 97,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 99,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 101,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 103,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 117,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 121,
+      "strict_match": false,
+      "flexible_match": false,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 122,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 123,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 124,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 125,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 126,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    },
+    {
+      "chunk_id": 127,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 128,
+      "strict_match": false,
+      "flexible_match": true,
+      "flexible_only": true
+    },
+    {
+      "chunk_id": 131,
+      "strict_match": true,
+      "flexible_match": true,
+      "flexible_only": false
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "n_chunks_coded_by_both": 161,
+  "ordinal_order": [
+    "PS",
+    "DS",
+    "PPG",
+    "SC"
+  ],
+  "ordinal_rationale": "PS(0) < DS(1) < PPG(2) < SC(3), following the coding instrument's own numbering (1=PS,2=DS,3=PPG,4=SC), treated as an ordinal continuum so that weighted kappa penalizes disagreement between non-adjacent classes more than between neighboring ones.",
+  "tie_break_rule": "Ties broken by fixed priority order PS > DS > PPG > SC (arbitrary, disclosed).",
+  "n_human_ties": 7,
+  "n_ai_ties": 3,
+  "n_overlapping_ties": 0,
+  "full_sample": {
+    "n": 161,
+    "confusion_matrix": [
+      [
+        28,
+        1,
+        3,
+        7
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        13,
+        0,
+        14,
+        2
+      ],
+      [
+        5,
+        1,
+        12,
+        74
+      ]
+    ],
+    "labels_order": [
+      "PS",
+      "DS",
+      "PPG",
+      "SC"
+    ],
+    "kappa_unweighted": 0.5472614558701349,
+    "kappa_linear": 0.5903798377682661,
+    "kappa_quadratic": 0.6333536025563067,
+    "raw_agreement": 0.7267080745341615
+  },
+  "tie_excluded_sensitivity": {
+    "n": 151,
+    "confusion_matrix": [
+      [
+        26,
+        1,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        13,
+        0,
+        14,
+        2
+      ],
+      [
+        4,
+        1,
+        10,
+        74
+      ]
+    ],
+    "labels_order": [
+      "PS",
+      "DS",
+      "PPG",
+      "SC"
+    ],
+    "kappa_unweighted": 0.5996169993371143,
+    "kappa_linear": 0.6480431379370326,
+    "kappa_quadratic": 0.6952891239301371,
+    "raw_agreement": 0.7615894039735099
+  }
+}

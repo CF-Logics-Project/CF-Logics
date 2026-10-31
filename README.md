@@ -10,7 +10,7 @@ The repository accompanies the proposal *Measuring Constructs in Organizational 
 
 Our codebook instructs questions to identify four logics, in text chunks belonging to one or several elements.
 
-We prepared an interface for human coding: [human\_labeling\_interface.html](https://github.com/cdressel77/CF-Logics/blob/main/human_labeling_interface.html). For LLM agents, the codebook is  embedded in the script [`inference_revised.py`](https://github.com/cdressel77/CF-Logics/blob/main/inference_revised.py).&#32;
+We prepared an interface for human coding: [human\_labeling\_interface.html](https://github.com/CF-Logics-Project/CF-Logics/blob/main/human_labeling_interface.html), which you can [open directly in your browser](https://cf-logics-project.github.io/CF-Logics/human_labeling_interface.html). For LLM agents, the codebook is  embedded in the script [`inference_revised.py`](https://github.com/CF-Logics-Project/CF-Logics/blob/main/inference_revised.py).&#32;
 
 **Logics.** Each logic is an ideal type: a coherent set of values about community and philanthropy, and of practices a CF follows.
 
@@ -39,11 +39,20 @@ Run the steps in order from anywhere: every script resolves its paths from the r
 | --- | --- | --- | --- | --- |
 | 1 · OCR | `python OCR.py [--report <report_id>]` | Converts the unstructured text of each PDF report into a Markdown file. | `Sample Annual Report PDFs/<report_id>_AR.pdf` | `out/ocr/out_<report_id>_AR.md` |
 | 2 · Entity tagging | `python tagging.py [--report <report_id>]` | Replaces the names of individual people and community foundations with standardized entity tags (Gemini API: set `GEMINI_API_KEY`). | `out/ocr/` | `out/tagging/tagging_out_<report_id>_AR.md` and a `.csv` log of substitutions |
-| 3 · Chunking | `python report_chunking.py` | Splits the text into sentences with an NLP sentence splitter and regroups similar adjacent sentences using a cosine similarity threshold. Prompts for the report identifier. | `out/tagging/` | `out/chunking/annual_report_chunks_<report_id>_<version>.csv`: one row per chunk |
-| 4 · Screening | `python screen_chunks_regex.py` | Flags irrelevant chunks for removal from the analysis (e.g., lists of names, or text in another language). | `out/chunking/` | `out/screening/screening_annual_report_chunks_<report_id>_<version>.csv`: four yes/no flags; `yes` excludes the chunk |
-| 5a · LLM coding | `python inference_revised.py [--provider anthropic\|google] [--report <report_id>]` | Runs the LLM coding of CF logics on the chunks that pass screening; shows how we translated the codebook into questions based on its elements (set `ANTHROPIC_API_KEY` or `GEMINI_API_KEY`). | `out/screening/` | `out/out_coding/ai/output_<report_id>_<version>.csv` and `.json` |
+| 3 · Chunking | `python report_chunking.py` | Splits the text into sentences with an NLP sentence splitter and regroups similar adjacent sentences using a cosine similarity threshold. Prompts for the report identifier. | `out/tagging/` | `out/chunking/annual_report_chunks_<report_id>.csv`: one row per chunk |
+| 4 · Screening | `python screen_chunks_regex.py` | Flags irrelevant chunks for removal from the analysis (e.g., lists of names, or text in another language). | `out/chunking/` | `out/screening/screening_annual_report_chunks_<report_id>.csv`: four yes/no flags; `yes` excludes the chunk |
+| 5a · LLM coding | `python inference_revised.py [--provider anthropic\|google] [--report <report_id>]` | Runs the LLM coding of CF logics on the chunks that pass screening; shows how we translated the codebook into questions based on its elements (set `ANTHROPIC_API_KEY` or `GEMINI_API_KEY`). | `out/screening/` | `out/out_coding/ai/output_<report_id>.csv` and `.json` |
 | 5b · Human coding | `human_labeling_interface.html` | Interface the expert coders use to code the same chunks with the same codebook questions; open it in a browser and upload a screening file. | `out/screening/` | `out/out_coding/human/` (CSV export) |
-| 6 · Agreement | `repro_scripts/` | Scores the human and LLM codes and compares them. | `out/out_coding/` | Human–LLM agreement statistics; method in `logic_scoring_evaluation.md` |
+| 6 · Agreement | `bash repro_scripts/run_agreement.sh` | Scores the human and LLM codes and compares them (requirements in `repro_scripts/requirements.txt`). | `out/out_coding/` | `out/agreement/`: human–LLM agreement statistics per report and pooled, and a workbook with live formulas; method in `logic_scoring_evaluation.md` |
+
+For the sample reports, steps 2 (entity tagging) and 5a (LLM coding) were executed by a code agent (Claude) that read the full report and followed, respectively, the tagging instructions below and the questions in `inference_revised.py`. `tagging.py` and `inference_revised.py` run the same instructions through an API.
+
+<details>
+<summary>Tagging instructions given to the agent</summary>
+
+> You are a behaving agent, you can directly execute tasks directly, you are not just a code generator. Execute directly this task: read the file out/ocr/out_25-1650208_2021_AR.md, identify the name of the community foundation that writes the report, if the name is preceded by a determined article such as "The", don't consider the article to be part of the name. Also identify if any accronym is used to refer the community foundation and treat it as synonym of the name. You'll need to keep this information in mind for the tagging process. You need to execute all the tagging tasks and then save the new version of the .md file in the folder out/tagging, add to filename the prefix "tagging_" so it inherits the original name of the file with the prefix. The tagging tasks are the following: 1) Identify and replace with "[community_foundation_tag]" the language that the community foundation uses to refer to itself (e.g. [name], acronym of [name], "community foundation", "the foundation", "we", etc.). Be sure not replace with [community_foundation_tag] any funds managed by the organization. 2) Individual tag prompting: Identify and replace with "[individual_tag]" the names of all individual people in this report. Do this replacement only if the name has the purpose of mentioning an individual but not if the name of the individual is a part of the name of a foundation or a fund or any other entity, organization, company. 3) Identifiy and replace with [financial_table_tag] ocurrences of table structures containing only finance related terms and numbers. Replace the entire table with the tag [financial_table_tag]. 4) identify if there is a table of contents in the report, if so replace with [table_of_contents] the entire opening table of contents of the report.
+
+</details>
 
 ## A note on pipeline development
 

@@ -591,8 +591,8 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
         description=(
-            'Code screened chunks with an LLM ("screening_annual_report_chunks_<report_id>_<version>.csv" '
-            '-> "output_<report_id>_<version>.csv" and ".json"). Only chunks flagged "no" on every '
+            'Code screened chunks with an LLM ("screening_annual_report_chunks_<report_id>.csv" '
+            '-> "output_<report_id>.csv" and ".json"). Only chunks flagged "no" on every '
             "screening rule are coded."
         )
     )
@@ -614,7 +614,7 @@ if __name__ == "__main__":
     input_dir = Path(args.input_dir)
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    pattern = f"screening_annual_report_chunks_{args.report}_*.csv" if args.report else "screening_annual_report_chunks_*.csv"
+    pattern = f"screening_annual_report_chunks_{args.report}.csv" if args.report else "screening_annual_report_chunks_*.csv"
     screened_paths = sorted(input_dir.glob(pattern))
     if not screened_paths:
         raise FileNotFoundError(f"No files matching {pattern} in {input_dir}")

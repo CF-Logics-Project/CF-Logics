@@ -23,8 +23,8 @@ For every .csv file in the input folder (default: "out/chunking"):
      the output folder (default: "out/screening") under the same file name with
      a "screening_" prefix.
 
-Example: "out/chunking/annual_report_chunks_42104021_2023_v5.csv"
-      -> "out/screening/screening_annual_report_chunks_42104021_2023_v5.csv"
+Example: "out/chunking/annual_report_chunks_42104021_2023.csv"
+      -> "out/screening/screening_annual_report_chunks_42104021_2023.csv"
 
 SCREENING RULES
 ---------------
@@ -52,7 +52,7 @@ USAGE
 
     # screen a single file
     python scr/screening/screen_chunks_regex.py \
-        --input-file "out/chunking/annual_report_chunks_25-1650208_2021_v5.csv"
+        --input-file "out/chunking/annual_report_chunks_25-1650208_2021.csv"
 
     # custom folders / custom text column
     python scr/screening/screen_chunks_regex.py \
