@@ -58,7 +58,7 @@ Then, across all reports in the manifest
     unlike the all-chunks PROFILE above) are pooled the same way: sum each
     report's own points, then renormalize. (An earlier version of the
     dashboard build omitted this pooled figure, which is what made its
-    "Pooled" tab render blank — see 03_build_dashboard.py's docstring.)
+    "Pooled" tab render blank — see agreement_dashboard.py's docstring.)
 
 Outputs
 -------
@@ -72,7 +72,7 @@ a human reader:
     <outdir>/agreement_bundle.json
 
 a single JSON with a `reports` entry per report code and one `pooled`
-entry, structured exactly as 02_build_xlsx.py and 03_build_dashboard.py
+entry, structured exactly as agreement_xlsx.py and agreement_dashboard.py
 expect it. That one file is the complete, reproducible result of this
 analysis; the per-report folders are detail underneath it.
 

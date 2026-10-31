@@ -217,3 +217,5 @@ A pooled kappa across the 3 reports cannot be obtained by averaging the three re
 - `agreement_analysis.py` — runs every step above for the reports listed in `out/out_coding/manifest.csv` and pools them: `python3 agreement_analysis.py` (requires pandas, numpy, scikit-learn).
 - `out/agreement/<report_id>/` — per report: `chunk_level.csv` (§2–5), `chunk_dominant.csv` and `summary_chunk_kappa.json` (§7–8), `flexible_agreement.json` (§9), `report_level_profile.json` (§10), `summary.json` (coverage counts).
 - `out/agreement/agreement_bundle.json` — all per-report results plus the pooled results (§11) in one file.
+- `agreement_xlsx.py` → `out/agreement/institutional_logics_agreement.xlsx` — per-report and pooled sheets; the pooled confusion matrix is built from live formulas (Excel or LibreOffice recalculates it on opening).
+- `agreement_dashboard.py` → `agreement_dashboard.html` — fills `agreement_dashboard_template.html` with the bundle; published at https://cf-logics-project.github.io/CF-Logics/agreement_dashboard.html with "Chunk-matched agreement" (§7–8), "Flexible chunk-vicinity" (§9) and "Report-level profile" (§10) tabs, pooled and per report.

@@ -1,0 +1,956 @@
+<title>Institutional Logics Agreement</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root {
+    --paper: #f6f3ea;
+    --surface: #ffffff;
+    --surface-2: #efece1;
+    --ink: #262319;
+    --ink-muted: #6f6a5c;
+    --ink-faint: #a5a091;
+    --line: #ddd5bf;
+    --line-strong: #c7bd9f;
+    --accent: #7a5c26;
+    --accent-ink: #ffffff;
+    --focus: #2f6f8f;
+
+    --human: #b5802c;
+    --ai: #4596cf;
+
+    --logic-ps: #4f7a52;
+    --logic-ds: #386f96;
+    --logic-ppg: #8a5a95;
+    --logic-sc: #b0522f;
+
+    --good: #3f7d4f;
+    --good-bg: #e6f0e6;
+    --warn: #96721f;
+    --warn-bg: #f5ecd6;
+    --bad: #a1402f;
+    --bad-bg: #f7e6e1;
+
+    --shadow: 0 1px 2px rgba(38,35,25,.06), 0 6px 20px rgba(38,35,25,.06);
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #14151a; --surface: #1b1d24; --surface-2: #22252d;
+      --ink: #e8e5d9; --ink-muted: #a19c8a; --ink-faint: #6b6858;
+      --line: #33353f; --line-strong: #454859;
+      --accent: #d3ac5e; --accent-ink: #1b1502; --focus: #6cb6d9;
+      --human: #b5802c; --ai: #4596cf;
+      --logic-ps: #7fae7d; --logic-ds: #74a8d6; --logic-ppg: #bd8fc7; --logic-sc: #dd8862;
+      --good: #7fbf8b; --good-bg: #1c2b1e;
+      --warn: #d9b25e; --warn-bg: #2c2513;
+      --bad: #e08b78; --bad-bg: #2e1e1a;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #14151a; --surface: #1b1d24; --surface-2: #22252d;
+    --ink: #e8e5d9; --ink-muted: #a19c8a; --ink-faint: #6b6858;
+    --line: #33353f; --line-strong: #454859;
+    --accent: #d3ac5e; --accent-ink: #1b1502; --focus: #6cb6d9;
+    --human: #b5802c; --ai: #4596cf;
+    --logic-ps: #7fae7d; --logic-ds: #74a8d6; --logic-ppg: #bd8fc7; --logic-sc: #dd8862;
+    --good: #7fbf8b; --good-bg: #1c2b1e;
+    --warn: #d9b25e; --warn-bg: #2c2513;
+    --bad: #e08b78; --bad-bg: #2e1e1a;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.5;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 26px 70px;
+  }
+  h1, h2, h3, h4 { font-family: "IBM Plex Serif", Georgia, serif; text-wrap: balance; margin: 0; }
+  .mono { font-family: "IBM Plex Mono", "SF Mono", monospace; }
+  .wrap { max-width: 1020px; margin: 0 auto; }
+
+  .topbar { display: flex; flex-direction: column; gap: 4px; margin-bottom: 18px; }
+  .eyebrow { font-size: 11.5px; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); font-weight: 600; }
+  .topbar h1 { font-size: 26px; font-weight: 600; }
+  .topbar p.sub { color: var(--ink-muted); font-size: 14px; max-width: 74ch; margin-top: 2px; }
+
+  .legend-row { display: flex; gap: 18px; margin-top: 10px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--ink-muted); font-weight: 600; }
+  .legend-swatch { width: 11px; height: 11px; border-radius: 3px; flex: none; }
+
+  /* report tabs — directly under the H1, styled to read unambiguously as tabs */
+  .tabs-block { margin-bottom: 6px; }
+  .tabs-hint { font-size: 12px; color: var(--ink-faint); margin-bottom: 8px; }
+  .tabs { display: flex; gap: 4px; flex-wrap: wrap; border-bottom: 2px solid var(--line); padding-bottom: 0; }
+  .tab { font: inherit; font-size: 13.5px; font-weight: 600; padding: 10px 16px 9px; border-radius: 8px 8px 0 0; border: 1px solid var(--line-strong); border-bottom: none; background: var(--surface-2); color: var(--ink-muted); cursor: pointer; transition: background .12s, color .12s; position: relative; top: 2px; }
+  .tab:hover { background: var(--surface); color: var(--ink); }
+  .tab.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); top: 0; box-shadow: 0 -2px 0 var(--accent) inset; }
+  .tab .sub-label { font-weight: 500; opacity: .85; margin-left: 6px; }
+  .tab .main-flag { display: inline-block; margin-left: 7px; font-size: 9.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: 2px 6px; border-radius: 100px; background: var(--accent-ink); color: var(--accent); }
+  .tab.active .main-flag { background: rgba(255,255,255,.28); color: var(--accent-ink); }
+
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); padding: 20px 22px; margin-bottom: 18px; }
+  .panel h2 { font-size: 16px; font-weight: 600; margin-bottom: 2px; }
+  .panel .panel-sub { font-size: 12.5px; color: var(--ink-muted); margin-bottom: 16px; }
+
+  .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 18px; }
+  .kpi { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); padding: 16px 18px; min-width: 0; }
+  .kpi .label { font-size: 11px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 6px; }
+  .kpi .value { font-family: "IBM Plex Mono"; font-size: 26px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .kpi .note { font-size: 12px; color: var(--ink-muted); margin-top: 4px; }
+  .kpi .pill { display: inline-block; margin-top: 7px; padding: 3px 9px; border-radius: 100px; font-size: 11px; font-weight: 700; }
+  .pill.moderate { background: var(--warn-bg); color: var(--warn); }
+  .pill.substantial { background: var(--good-bg); color: var(--good); }
+  .pill.fair { background: var(--bad-bg); color: var(--bad); }
+
+  .two-col { display: grid; grid-template-columns: 1.3fr 1fr; gap: 18px; align-items: stretch; }
+
+  .chart-wrap { overflow-x: auto; }
+  svg text { font-family: "IBM Plex Sans", sans-serif; fill: var(--ink); }
+  .axis-label { font-size: 11px; fill: var(--ink-faint); }
+  .bar-label { font-size: 11.5px; font-weight: 600; fill: var(--ink); }
+  .grid-line { stroke: var(--line); stroke-width: 1; }
+  .logic-name { font-size: 12.5px; font-weight: 600; fill: var(--ink); }
+  .bar-human { fill: var(--human); }
+  .bar-ai { fill: var(--ai); }
+  .bar-human:hover, .bar-ai:hover { filter: brightness(1.08); }
+
+  .matrix-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  .matrix-table th, .matrix-table td { padding: 8px 6px; text-align: center; border: 1px solid var(--line); }
+  .matrix-table th { font-weight: 600; color: var(--ink-muted); background: var(--surface-2); font-size: 11px; text-transform: uppercase; letter-spacing: .03em; }
+  .matrix-table td.diag { font-weight: 700; }
+  .matrix-corner { background: var(--surface-2); }
+  .kappa-readout { margin-top: 14px; padding-top: 14px; border-top: 1px dashed var(--line); }
+  .kappa-readout .big { font-family: "IBM Plex Mono"; font-size: 28px; font-weight: 600; }
+  .kappa-readout .label { font-size: 12px; color: var(--ink-muted); }
+  .kappa-ref { font-size: 11.5px; color: var(--ink-faint); margin-top: 10px; }
+
+  .table-controls { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+  .table-controls input { font: inherit; font-size: 13px; padding: 7px 10px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--paper); color: var(--ink); flex: 1; min-width: 160px; }
+  .table-controls .count { font-size: 12.5px; color: var(--ink-muted); white-space: nowrap; }
+  .table-scroll { max-height: 420px; overflow-y: auto; overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+  table.chunk-table { width: 100%; border-collapse: collapse; font-size: 12.5px; min-width: 640px; }
+  table.chunk-table thead th { position: sticky; top: 0; background: var(--surface-2); z-index: 1; text-align: left; padding: 8px 10px; font-weight: 600; color: var(--ink-muted); font-size: 11px; text-transform: uppercase; letter-spacing: .03em; border-bottom: 1px solid var(--line); }
+  table.chunk-table td { padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.chunk-table td.snippet { max-width: 320px; color: var(--ink-muted); }
+  table.chunk-table td.id { font-family: "IBM Plex Mono"; color: var(--ink-faint); white-space: nowrap; }
+  table.chunk-table td.rchip { white-space: nowrap; }
+  .rchip-badge { display: inline-block; padding: 2px 7px; border-radius: 100px; font-size: 10.5px; font-weight: 700; background: var(--surface-2); color: var(--ink-muted); }
+  .prop-bars { display: flex; flex-direction: column; gap: 2px; min-width: 110px; }
+  .prop-row { display: flex; align-items: center; gap: 5px; }
+  .prop-row .code { font-family: "IBM Plex Mono"; font-size: 10px; color: var(--ink-faint); width: 22px; flex: none; }
+  .prop-track { flex: 1; height: 6px; background: var(--surface-2); border-radius: 3px; overflow: hidden; min-width: 40px; }
+  .prop-fill { height: 100%; border-radius: 3px; }
+
+  footer.hint { margin-top: 10px; font-size: 12px; color: var(--ink-faint); text-align: center; }
+
+  /* view switch */
+  .scope-banner { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--accent); background: var(--surface); border: 1px solid var(--accent); border-radius: 8px; padding: 9px 14px; margin-bottom: 16px; }
+  .scope-banner .scope-n { font-family: "IBM Plex Mono"; font-weight: 700; }
+
+  .view-switch { display: flex; gap: 6px; margin-bottom: 16px; background: var(--surface-2); padding: 4px; border-radius: 10px; width: fit-content; }
+  .view-btn { font: inherit; font-size: 12.5px; font-weight: 600; padding: 8px 14px; border-radius: 7px; border: none; background: transparent; color: var(--ink-muted); cursor: pointer; }
+  .view-btn.active { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+
+  /* note / callout */
+  .note-box { background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font-size: 12.5px; color: var(--ink-muted); line-height: 1.55; margin-bottom: 14px; }
+  .note-box strong { color: var(--ink); }
+
+  /* clickable matrix */
+  .matrix-table td.cell-link { cursor: pointer; transition: background .1s; }
+  .matrix-table td.cell-link:hover { background: var(--surface-2); }
+  .matrix-table td.cell-active { background: var(--accent); color: var(--accent-ink); font-weight: 700; }
+  .filter-chip { display: inline-flex; align-items: center; gap: 7px; font-size: 12px; font-weight: 600; background: var(--accent); color: var(--accent-ink); padding: 5px 10px 5px 12px; border-radius: 100px; margin-bottom: 10px; }
+  .filter-chip button { font: inherit; background: none; border: none; color: inherit; cursor: pointer; font-weight: 700; opacity: .85; padding: 0; }
+  .filter-chip button:hover { opacity: 1; }
+
+  .seg { display: inline-flex; border: 1px solid var(--line-strong); border-radius: 8px; overflow: hidden; }
+  .seg button { font: inherit; font-size: 12px; font-weight: 600; padding: 6px 11px; border: none; background: var(--surface); color: var(--ink-muted); cursor: pointer; border-right: 1px solid var(--line-strong); }
+  .seg button:last-child { border-right: none; }
+  .seg button.active { background: var(--accent); color: var(--accent-ink); }
+
+  .badge { display: inline-block; padding: 1px 7px; border-radius: 100px; font-size: 10.5px; font-weight: 700; }
+  .badge.agree { background: var(--good-bg); color: var(--good); }
+  .badge.disagree { background: var(--bad-bg); color: var(--bad); }
+  .badge.tie { background: var(--warn-bg); color: var(--warn); margin-left: 4px; }
+  td.margin-cell { font-family: "IBM Plex Mono"; font-size: 11.5px; color: var(--ink-muted); text-align: center; white-space: nowrap; }
+
+  /* report profile view */
+  .profile-kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 18px; }
+  .compare-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .compare-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+  .compare-card .ctitle { font-size: 12px; font-weight: 600; margin-bottom: 2px; }
+  .compare-card .csub { font-size: 10.5px; color: var(--ink-faint); margin-bottom: 8px; }
+  .curve-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .curve-card h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
+
+  @media (max-width: 760px) {
+    .kpi-grid, .profile-kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    .two-col, .curve-grid { grid-template-columns: 1fr; }
+    .compare-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 460px) {
+    .kpi-grid, .profile-kpi-grid { grid-template-columns: 1fr 1fr; }
+    .compare-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="wrap">
+  <div class="topbar">
+    <div class="eyebrow" id="topEyebrow">Institutional logics · coding validation</div>
+    <h1>Human vs. AI coder agreement</h1>
+  </div>
+
+  <div class="tabs-block">
+    <div class="tabs-hint">Tabs — pick a scope: the first tab is the pooled total across every report (the headline result); the rest are each individual report.</div>
+    <div class="tabs" id="tabs"></div>
+  </div>
+
+  <div class="topbar" style="margin-top:14px;">
+    <p class="sub" id="topSub">Comparing each report's human coder export against the AI pipeline run on the same chunks, weighted so each element's primary logic counts 2 points and its secondary logic counts 1.</p>
+    <div class="legend-row">
+      <span class="legend-item"><span class="legend-swatch" style="background:var(--human)"></span>Human coder</span>
+      <span class="legend-item"><span class="legend-swatch" style="background:var(--ai)"></span>AI pipeline</span>
+    </div>
+  </div>
+
+  <div id="scopeBanner" class="scope-banner"></div>
+
+  <div class="view-switch" id="viewSwitch">
+    <button class="view-btn" data-view="agreement">Chunk-matched agreement</button>
+    <button class="view-btn" data-view="flex">Flexible chunk-vicinity (alternative)</button>
+    <button class="view-btn" data-view="profile">Report-level profile (all coded chunks)</button>
+  </div>
+
+  <div id="agreementView">
+    <div class="kpi-grid" id="kpiGrid"></div>
+
+    <div class="panel">
+      <h2>Logic proportions — chunks coded by both parties only</h2>
+      <p class="panel-sub" id="chartSub"></p>
+      <div class="chart-wrap">
+        <svg id="barChart" viewBox="0 0 860 300" width="100%" style="max-width:860px; height:auto;"></svg>
+      </div>
+      <div class="note-box">
+        <strong>Reading this next to the matrix below:</strong> both charts use the exact same N chunks (coded by both parties). A logic's share here can be nonzero even though it never appears in the confusion matrix: a coder can give a logic points as a chunk's <em>secondary</em> (top-2) pick, or tie for the <em>top</em> spot and lose only to the disclosed PS&gt;DS&gt;PPG&gt;SC tie-break rule, without that logic ever being the chunk's single strongest ("dominant") pick — which is the only thing the matrix counts. Click a matrix cell, or use "Disagreements only" / "Ties only" below, to see exactly which chunks drive a gap like this.
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div class="panel">
+        <h2>Chunk-level agreement matrix</h2>
+        <p class="panel-sub" id="matrixSub"></p>
+        <table class="matrix-table" id="matrixTable"></table>
+        <div class="kappa-readout">
+          <span class="big" id="kappaBig"></span>
+          <div class="label" id="kappaLabel"></div>
+          <div class="kappa-ref" id="kappaRef"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Reading the kappa</h2>
+        <p class="panel-sub">Landis &amp; Koch (1977) benchmark bands</p>
+        <div id="kappaScale"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Chunk-level explorer</h2>
+      <p class="panel-sub" id="tableSub"></p>
+      <div id="matrixFilterChip"></div>
+      <div class="table-controls">
+        <input type="text" id="chunkFilter" placeholder="Filter by chunk text or #id…">
+        <div class="seg" id="modeSeg">
+          <button data-mode="all" class="active">All</button>
+          <button data-mode="disagree">Disagreements only</button>
+          <button data-mode="tie">Ties only</button>
+        </div>
+        <div class="seg" id="sortSeg">
+          <button data-sort="id" class="active">Sort: order</button>
+          <button data-sort="margin">Sort: closest calls first</button>
+        </div>
+        <span class="count" id="chunkCount"></span>
+      </div>
+      <div class="table-scroll">
+        <table class="chunk-table">
+          <thead id="chunkHead"></thead>
+          <tbody id="chunkBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="flexView" style="display:none;">
+    <div class="note-box">
+      <strong>Why this tab exists.</strong> PS, DS, PPG and SC are nominal categories — there is no established theoretical ordering between them, so treating a PPG↔SC mismatch as "smaller" than a PS↔SC mismatch (as an ordinal-weighted kappa would) is not justified. The primary statistic is therefore standard, unweighted Cohen's kappa (shown in the Chunk-matched agreement tab), which treats every mismatch equally. This tab is a separate, clearly-labeled <em>alternative</em>: instead of assuming any fixed relationship between categories, it asks a chunk-specific question — for THIS chunk, was the AI's pick at least the human's own secondary (runner-up) emphasis, or vice versa? That "vicinity" is defined independently for every chunk from each coder's own point ranking on that chunk, never from a global category order.
+    </div>
+
+    <div class="profile-kpi-grid" id="flexKpiGrid"></div>
+
+    <div class="panel">
+      <h2>Observed vs. chance: strict vs. flexible match</h2>
+      <p class="panel-sub" id="flexChartSub"></p>
+      <div class="chart-wrap">
+        <svg id="flexChart" viewBox="0 0 560 300" width="100%" style="max-width:560px; height:auto;"></svg>
+      </div>
+      <div class="note-box">
+        <strong>How the chance line is computed:</strong> within this selection, AI chunks are randomly re-paired against human chunks thousands of times (holding each side's own chunk-level data fixed), and the match rate is recomputed each time. The average over permutations is the chance baseline — a Monte Carlo analogue of Cohen's Pe, since the flexible-match criterion uses both coders' per-chunk rankings and has no closed-form chance formula. As a built-in check, the same permutation applied to strict (standard) matching should closely reproduce the closed-form standard kappa above — it does (see the readout below).
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Flexible-only matches</h2>
+      <p class="panel-sub" id="flexTableSub"></p>
+      <div class="table-controls">
+        <input type="text" id="flexFilter" placeholder="Filter by chunk text or #id…">
+        <div class="seg" id="flexModeSeg">
+          <button data-mode="flexonly" class="active">Flexible-only matches</button>
+          <button data-mode="all">All chunks</button>
+        </div>
+        <span class="count" id="flexCount"></span>
+      </div>
+      <div class="table-scroll">
+        <table class="chunk-table">
+          <thead id="flexHead"></thead>
+          <tbody id="flexBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="profileView" style="display:none;">
+    <div class="profile-kpi-grid" id="profileKpiGrid"></div>
+
+    <div class="panel">
+      <h2>Overall logic frequency — every chunk either coder coded</h2>
+      <p class="panel-sub" id="profileChartSub"></p>
+      <div class="chart-wrap">
+        <svg id="profileBarChart" viewBox="0 0 860 300" width="100%" style="max-width:860px; height:auto;"></svg>
+      </div>
+      <div class="note-box">
+        This uses <strong>every</strong> chunk the human coder marked applicable, and separately <strong>every</strong> chunk the AI pipeline marked applicable — not just the subset where both coders happened to code the same chunk. It answers "what did each coder find across the whole report," independent of whether their chunks line up 1:1. Compare this to the chunk-matched view: a report can show similar overall logic mixes here while still disagreeing chunk-by-chunk, or vice versa.
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Where each logic concentrates in the document</h2>
+      <p class="panel-sub">Each coder's own chunks, in their own file order, normalized to 0–100% through the report and smoothed into 20 bins.</p>
+      <div class="curve-grid">
+        <div class="curve-card">
+          <h3>Human coder</h3>
+          <div class="chart-wrap"><svg id="curveHuman" viewBox="0 0 420 240" width="100%" style="max-width:420px; height:auto;"></svg></div>
+        </div>
+        <div class="curve-card">
+          <h3>AI pipeline</h3>
+          <div class="chart-wrap"><svg id="curveAi" viewBox="0 0 420 240" width="100%" style="max-width:420px; height:auto;"></svg></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Compare across reports</h2>
+      <p class="panel-sub">Same overall-frequency measure as above, side by side for every report and the pooled total.</p>
+      <div class="compare-grid" id="compareGrid"></div>
+    </div>
+  </div>
+
+  <footer class="hint">Full chunk-level data, per-report sheets and the live pooled kappa calculation are in the companion spreadsheet.</footer>
+</div>
+
+<script>
+const LOGICS = ['PS', 'DS', 'PPG', 'SC'];
+const LOGIC_NAMES = { PS: 'Philanthropic Stewardship', DS: 'Donor Services', PPG: 'Public–Private Governance', SC: 'Social Change' };
+const LOGIC_VAR = { PS: '--logic-ps', DS: '--logic-ds', PPG: '--logic-ppg', SC: '--logic-sc' };
+
+</script>
+<script>
+const BUNDLE = __BUNDLE_JSON__;
+</script>
+<script>
+// Built from BUNDLE itself (not hardcoded) so a report added to the manifest
+// just appears here next run, with no template edit needed.
+const REPORT_CODES = Object.keys(BUNDLE.reports);
+const TABS = [
+  { key: 'pooled', label: 'Pooled', sub: `all ${REPORT_CODES.length} reports`, isMain: true },
+  ...REPORT_CODES.map((code, i) => {
+    const rid = BUNDLE.reports[code].report_id;
+    const m = rid.match(/^(.*)_(\d{4})$/);
+    return { key: code, label: `Report ${i + 1}`, sub: m ? `${m[1]} · ${m[2]}` : rid };
+  }),
+];
+let CURRENT = 'pooled';
+let VIEW = 'agreement';
+let MATRIX_FILTER = null;   // { h: 'PPG', a: 'SC' } | null
+let TABLE_MODE = 'all';     // 'all' | 'disagree' | 'tie'
+let SORT_BY = 'id';         // 'id' | 'margin'
+let FLEX_MODE = 'flexonly'; // 'flexonly' | 'all'
+
+function kappaBand(k) {
+  if (k < 0) return { label: 'Poor', tone: 'bad' };
+  if (k < 0.20) return { label: 'Slight', tone: 'bad' };
+  if (k < 0.40) return { label: 'Fair', tone: 'bad' };
+  if (k < 0.60) return { label: 'Moderate', tone: 'warn' };
+  if (k < 0.80) return { label: 'Substantial', tone: 'good' };
+  return { label: 'Almost perfect', tone: 'good' };
+}
+
+function dataFor(key) {
+  return key === 'pooled' ? BUNDLE.pooled : BUNDLE.reports[key];
+}
+
+function renderTabs() {
+  const el = document.getElementById('tabs');
+  el.innerHTML = TABS.map(t => `
+    <button class="tab ${t.key === CURRENT ? 'active' : ''}" data-key="${t.key}" role="tab" aria-selected="${t.key === CURRENT}">
+      ${t.label}<span class="sub-label">${t.sub}</span>${t.isMain ? '<span class="main-flag">Main</span>' : ''}
+    </button>`).join('');
+  el.querySelectorAll('.tab').forEach(btn => {
+    btn.addEventListener('click', () => { CURRENT = btn.dataset.key; renderAll(); });
+  });
+  document.getElementById('topEyebrow').textContent =
+    `Institutional logics · coding validation · ${REPORT_CODES.length} reports pooled`;
+}
+
+function renderScopeBanner() {
+  const d = dataFor(CURRENT);
+  const el = document.getElementById('scopeBanner');
+  const tab = TABS.find(t => t.key === CURRENT);
+  const scopeDesc = CURRENT === 'pooled'
+    ? `Pooled (main) — all ${d.n_reports} reports combined`
+    : `${tab.label} — ${tab.sub} only, not pooled`;
+  el.innerHTML = `Showing: <span>${scopeDesc}</span> &nbsp;·&nbsp; N = <span class="scope-n">${d.n_included}</span> chunks coded by both parties. Use the tabs above to switch report.`;
+}
+
+function renderViewSwitch() {
+  document.querySelectorAll('#viewSwitch .view-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.view === VIEW);
+  });
+  document.getElementById('agreementView').style.display = VIEW === 'agreement' ? '' : 'none';
+  document.getElementById('flexView').style.display = VIEW === 'flex' ? '' : 'none';
+  document.getElementById('profileView').style.display = VIEW === 'profile' ? '' : 'none';
+}
+
+function renderKpis() {
+  const d = dataFor(CURRENT);
+  const band = kappaBand(d.kappa_standard);
+  const isPooled = CURRENT === 'pooled';
+  const grid = document.getElementById('kpiGrid');
+  grid.innerHTML = `
+    <div class="kpi">
+      <div class="label">${isPooled ? 'Reports pooled' : 'Chunks matched'}</div>
+      <div class="value">${isPooled ? d.n_reports : d.n_matched}</div>
+      <div class="note">${isPooled ? `${d.n_included} chunks coded by both, pooled` : `${d.n_human_rows} human rows, ${d.n_ai_rows} AI rows`}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Included in agreement (N)</div>
+      <div class="value">${d.n_included}</div>
+      <div class="note">chunks where both coders marked ≥1 element applicable</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Standard Cohen's kappa (nominal)</div>
+      <div class="value">${d.kappa_standard.toFixed(3)}</div>
+      <div class="pill ${band.tone === 'good' ? 'substantial' : band.tone === 'warn' ? 'moderate' : 'fair'}">${band.label} agreement</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Raw agreement</div>
+      <div class="value">${(d.raw_agree*100).toFixed(1)}%</div>
+      <div class="note">chunks with the same dominant logic</div>
+    </div>
+  `;
+}
+
+function cssVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+function drawBarChart() {
+  const d = dataFor(CURRENT);
+  const svg = document.getElementById('barChart');
+  const W = 860, H = 300;
+  const marginL = 50, marginR = 20, marginT = 20, marginB = 50;
+  const plotW = W - marginL - marginR, plotH = H - marginT - marginB;
+  const groupW = plotW / LOGICS.length;
+  const barW = groupW * 0.3;
+  const maxVal = Math.max(0.3, Math.ceil(Math.max(...d.doc_human_prop, ...d.doc_ai_prop) * 10) / 10 + 0.1);
+
+  let svgContent = '';
+  const nTicks = 4;
+  for (let i = 0; i <= nTicks; i++) {
+    const t = (maxVal / nTicks) * i;
+    const y = marginT + plotH - (t / maxVal) * plotH;
+    svgContent += `<line class="grid-line" x1="${marginL}" y1="${y}" x2="${W - marginR}" y2="${y}"/>`;
+    svgContent += `<text class="axis-label" x="${marginL - 8}" y="${y + 4}" text-anchor="end">${Math.round(t * 100)}%</text>`;
+  }
+
+  LOGICS.forEach((l, i) => {
+    const gx = marginL + i * groupW;
+    const hv = d.doc_human_prop[i], av = d.doc_ai_prop[i];
+    const hH = (hv / maxVal) * plotH, aH = (av / maxVal) * plotH;
+    const hx = gx + groupW / 2 - barW - 4;
+    const ax = gx + groupW / 2 + 4;
+    const hy = marginT + plotH - hH;
+    const ay = marginT + plotH - aH;
+
+    svgContent += `<rect class="bar-human" x="${hx}" y="${hy}" width="${barW}" height="${hH}" rx="3"><title>Human ${l}: ${(hv*100).toFixed(1)}%</title></rect>`;
+    svgContent += `<rect class="bar-ai" x="${ax}" y="${ay}" width="${barW}" height="${aH}" rx="3"><title>AI ${l}: ${(av*100).toFixed(1)}%</title></rect>`;
+
+    svgContent += `<text class="bar-label" x="${hx + barW/2}" y="${hy - 6}" text-anchor="middle">${(hv*100).toFixed(0)}%</text>`;
+    svgContent += `<text class="bar-label" x="${ax + barW/2}" y="${ay - 6}" text-anchor="middle">${(av*100).toFixed(0)}%</text>`;
+
+    svgContent += `<circle cx="${gx + groupW/2 - 34}" cy="${H - 22}" r="4" fill="var(${LOGIC_VAR[l]})"/>`;
+    svgContent += `<text class="logic-name" x="${gx + groupW/2 - 24}" y="${H - 18}">${l}</text>`;
+    svgContent += `<text class="axis-label" x="${gx + groupW/2}" y="${H - 4}" text-anchor="middle">${LOGIC_NAMES[l]}</text>`;
+  });
+
+  svg.innerHTML = svgContent;
+  document.getElementById('chartSub').textContent =
+    `Weighted points per logic, summed across the ${d.n_included} included chunks, as a share of each coder's total` +
+    (CURRENT === 'pooled' ? ' (pooled across all 3 reports).' : '.');
+}
+
+function renderMatrix() {
+  const d = dataFor(CURRENT);
+  const cm = d.confusion;
+  const table = document.getElementById('matrixTable');
+  let html = `<thead><tr><th class="matrix-corner">Human \\ AI</th>${LOGICS.map(l => `<th>${l}</th>`).join('')}</tr></thead><tbody>`;
+  LOGICS.forEach((hv, i) => {
+    html += `<tr><th>${hv}</th>${LOGICS.map((av, j) => {
+      const active = MATRIX_FILTER && MATRIX_FILTER.h === hv && MATRIX_FILTER.a === av;
+      return `<td class="${i===j?'diag':''} cell-link ${active?'cell-active':''}" data-h="${hv}" data-a="${av}">${cm[i][j]}</td>`;
+    }).join('')}</tr>`;
+  });
+  html += '</tbody>';
+  table.innerHTML = html;
+  table.querySelectorAll('td.cell-link').forEach(td => {
+    td.addEventListener('click', () => {
+      const h = td.dataset.h, a = td.dataset.a;
+      if (MATRIX_FILTER && MATRIX_FILTER.h === h && MATRIX_FILTER.a === a) {
+        MATRIX_FILTER = null;
+      } else {
+        MATRIX_FILTER = { h, a };
+      }
+      renderMatrix();
+      renderChunkTable(document.getElementById('chunkFilter').value);
+    });
+  });
+
+  const scopeTxt = CURRENT === 'pooled' ? 'pooled across all 3 reports' : `report ${TABS.find(t=>t.key===CURRENT).label} only`;
+  document.getElementById('matrixSub').textContent =
+    `One observation per chunk (N = ${d.n_included}, ${scopeTxt}) — each coder's dominant logic (highest weighted-point total among PS/DS/PPG/SC). ` +
+    `PS, DS, PPG and SC are nominal categories with no established ordering between them, so every off-diagonal mismatch is weighted equally in the kappa below.`;
+
+  document.getElementById('kappaBig').textContent = `κ = ${d.kappa_standard.toFixed(3)}`;
+  document.getElementById('kappaLabel').textContent = `Standard (nominal, unweighted) Cohen's kappa, N = ${d.n_included} chunks`;
+
+  const tieNote = (d.n_human_ties !== undefined)
+    ? `${d.n_human_ties} human and ${d.n_ai_ties} AI chunks had a tie in the coder's own points; ties were broken by a fixed, purely mechanical PS&gt;DS&gt;PPG&gt;SC rule (it only decides which single label a tied chunk gets — it carries no claim that the categories are ordered, and doesn't affect whether that label matches the other coder's). `
+    : '';
+  const sensTxt = (d.kappa_standard_sens !== undefined)
+    ? `Excluding tied chunks as a robustness check (N = ${d.n_sens}) gives κ = ${d.kappa_standard_sens.toFixed(3)}. `
+    : '';
+  document.getElementById('kappaRef').innerHTML =
+    `Raw agreement is ${(d.raw_agree*100).toFixed(1)}%. ${tieNote}${sensTxt}` +
+    `An earlier ordinal-weighted version of this kappa (treating PS&lt;DS&lt;PPG&lt;SC as a scale) has been retired: that ordering has no theoretical basis for these categories. See the "Flexible chunk-vicinity" tab above for an alternative that doesn't assume any category order. ` +
+    `Full confusion matrices, per report and pooled, are in the companion spreadsheet.`;
+}
+
+function drawKappaScale() {
+  const d = dataFor(CURRENT);
+  const bands = [
+    { range: '< 0.00', label: 'Poor', lo: -0.2, hi: 0 },
+    { range: '0.00–0.20', label: 'Slight', lo: 0, hi: 0.2 },
+    { range: '0.21–0.40', label: 'Fair', lo: 0.2, hi: 0.4 },
+    { range: '0.41–0.60', label: 'Moderate', lo: 0.4, hi: 0.6 },
+    { range: '0.61–0.80', label: 'Substantial', lo: 0.6, hi: 0.8 },
+    { range: '0.81–1.00', label: 'Almost perfect', lo: 0.8, hi: 1.0 },
+  ];
+  const kappa = d.kappa_standard;
+  let html = '<div style="display:flex;flex-direction:column;gap:6px;">';
+  bands.forEach(b => {
+    const active = kappa >= b.lo && kappa < b.hi + (b.hi === 1 ? 0.0001 : 0);
+    const tone = b.lo >= 0.6 ? '--good' : '--warn';
+    const toneBg = tone + '-bg';
+    html += `<div style="display:flex;align-items:center;gap:10px;padding:7px 10px;border-radius:7px;${active ? `background:var(${toneBg});` : ''}">
+      <span class="mono" style="font-size:11.5px;color:var(--ink-faint);width:76px;flex:none;">${b.range}</span>
+      <span style="font-size:13px;font-weight:${active ? 700 : 500};color:${active ? `var(${tone})` : 'var(--ink-muted)'};">${b.label}</span>
+      ${active ? `<span style="margin-left:auto;font-size:11px;font-weight:700;color:var(${tone});">← here</span>` : ''}
+    </div>`;
+  });
+  html += '</div>';
+  document.getElementById('kappaScale').innerHTML = html;
+}
+
+function renderMatrixFilterChip() {
+  const el = document.getElementById('matrixFilterChip');
+  if (!MATRIX_FILTER) { el.innerHTML = ''; return; }
+  el.innerHTML = `<span class="filter-chip">Showing: Human = ${MATRIX_FILTER.h} &rarr; AI = ${MATRIX_FILTER.a}
+    <button id="clearMatrixFilter" aria-label="Clear filter">&times;</button></span>`;
+  document.getElementById('clearMatrixFilter').addEventListener('click', () => {
+    MATRIX_FILTER = null;
+    renderMatrix();
+    renderChunkTable(document.getElementById('chunkFilter').value);
+  });
+}
+
+function renderChunkTable(filter) {
+  const d = dataFor(CURRENT);
+  const isPooled = CURRENT === 'pooled';
+  const head = document.getElementById('chunkHead');
+  head.innerHTML = `<tr><th>ID</th>${isPooled ? '<th>Report</th>' : ''}<th>Agreement</th><th>Margin (H / AI)</th><th>Text</th><th>Human PS/DS/PPG/SC</th><th>AI PS/DS/PPG/SC</th></tr>`;
+
+  renderMatrixFilterChip();
+
+  const body = document.getElementById('chunkBody');
+  const f = (filter || '').trim().toLowerCase();
+  let rows = d.chunks.filter(c => !f || c.text.toLowerCase().includes(f) || String(c.id).includes(f));
+  if (MATRIX_FILTER) rows = rows.filter(c => c.hd === MATRIX_FILTER.h && c.ad === MATRIX_FILTER.a);
+  if (TABLE_MODE === 'disagree') rows = rows.filter(c => !c.agree);
+  if (TABLE_MODE === 'tie') rows = rows.filter(c => c.ht || c.at);
+  if (SORT_BY === 'margin') rows = [...rows].sort((a, b) => Math.min(a.hm, a.am) - Math.min(b.hm, b.am));
+
+  document.getElementById('chunkCount').textContent = `${rows.length} / ${d.chunks.length} chunks`;
+  body.innerHTML = rows.map(c => `
+    <tr>
+      <td class="id">#${c.id}</td>
+      ${isPooled ? `<td class="rchip"><span class="rchip-badge">${c.r}</span></td>` : ''}
+      <td><span class="badge ${c.agree ? 'agree' : 'disagree'}">${c.agree ? 'agree' : 'disagree'}</span>${c.ht ? '<span class="badge tie">H tie</span>' : ''}${c.at ? '<span class="badge tie">AI tie</span>' : ''}</td>
+      <td class="margin-cell">${c.hd} +${c.hm} / ${c.ad} +${c.am}</td>
+      <td class="snippet">${escapeHtml(c.text)}</td>
+      <td>${propBars(c.h)}</td>
+      <td>${propBars(c.a)}</td>
+    </tr>
+  `).join('');
+
+  document.getElementById('tableSub').textContent =
+    `The ${d.n_included} chunks included in the agreement analysis${isPooled ? ', pooled across all 3 reports' : ''}. ` +
+    `"Margin" is each coder's own point gap between its dominant logic and its runner-up on that chunk — a small margin means that coder's own call was close (often a tie the priority rule had to settle); a large margin means it was clear-cut. Click a matrix cell above to filter to that exact human→AI combination.`;
+}
+function propBars(vals) {
+  return `<div class="prop-bars">${LOGICS.map((l, i) => `
+    <div class="prop-row">
+      <span class="code">${l}</span>
+      <div class="prop-track"><div class="prop-fill" style="width:${(vals[i]*100).toFixed(0)}%;background:var(${LOGIC_VAR[l]})"></div></div>
+    </div>`).join('')}</div>`;
+}
+function escapeHtml(s) { return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function renderFlexKpis() {
+  const d = dataFor(CURRENT);
+  const f = d.flex;
+  const band = kappaBand(f.kappa_flexible);
+  const grid = document.getElementById('flexKpiGrid');
+  grid.innerHTML = `
+    <div class="kpi">
+      <div class="label">Chunks (N)</div>
+      <div class="value">${f.n}</div>
+      <div class="note">same chunks as the chunk-matched tab</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Flexible match rate</div>
+      <div class="value">${(f.observed_rate*100).toFixed(1)}%</div>
+      <div class="note">strict match, or each other's runner-up pick</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Permutation chance rate</div>
+      <div class="value">${(f.chance_rate*100).toFixed(1)}%</div>
+      <div class="note">${f.n_permutations.toLocaleString()} random re-pairings</div>
+    </div>
+    <div class="kpi">
+      <div class="label">κ (flexible, chance-corrected)</div>
+      <div class="value">${f.kappa_flexible.toFixed(3)}</div>
+      <div class="pill ${band.tone === 'good' ? 'substantial' : band.tone === 'warn' ? 'moderate' : 'fair'}">${band.label}</div>
+    </div>
+  `;
+}
+
+function drawFlexChart() {
+  const d = dataFor(CURRENT);
+  const f = d.flex;
+  const svg = document.getElementById('flexChart');
+  const W = 560, H = 300;
+  const marginL = 50, marginR = 20, marginT = 20, marginB = 50;
+  const plotW = W - marginL - marginR, plotH = H - marginT - marginB;
+  // strict chance comes from the same permutation run, stored implicitly via
+  // kappa_standard_perm_check; reconstruct it: kappa=(po-pe)/(1-pe) => pe=(po-kappa)/(1-kappa)
+  const kStd = f.kappa_standard_perm_check;
+  const strictChance = (d.raw_agree - kStd) / (1 - kStd);
+  const groups = [
+    { label: 'Strict', observed: d.raw_agree, chance: strictChance },
+    { label: 'Flexible', observed: f.observed_rate, chance: f.chance_rate },
+  ];
+
+  const groupW = plotW / groups.length;
+  const barW = groupW * 0.28;
+  const maxVal = 1.0;
+  let svgContent = '';
+  [0, 0.25, 0.5, 0.75, 1].forEach(t => {
+    const y = marginT + plotH - t * plotH;
+    svgContent += `<line class="grid-line" x1="${marginL}" y1="${y}" x2="${W - marginR}" y2="${y}"/>`;
+    svgContent += `<text class="axis-label" x="${marginL - 8}" y="${y + 4}" text-anchor="end">${Math.round(t*100)}%</text>`;
+  });
+  groups.forEach((g, i) => {
+    const gx = marginL + i * groupW;
+    const obsH = g.observed * plotH, chH = g.chance * plotH;
+    const ox = gx + groupW/2 - barW - 4, cx = gx + groupW/2 + 4;
+    const oy = marginT + plotH - obsH, cy = marginT + plotH - chH;
+    svgContent += `<rect x="${ox}" y="${oy}" width="${barW}" height="${obsH}" rx="3" fill="var(--good)"><title>Observed ${g.label}: ${(g.observed*100).toFixed(1)}%</title></rect>`;
+    svgContent += `<rect x="${cx}" y="${cy}" width="${barW}" height="${chH}" rx="3" fill="var(--ink-faint)"><title>Chance ${g.label}: ${(g.chance*100).toFixed(1)}%</title></rect>`;
+    svgContent += `<text class="bar-label" x="${ox + barW/2}" y="${oy - 6}" text-anchor="middle">${(g.observed*100).toFixed(1)}%</text>`;
+    svgContent += `<text class="bar-label" x="${cx + barW/2}" y="${cy - 6}" text-anchor="middle">${(g.chance*100).toFixed(1)}%</text>`;
+    svgContent += `<text class="axis-label" x="${gx + groupW/2}" y="${H - 4}" text-anchor="middle" style="font-size:12.5px;font-weight:600;">${g.label}</text>`;
+  });
+  svgContent += `<circle cx="${W-150}" cy="14" r="4" fill="var(--good)"/><text class="axis-label" x="${W-140}" y="18">Observed</text>`;
+  svgContent += `<circle cx="${W-70}" cy="14" r="4" fill="var(--ink-faint)"/><text class="axis-label" x="${W-60}" y="18">Chance</text>`;
+  svg.innerHTML = svgContent;
+
+  document.getElementById('flexChartSub').textContent =
+    `Standard (strict) kappa via this same permutation check = ${kStd.toFixed(3)} (closed-form = ${d.kappa_standard.toFixed(3)}) — confirms the permutation procedure itself is sound before trusting the flexible-criterion result next to it.`;
+}
+
+function renderFlexTable(filter) {
+  const d = dataFor(CURRENT);
+  const isPooled = CURRENT === 'pooled';
+  const head = document.getElementById('flexHead');
+  head.innerHTML = `<tr><th>ID</th>${isPooled ? '<th>Report</th>' : ''}<th>Human dominant</th><th>AI dominant</th><th>Text</th><th>Human PS/DS/PPG/SC</th><th>AI PS/DS/PPG/SC</th></tr>`;
+
+  const body = document.getElementById('flexBody');
+  const f = (filter || '').trim().toLowerCase();
+  let rows = d.chunks.filter(c => !f || c.text.toLowerCase().includes(f) || String(c.id).includes(f));
+  if (FLEX_MODE === 'flexonly') rows = rows.filter(c => c.flexOnly);
+
+  document.getElementById('flexCount').textContent = `${rows.length} / ${d.chunks.length} chunks`;
+  body.innerHTML = rows.map(c => `
+    <tr>
+      <td class="id">#${c.id}</td>
+      ${isPooled ? `<td class="rchip"><span class="rchip-badge">${c.r}</span></td>` : ''}
+      <td><span class="badge disagree">${c.hd}</span></td>
+      <td><span class="badge agree">${c.ad}</span></td>
+      <td class="snippet">${escapeHtml(c.text)}</td>
+      <td>${propBars(c.h)}</td>
+      <td>${propBars(c.a)}</td>
+    </tr>
+  `).join('');
+
+  document.getElementById('flexTableSub').textContent = FLEX_MODE === 'flexonly'
+    ? `Chunks where the human and AI picked different dominant logics, but each pick was still the other coder's own secondary (runner-up) emphasis for that chunk — the cases the standard-kappa tab counts as plain disagreements, that this alternative counts as "in vicinity."`
+    : `All ${d.n_included} chunks included in the agreement analysis.`;
+}
+
+function profileBand(tvd) {
+  // total variation distance: 0 = identical overall profile, 1 = disjoint
+  if (tvd < 0.15) return { label: 'Very similar', tone: 'good' };
+  if (tvd < 0.30) return { label: 'Moderately similar', tone: 'warn' };
+  return { label: 'Quite different', tone: 'bad' };
+}
+
+function renderProfileKpis() {
+  const d = dataFor(CURRENT);
+  const p = d.profile;
+  const band = profileBand(p.tvd);
+  const grid = document.getElementById('profileKpiGrid');
+  grid.innerHTML = `
+    <div class="kpi">
+      <div class="label">Human chunks coded</div>
+      <div class="value">${p.n_human_rows_coded}</div>
+      <div class="note">of ${p.n_human_rows_total} total human rows</div>
+    </div>
+    <div class="kpi">
+      <div class="label">AI chunks coded</div>
+      <div class="value">${p.n_ai_rows_coded}</div>
+      <div class="note">of ${p.n_ai_rows_total} total AI rows</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Profile distance (TVD)</div>
+      <div class="value">${p.tvd.toFixed(3)}</div>
+      <div class="pill ${band.tone === 'good' ? 'substantial' : band.tone === 'warn' ? 'moderate' : 'fair'}">${band.label}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Profile cosine similarity</div>
+      <div class="value">${p.cosine.toFixed(3)}</div>
+      <div class="note">1.0 = identical logic mix, direction only</div>
+    </div>
+  `;
+}
+
+function drawGroupedBars(svgId, humanVals, aiVals, subtitleId, subtitleText) {
+  const svg = document.getElementById(svgId);
+  const W = 860, H = 300;
+  const marginL = 50, marginR = 20, marginT = 20, marginB = 50;
+  const plotW = W - marginL - marginR, plotH = H - marginT - marginB;
+  const groupW = plotW / LOGICS.length;
+  const barW = groupW * 0.3;
+  const maxVal = Math.max(0.3, Math.ceil(Math.max(...humanVals, ...aiVals) * 10) / 10 + 0.1);
+
+  let svgContent = '';
+  const nTicks = 4;
+  for (let i = 0; i <= nTicks; i++) {
+    const t = (maxVal / nTicks) * i;
+    const y = marginT + plotH - (t / maxVal) * plotH;
+    svgContent += `<line class="grid-line" x1="${marginL}" y1="${y}" x2="${W - marginR}" y2="${y}"/>`;
+    svgContent += `<text class="axis-label" x="${marginL - 8}" y="${y + 4}" text-anchor="end">${Math.round(t * 100)}%</text>`;
+  }
+
+  LOGICS.forEach((l, i) => {
+    const gx = marginL + i * groupW;
+    const hv = humanVals[i], av = aiVals[i];
+    const hH = (hv / maxVal) * plotH, aH = (av / maxVal) * plotH;
+    const hx = gx + groupW / 2 - barW - 4;
+    const ax = gx + groupW / 2 + 4;
+    const hy = marginT + plotH - hH;
+    const ay = marginT + plotH - aH;
+
+    svgContent += `<rect class="bar-human" x="${hx}" y="${hy}" width="${barW}" height="${hH}" rx="3"><title>Human ${l}: ${(hv*100).toFixed(1)}%</title></rect>`;
+    svgContent += `<rect class="bar-ai" x="${ax}" y="${ay}" width="${barW}" height="${aH}" rx="3"><title>AI ${l}: ${(av*100).toFixed(1)}%</title></rect>`;
+
+    svgContent += `<text class="bar-label" x="${hx + barW/2}" y="${hy - 6}" text-anchor="middle">${(hv*100).toFixed(0)}%</text>`;
+    svgContent += `<text class="bar-label" x="${ax + barW/2}" y="${ay - 6}" text-anchor="middle">${(av*100).toFixed(0)}%</text>`;
+
+    svgContent += `<circle cx="${gx + groupW/2 - 34}" cy="${H - 22}" r="4" fill="var(${LOGIC_VAR[l]})"/>`;
+    svgContent += `<text class="logic-name" x="${gx + groupW/2 - 24}" y="${H - 18}">${l}</text>`;
+    svgContent += `<text class="axis-label" x="${gx + groupW/2}" y="${H - 4}" text-anchor="middle">${LOGIC_NAMES[l]}</text>`;
+  });
+
+  svg.innerHTML = svgContent;
+  if (subtitleId) document.getElementById(subtitleId).textContent = subtitleText;
+}
+
+function drawProfileBarChart() {
+  const d = dataFor(CURRENT);
+  const p = d.profile;
+  const isPooled = CURRENT === 'pooled';
+  drawGroupedBars('profileBarChart', p.human_prop, p.ai_prop, 'profileChartSub',
+    `Human: ${p.n_human_rows_coded} coded chunks across ${isPooled ? 'all 3 reports' : 'this report'}. AI: ${p.n_ai_rows_coded} coded chunks. ` +
+    `These two N's are independent counts — the human and AI totals are not required to come from the same chunks.`);
+}
+
+function drawCurve(svgId, curve, label) {
+  const svg = document.getElementById(svgId);
+  const W = 420, H = 240;
+  const marginL = 38, marginR = 10, marginT = 14, marginB = 30;
+  const plotW = W - marginL - marginR, plotH = H - marginT - marginB;
+  const xs = curve.bin_centers;
+  const x = (t) => marginL + t * plotW;
+  const y = (v) => marginT + plotH - v * plotH;
+
+  let svgContent = '';
+  [0, 0.25, 0.5, 0.75, 1].forEach(t => {
+    svgContent += `<line class="grid-line" x1="${marginL}" y1="${y(t)}" x2="${W - marginR}" y2="${y(t)}"/>`;
+    svgContent += `<text class="axis-label" x="${marginL - 6}" y="${y(t)+3}" text-anchor="end">${Math.round(t*100)}%</text>`;
+  });
+  [0, 0.5, 1].forEach(t => {
+    svgContent += `<text class="axis-label" x="${x(t)}" y="${H - marginB + 16}" text-anchor="middle">${Math.round(t*100)}%</text>`;
+  });
+  svgContent += `<text class="axis-label" x="${marginL + plotW/2}" y="${H - 2}" text-anchor="middle">position in document</text>`;
+
+  LOGICS.forEach(l => {
+    const vals = curve.prevalence[l];
+    let path = '';
+    let drawing = false;
+    xs.forEach((t, i) => {
+      const v = vals[i];
+      if (v === null || v === undefined) { drawing = false; return; }
+      const cmd = drawing ? 'L' : 'M';
+      path += `${cmd}${x(t).toFixed(1)},${y(v).toFixed(1)} `;
+      drawing = true;
+    });
+    if (path) svgContent += `<path d="${path}" fill="none" stroke="var(${LOGIC_VAR[l]})" stroke-width="2.2"/>`;
+  });
+
+  svg.innerHTML = svgContent;
+}
+
+function renderCompareGrid() {
+  const grid = document.getElementById('compareGrid');
+  grid.innerHTML = TABS.map(t => `
+    <div class="compare-card">
+      <div class="ctitle">${t.label}</div>
+      <div class="csub">${t.sub}</div>
+      <svg id="mini-${t.key}" viewBox="0 0 260 170" width="100%" style="height:auto;"></svg>
+    </div>`).join('');
+  TABS.forEach(t => {
+    const p = dataFor(t.key).profile;
+    drawMiniBars(`mini-${t.key}`, p.human_prop, p.ai_prop);
+  });
+}
+
+function drawMiniBars(svgId, humanVals, aiVals) {
+  const svg = document.getElementById(svgId);
+  const W = 260, H = 170;
+  const marginL = 6, marginR = 6, marginT = 6, marginB = 28;
+  const plotW = W - marginL - marginR, plotH = H - marginT - marginB;
+  const groupW = plotW / LOGICS.length;
+  const barW = groupW * 0.32;
+  const maxVal = Math.max(0.2, Math.max(...humanVals, ...aiVals) * 1.15);
+  let svgContent = '';
+  LOGICS.forEach((l, i) => {
+    const gx = marginL + i * groupW;
+    const hv = humanVals[i], av = aiVals[i];
+    const hH = (hv / maxVal) * plotH, aH = (av / maxVal) * plotH;
+    const hx = gx + groupW / 2 - barW - 2;
+    const ax = gx + groupW / 2 + 2;
+    svgContent += `<rect class="bar-human" x="${hx}" y="${marginT + plotH - hH}" width="${barW}" height="${hH}" rx="2"><title>Human ${l}: ${(hv*100).toFixed(1)}%</title></rect>`;
+    svgContent += `<rect class="bar-ai" x="${ax}" y="${marginT + plotH - aH}" width="${barW}" height="${aH}" rx="2"><title>AI ${l}: ${(av*100).toFixed(1)}%</title></rect>`;
+    svgContent += `<text class="axis-label" x="${gx + groupW/2}" y="${H - 8}" text-anchor="middle" style="font-size:10px;">${l}</text>`;
+  });
+  svg.innerHTML = svgContent;
+}
+
+function renderAll() {
+  renderTabs();
+  renderScopeBanner();
+  renderViewSwitch();
+  if (VIEW === 'agreement') {
+    renderKpis();
+    drawBarChart();
+    renderMatrix();
+    drawKappaScale();
+    renderChunkTable(document.getElementById('chunkFilter').value);
+  } else if (VIEW === 'flex') {
+    renderFlexKpis();
+    drawFlexChart();
+    renderFlexTable(document.getElementById('flexFilter').value);
+  } else {
+    renderProfileKpis();
+    drawProfileBarChart();
+    const d = dataFor(CURRENT);
+    drawCurve('curveHuman', d.profile.human_curve, 'Human');
+    drawCurve('curveAi', d.profile.ai_curve, 'AI');
+    renderCompareGrid();
+  }
+}
+
+document.getElementById('chunkFilter').addEventListener('input', (e) => renderChunkTable(e.target.value));
+document.getElementById('modeSeg').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-mode]');
+  if (!btn) return;
+  TABLE_MODE = btn.dataset.mode;
+  document.querySelectorAll('#modeSeg button').forEach(b => b.classList.toggle('active', b === btn));
+  renderChunkTable(document.getElementById('chunkFilter').value);
+});
+document.getElementById('sortSeg').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-sort]');
+  if (!btn) return;
+  SORT_BY = btn.dataset.sort;
+  document.querySelectorAll('#sortSeg button').forEach(b => b.classList.toggle('active', b === btn));
+  renderChunkTable(document.getElementById('chunkFilter').value);
+});
+document.getElementById('flexFilter').addEventListener('input', (e) => renderFlexTable(e.target.value));
+document.getElementById('flexModeSeg').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-mode]');
+  if (!btn) return;
+  FLEX_MODE = btn.dataset.mode;
+  document.querySelectorAll('#flexModeSeg button').forEach(b => b.classList.toggle('active', b === btn));
+  renderFlexTable(document.getElementById('flexFilter').value);
+});
+document.getElementById('viewSwitch').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-view]');
+  if (!btn) return;
+  VIEW = btn.dataset.view;
+  renderAll();
+});
+renderAll();
+</script>
