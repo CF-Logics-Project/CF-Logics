@@ -1,5 +1,24 @@
 # CF-Logics
 
+<p align="center">
+  <a href="https://cf-logics-project.github.io/CF-Logics/"><img src="https://img.shields.io/badge/Try%20it%20in%20your%20browser-cf--logics--project.github.io-7A5A1E?style=for-the-badge&logo=githubpages&logoColor=white" alt="Try it in your browser"></a>
+</p>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://cf-logics-project.github.io/CF-Logics/human_labeling_interface.html"><img src="assets/preview_labeling_interface.png" alt="Preview of the human labeling interface"></a><br>
+      <a href="https://cf-logics-project.github.io/CF-Logics/human_labeling_interface.html"><b>Human labeling interface</b></a><br>
+      <sub>Code report chunks with the same questions the AI agent follows</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://cf-logics-project.github.io/CF-Logics/agreement_dashboard.html"><img src="assets/preview_agreement_dashboard.png" alt="Preview of the human vs. AI agreement dashboard"></a><br>
+      <a href="https://cf-logics-project.github.io/CF-Logics/agreement_dashboard.html"><b>Human vs. AI agreement dashboard</b></a><br>
+      <sub>Agreement on three pilot reports, pooled and per report</sub>
+    </td>
+  </tr>
+</table>
+
 CF-Logics measures Community Foundations' (CF) institutional logics in annual reports with a hybrid AI, human-in-the-loop workflow.&#32;
 
 First, annual reports are transcribed, PII tagged, chunked, and screened. Then, both humans and LLMs perform qualitative coding, and finally, the coding results are compared to evaluate agreement and disagreement.&#32;
