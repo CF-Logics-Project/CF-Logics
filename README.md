@@ -2,11 +2,11 @@
 
 CF-Logics measures Community Foundations' (CF) institutional logics in annual reports with a hybrid AI, human-in-the-loop workflow.&#32;
 
-First, annual reports are transcribed, PII tagged, chunked, and screened, then both humans and LLMs perform qualitative coding, and finally the coding results are compared to evaluate agreement and disagreement.&#32;
+First, annual reports are transcribed, PII tagged, chunked, and screened. Then, both humans and LLMs perform qualitative coding, and finally, the coding results are compared to evaluate agreement and disagreement.&#32;
 
 The workflow applies deterministic tools when possible, LLMs for tasks necessitating semantic understanding, and sandboxed agent LLMs for qualitative coding.
 
-The repository accompanies the proposal *Detecting Constructs in Organizational Language: A Hybrid AI & Human-in-the-Loop Approach for "Making Words Count"* (Dressel, Gomez Teijeiro & LePere-Schloop). It holds a working prototype of the workflow and the sample of three annual reports we provide results for (from our corpus of more than 2,000).&#32;
+The repository accompanies the proposal *Measuring Constructs in Organizational Language: A Hybrid AI & Human-in-the-Loop Approach* (Dressel, Gomez Teijeiro & LePere-Schloop). It holds a working prototype of the workflow and the sample of three annual reports we provide results for (from our corpus of more than 2,000).&#32;
 
 Our codebook instructs questions to identify four logics, in text chunks belonging to one or several elements.
 
@@ -49,5 +49,5 @@ Run the steps in order, each reads the output of the step before it.
 
 This pipeline results from a human-AI iterative effort to build a computational companion for qualitative coding that started from an original expert human coding of CF annual reports `Sample Human Labeling/original labeling/`.&#32;
 
-The iterative journey informed limitations that we addressed in the next attempt and resulted in our current pipeline. `Sample Human Labeling/Fisher_AI_Dressel.pptx`documents the intermediate attempts that informed the development of the current protocol (original human coding, unsupervised and supervised learning on text embeddings, TF-IDF narratives, and one-short classification both with one-shot inference and codebook graphRAG contextualized inference.
+The iterative journey informed limitations that we addressed in the next attempt and resulted in our current pipeline. `Sample Human Labeling/Fisher_AI_Dressel.pptx`documents the intermediate attempts that informed the development of the current protocol (original human coding, unsupervised and supervised learning on text embeddings, TF-IDF narratives, and one-short classification both with one-shot inference and codebook graphRAG contextualized inference).
  
