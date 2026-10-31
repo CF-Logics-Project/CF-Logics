@@ -38,7 +38,7 @@ We prepared an interface for human coding: [human\_labeling\_interface.html](htt
 | Philanthropic Community Trust (PPG) | The CF acts as a community charitable bank. It grows and preserves unrestricted endowments and bequests, builds a community legacy and responds to emerging local needs. Community means the shared identity, values and traditions of people from one place. |
 | Donor Services (DS) | The CF acts as a philanthropic wealth advisor. It mobilizes donors and stewards their funds, mainly donor-advised funds, so that each donor can leave a personal legacy. Community means the interests, values and identities of individual donors. |
 | Public-Private Governance (PPG) | The CF acts as a community leader and convener. It provides private solutions to public problems through cross-sector collaboration and research-based strategic investment. Community means the interdependence and shared fate of people in one place. |
-| Social Change (SG) | The CF acts as an advocate for the marginalized. It works to dismantle barriers that perpetuate disparity and inequality, through participatory, trust-based grantmaking. Community is a socially constructed and contested process. |
+| Social Change (SC) | The CF acts as an advocate for the marginalized. It works to dismantle barriers that perpetuate disparity and inequality, through participatory, trust-based grantmaking. Community is a socially constructed and contested process. |
 
 **Elements.** An element is a type of content in an annual report through which a logic becomes visible. A chunk belongs to an element when it describes:
 
