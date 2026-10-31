@@ -43,7 +43,7 @@ Run the steps in order, each reads the output of the step before it.
 | 4 · Screening | `screen_chunks_regex.py` | Flags irrelevant chunks for removal from the analysis (e.g., lists of names, or text in another language). | `screening_annual_report_chunks_<report_id>_v5.csv`: four yes/no flags; `yes` excludes the chunk |
 | 5a · LLM coding | `inference_revised.py` | Runs the LLM coding of CF logics; shows how we translated the codebook into questions based on its elements. | LLM codes per chunk, in `out_coding/` |
 | 5b · Human coding | `human_labeling_interface.html` | Interface the expert coders use to code the same chunks with the same codebook questions. | Human codes per chunk, in `out_coding/` |
-| 6 · Agreement | `repro_scripts/` | Scores the human and LLM codes and compares them. | Human–LLM agreement statistics; method in `logic_scoring_evaluation.md` |
+| 6 · Agreement | `agreement_analysis.py` | Scores the human and LLM codes and compares them. | Human–LLM agreement statistics |
 
 ## A note on pipeline development
 
